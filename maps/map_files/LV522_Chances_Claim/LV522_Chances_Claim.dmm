@@ -3352,13 +3352,6 @@
 	icon_state = "squares"
 	},
 /area/lv522/oob)
-"bph" = (
-/obj/structure/platform_decoration,
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "greenfull"
-	},
-/area/lv522/outdoors/n_rockies)
 "bpl" = (
 /turf/closed/shuttle/dropship2/transparent{
 	icon_state = "5"
@@ -3500,13 +3493,6 @@
 	icon_state = "plate"
 	},
 /area/lv522/atmos/east_reactor/north)
-"bsW" = (
-/obj/structure/platform,
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "greenfull"
-	},
-/area/lv522/outdoors/n_rockies)
 "btb" = (
 /turf/open/floor/prison{
 	dir = 1;
@@ -5530,15 +5516,6 @@
 /obj/structure/girder,
 /turf/open/floor/corsat,
 /area/lv522/atmos/east_reactor/west)
-"csG" = (
-/obj/structure/platform_decoration{
-	dir = 1
-	},
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "greenfull"
-	},
-/area/lv522/outdoors/n_rockies)
 "cto" = (
 /obj/structure/surface/rack,
 /obj/item/tank/emergency_oxygen{
@@ -9474,15 +9451,6 @@
 	icon_state = "white_cyan2"
 	},
 /area/lv522/indoors/a_block/medical)
-"ehJ" = (
-/obj/structure/platform_decoration{
-	dir = 1
-	},
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "greenfull"
-	},
-/area/lv522/outdoors/colony_streets/north_west_street)
 "ehV" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -12429,15 +12397,6 @@
 	icon_state = "whiteyellowfull"
 	},
 /area/lv522/indoors/a_block/corpo)
-"fBr" = (
-/obj/structure/platform_decoration{
-	dir = 4
-	},
-/turf/open/floor/prison{
-	dir = 4;
-	icon_state = "greenfull"
-	},
-/area/lv522/outdoors/colony_streets/north_west_street)
 "fBE" = (
 /obj/structure/surface/table/almayer,
 /turf/open/floor/corsat{
@@ -74988,8 +74947,8 @@ pRf
 pRf
 wYV
 bKk
-bph
-cHx
+ajw
+xtb
 duK
 mTo
 xJf
@@ -75237,7 +75196,7 @@ bKk
 bKk
 wYV
 bKk
-bsW
+ajw
 xKO
 dvA
 wxn
@@ -75486,7 +75445,7 @@ bKk
 bKk
 wYV
 bKk
-bsW
+ajw
 xKO
 dJN
 wxn
@@ -75735,7 +75694,7 @@ bKk
 bKk
 wYV
 bKk
-bsW
+ajw
 xKO
 dOa
 wxn
@@ -75984,7 +75943,7 @@ bKk
 bKk
 wYV
 bKk
-bsW
+ajw
 xKO
 dXa
 wAK
@@ -76233,8 +76192,8 @@ bKk
 bKk
 wYV
 bKk
-csG
-cHx
+ajw
+xtb
 eai
 wAK
 fGh
@@ -77478,8 +77437,8 @@ bKk
 bKk
 bKk
 bKk
-bph
-cHx
+ajw
+xtb
 xJf
 wxn
 wxn
@@ -77727,7 +77686,7 @@ bKk
 bKk
 bKk
 bKk
-bsW
+ajw
 xKO
 xJf
 eVs
@@ -77976,7 +77935,7 @@ mSA
 bKk
 bKk
 bKk
-bsW
+ajw
 xKO
 dvA
 fcE
@@ -78225,7 +78184,7 @@ pRf
 mSA
 bKk
 bKk
-bsW
+ajw
 xKO
 dvA
 fjO
@@ -78474,7 +78433,7 @@ pRf
 pRf
 bKk
 bKk
-bsW
+ajw
 xKO
 mTo
 fql
@@ -78723,8 +78682,8 @@ pRf
 bKk
 bKk
 bKk
-csG
-cHx
+ajw
+xtb
 mTo
 fqO
 gBi
@@ -78974,12 +78933,12 @@ bKk
 bKk
 ajw
 xtb
-cHx
+xtb
 xKO
 xKO
 xKO
 xKO
-cHx
+xtb
 xtb
 xtb
 xtb
@@ -79223,12 +79182,12 @@ bKk
 bKk
 ana
 cjm
-ehJ
-hny
-hny
-hny
-hny
-fBr
+xWc
+xWc
+xWc
+xWc
+xWc
+xWc
 xKO
 auQ
 xJf
