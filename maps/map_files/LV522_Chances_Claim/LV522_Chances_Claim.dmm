@@ -3612,7 +3612,7 @@
 /area/lv522/outdoors/colony_streets/south_street)
 "bxU" = (
 /turf/open/floor/plating,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "byc" = (
 /obj/structure/cargo_container/horizontal{
 	icon_state = "0,0";
@@ -4743,7 +4743,7 @@
 	pixel_y = 19
 	},
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "bYk" = (
 /turf/closed/wall/mineral/bone_resin,
 /area/lv522/atmos/east_reactor)
@@ -16224,7 +16224,7 @@
 	pixel_y = 10
 	},
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "hbH" = (
 /obj/item/lightstick/red/spoke/planted{
 	pixel_x = -9;
@@ -19241,6 +19241,14 @@
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/dorms)
+"iiC" = (
+/obj/item/stack/tile/plasteel{
+	name = "ceiling tile";
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/turf/open/gm/river,
+/area/lv522/indoors/a_block/kitchen/damage)
 "iiF" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1;
@@ -20665,6 +20673,9 @@
 	icon_state = "marked"
 	},
 /area/lv522/atmos/east_reactor/east)
+"iKL" = (
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/lv522/indoors/a_block/kitchen/damage)
 "iKN" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat{
@@ -22398,7 +22409,7 @@
 /area/lv522/indoors/lone_buildings/spaceport)
 "jvh" = (
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "jvo" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/prison{
@@ -23636,11 +23647,8 @@
 /area/lv522/indoors/a_block/security)
 "jQb" = (
 /obj/effect/decal/cleanable/blood/xeno,
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /turf/open/floor/prison,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "jQk" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/prison{
@@ -24072,7 +24080,7 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "jYr" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 1;
@@ -24770,7 +24778,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "kjs" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -26864,7 +26872,7 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "kTd" = (
 /obj/structure{
 	desc = "A lightweight support lattice.";
@@ -26876,7 +26884,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plating,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "kTe" = (
 /obj/structure/cargo_container/horizontal{
 	icon_state = "0,0";
@@ -30020,6 +30028,51 @@
 /area/lv522/indoors/a_block/kitchen)
 "mbM" = (
 /obj/structure/closet/coffin/woodencrate,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/clothing/mask/cigarette/weed,
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw"
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw"
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw"
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw"
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = 7
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = 6
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = 2
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = 3
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = 9
+	},
+/obj/item/reagent_container/food/snacks/grown/wheat{
+	name = "straw";
+	pixel_x = -6
+	},
+/obj/item/clothing/suit/storage/bomber/alt,
+/obj/item/clothing/suit/storage/bomber/alt,
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
@@ -30674,7 +30727,7 @@
 	pixel_y = 11
 	},
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mpL" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/effect/decal/cleanable/dirt,
@@ -30687,7 +30740,7 @@
 	pixel_y = 28
 	},
 /turf/open/floor/prison,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mpN" = (
 /obj/item/stack/sheet/metal,
 /turf/open/asphalt/cement,
@@ -30778,6 +30831,10 @@
 	icon_state = "radiator_tile2"
 	},
 /area/lv522/indoors/a_block/bridges/op_centre)
+"mrM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison,
+/area/lv522/indoors/a_block/kitchen/damage)
 "msb" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgib3"
@@ -31353,8 +31410,16 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
+/obj/effect/decal{
+	icon = 'icons/mob/hostiles/Effects.dmi';
+	icon_state = "acid_weak";
+	layer = 2;
+	name = "weak acid";
+	pixel_x = -2;
+	pixel_y = 27
+	},
 /turf/open/floor/plating,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mGI" = (
 /turf/open/floor/corsat{
 	icon_state = "plate"
@@ -31366,7 +31431,7 @@
 	},
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mGY" = (
 /obj/structure/window/framed/shiva,
 /turf/open/floor/plating,
@@ -31381,7 +31446,7 @@
 	icon_state = "platingdmg3";
 	tag = "icon-platingdmg3 (WEST)"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mHr" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgibleg"
@@ -31401,7 +31466,7 @@
 /turf/open/floor/prison{
 	icon_state = "darkredfull2"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mHC" = (
 /obj/structure/largecrate/supply/medicine/medkits,
 /obj/structure/largecrate/guns/merc{
@@ -31860,15 +31925,20 @@
 	},
 /area/lv522/indoors/a_block/kitchen)
 "mQh" = (
+/obj/item/stack/tile/plasteel{
+	name = "ceiling tile";
+	pixel_y = -7
+	},
 /obj/item/bananapeel{
 	desc = "A bunch of tiny bits of shattered metal.";
 	icon = 'icons/obj/items/shards.dmi';
 	icon_state = "shrapnelsmall";
 	name = "piece of shrapnel";
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = -7
 	},
 /turf/open/gm/river,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "mQq" = (
 /obj/structure/bed/chair/comfy,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -32524,10 +32594,9 @@
 	pixel_x = -6;
 	pixel_y = -7
 	},
-/obj/structure/machinery/light,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/prison,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "neG" = (
 /obj/structure/curtain/medical,
 /obj/effect/decal/cleanable/dirt,
@@ -32867,6 +32936,13 @@
 	},
 /turf/open/floor/prison,
 /area/lv522/indoors/c_block/cargo)
+"nmE" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/lv522/indoors/a_block/kitchen/damage)
 "nmK" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -33252,6 +33328,14 @@
 /obj/item/stack/rods,
 /turf/open/floor/plating,
 /area/lv522/indoors/lone_buildings/engineering)
+"nrP" = (
+/obj/item/stack/tile/plasteel{
+	name = "ceiling tile";
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/plating,
+/area/lv522/indoors/a_block/kitchen/damage)
 "nrW" = (
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/floor/prison{
@@ -41016,7 +41100,7 @@
 "qzp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "qzy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
@@ -41625,7 +41709,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "qOz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -47966,7 +48050,7 @@
 	icon_state = "platingdmg3";
 	tag = "icon-platingdmg3 (WEST)"
 	},
-/area/lv522/indoors/a_block/kitchen)
+/area/lv522/indoors/a_block/kitchen/damage)
 "tpz" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/analyzer/plant_analyzer,
@@ -53360,6 +53444,20 @@
 	},
 /turf/open/asphalt/cement,
 /area/lv522/outdoors/colony_streets/east_central_street)
+"vnB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal{
+	icon = 'icons/mob/hostiles/Effects.dmi';
+	icon_state = "acid_weak";
+	layer = 2;
+	name = "weak acid";
+	pixel_x = 23;
+	pixel_y = 21
+	},
+/turf/open/floor/prison{
+	icon_state = "darkredfull2"
+	},
+/area/lv522/indoors/a_block/kitchen/damage)
 "vnI" = (
 /obj/structure/platform{
 	dir = 8
@@ -74615,9 +74713,9 @@ max
 max
 max
 rHl
-ofi
-ofi
-ofi
+rHl
+rHl
+rHl
 max
 max
 max
@@ -74862,13 +74960,13 @@ tZh
 max
 max
 max
-max
-max
-max
-ofi
-ofi
-ofi
-ofi
+rHl
+rHl
+rHl
+rHl
+rHl
+rHl
+rHl
 rHl
 rHl
 rHl
@@ -75112,12 +75210,12 @@ max
 max
 rHl
 rHl
-max
-max
-max
-max
-ofi
-ofi
+rHl
+rHl
+rHl
+rHl
+rHl
+rHl
 rHl
 rHl
 max
@@ -75362,11 +75460,11 @@ rHl
 rHl
 rHl
 rHl
-max
-max
-max
-max
-ofi
+rHl
+rHl
+rHl
+rHl
+rHl
 rHl
 rHl
 max
@@ -75611,11 +75709,11 @@ max
 max
 rHl
 rHl
-max
-max
-max
-max
-ofi
+rHl
+rHl
+rHl
+rHl
+rHl
 rHl
 max
 max
@@ -75859,12 +75957,12 @@ max
 max
 max
 max
-max
-max
-max
-max
 rHl
-ofi
+rHl
+rHl
+rHl
+rHl
+rHl
 ofi
 max
 max
@@ -76106,11 +76204,11 @@ rHl
 max
 max
 max
-tZh
-max
-max
-tZh
-max
+rHl
+rHl
+rHl
+rHl
+rHl
 rHl
 rHl
 ofi
@@ -76355,8 +76453,8 @@ tZh
 max
 max
 max
-ofi
-ofi
+rHl
+rHl
 rHl
 rHl
 rHl
@@ -76603,9 +76701,9 @@ tZh
 max
 max
 max
-tZh
-ofi
-ofi
+rHl
+rHl
+rHl
 ofi
 rHl
 rHl
@@ -76853,8 +76951,8 @@ max
 max
 max
 max
-tZh
-ofi
+rHl
+rHl
 ofi
 ofi
 ofi
@@ -84505,7 +84603,7 @@ jiP
 pjT
 ifw
 jmd
-mBr
+iKL
 ifw
 lKe
 kqb
@@ -84754,7 +84852,7 @@ sjy
 kqb
 jQb
 aOp
-lCx
+nmE
 nel
 kqb
 kqb
@@ -85004,8 +85102,8 @@ jYj
 mpI
 mGN
 kjk
-bxU
-aLE
+nrP
+vnB
 kqb
 nNy
 ifw
@@ -85250,10 +85348,10 @@ lxp
 lDN
 jiP
 kTd
-jvh
+iiC
 mHo
 qzp
-ifw
+mrM
 bxU
 kqb
 nNR

@@ -203,8 +203,6 @@
 	icon_state = "green"
 
 /area/lv522/indoors/a_block/hallway/damage
-	name = "A-Block - South Operations Hallway"
-	icon_state = "green"
 	ceiling = CEILING_NONE
 	soundscape_playlist = SCAPE_PL_LV522_OUTDOORS
 
@@ -221,6 +219,10 @@
 	name = "A-Block - Kitchen And Dining"
 	icon_state = "kitchen"
 	ceiling = CEILING_GLASS
+
+/area/lv522/indoors/a_block/kitchen/damage
+	ceiling = CEILING_NONE
+	soundscape_playlist = SCAPE_PL_LV522_OUTDOORS
 
 /area/lv522/indoors/a_block/executive
 	name = "A-Block - Executive Suite"
