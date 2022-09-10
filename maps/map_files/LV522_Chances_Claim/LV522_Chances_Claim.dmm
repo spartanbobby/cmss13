@@ -630,7 +630,7 @@
 "alI" = (
 /obj/structure/tunnel,
 /turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/area/lv522/outdoors/colony_streets/east_central_street)
 "alJ" = (
 /obj/structure/machinery/light,
 /turf/open/floor/wood,
@@ -10604,8 +10604,11 @@
 /turf/open/floor/plating,
 /area/lv522/indoors/c_block/garage)
 "eKN" = (
-/obj/structure/barricade/wooden,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/cargo_container{
+	icon_state = "gorg 0,0";
+	tag = "icon-gorg 0,0"
+	},
+/turf/open/auto_turf/shale/layer0,
 /area/lv522/outdoors/colony_streets/north_east_street)
 "eLe" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -14608,7 +14611,10 @@
 /turf/open/gm/river,
 /area/lv522/atmos/cargo_intake)
 "gvA" = (
-/obj/item/stack/sheet/metal,
+/obj/structure/cargo_container{
+	icon_state = "gorg 2,0";
+	tag = "icon-WY 0,0"
+	},
 /turf/open/auto_turf/shale/layer0,
 /area/lv522/outdoors/colony_streets/north_east_street)
 "gvG" = (
@@ -14719,8 +14725,8 @@
 	},
 /area/lv522/oob)
 "gxM" = (
-/obj/item/weapon/melee/twohanded/folded_metal_chair,
-/turf/open/auto_turf/shale/layer0,
+/obj/structure/prop/structure_lattice,
+/turf/open/auto_turf/shale/layer1,
 /area/lv522/outdoors/colony_streets/north_east_street)
 "gya" = (
 /obj/structure/bed/chair{
@@ -16993,9 +16999,6 @@
 	tag = "icon-darkbrownfull2"
 	},
 /area/lv522/indoors/c_block/casino)
-"hrd" = (
-/turf/closed/wall/strata_outpost/reinforced,
-/area/lv522/indoors/lone_buildings/chunk)
 "hru" = (
 /obj/structure/barricade/deployable{
 	dir = 8
@@ -17414,7 +17417,7 @@
 	},
 /area/lv522/atmos/command_centre)
 "hAs" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/outdoors/colony_streets/north_west_street)
 "hAK" = (
 /obj/structure/machinery/light{
@@ -20800,7 +20803,7 @@
 /turf/closed/wall/strata_outpost,
 /area/lv522/indoors/a_block/hallway)
 "iQR" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/outdoors/colony_streets/south_east_street)
 "iRa" = (
 /obj/structure/largecrate/random,
@@ -23219,6 +23222,13 @@
 	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/dorms)
+"jMh" = (
+/obj/structure/prop/structure_lattice,
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
+/area/lv522/outdoors/colony_streets/north_east_street)
 "jMr" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/lv522/indoors/a_block/hallway)
@@ -26480,6 +26490,16 @@
 	},
 /turf/open/auto_turf/shale/layer0,
 /area/lv522/outdoors/colony_streets/north_west_street)
+"kQK" = (
+/obj/structure/stairs/perspective{
+	dir = 10;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
+/area/lv522/outdoors/colony_streets/east_central_street)
 "kQR" = (
 /obj/item/toy/beach_ball/holoball{
 	pixel_x = 7;
@@ -27420,6 +27440,13 @@
 	tag = "icon-darkpurplefull2"
 	},
 /area/lv522/outdoors/colony_streets/north_west_street)
+"lgf" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment{
+	dir = 8
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/lv522/oob)
 "lgq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spider/spiderling/nogrow,
@@ -29355,7 +29382,7 @@
 	},
 /area/lv522/indoors/b_block/hydro)
 "lUy" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/outdoors/colony_streets/north_east_street)
 "lUD" = (
 /obj/effect/decal/warning_stripes{
@@ -32006,13 +32033,15 @@
 	icon_state = "plate"
 	},
 /area/lv522/atmos/east_reactor/south)
-"mWU" = (
-/obj/structure/prop/structure_lattice,
-/turf/open/auto_turf/shale/layer1,
-/area/lv522/outdoors/colony_streets/north_east_street)
 "mXn" = (
-/obj/item/stack/sheet/metal,
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/cargo_container{
+	icon_state = "gorg 0,0";
+	tag = "icon-gorg 0,0"
+	},
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
 /area/lv522/outdoors/colony_streets/north_east_street)
 "mXp" = (
 /obj/structure/stairs/perspective{
@@ -32473,13 +32502,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/lv522/indoors/lone_buildings/engineering)
-"nhi" = (
-/obj/structure/girder,
-/turf/open/floor/prison{
-	dir = 1;
-	icon_state = "blue_plate"
-	},
-/area/lv522/outdoors/colony_streets/north_east_street)
 "nhD" = (
 /obj/structure/bed/roller,
 /obj/item/clothing/mask/facehugger{
@@ -32528,15 +32550,19 @@
 	icon_state = "cement3"
 	},
 /area/lv522/outdoors/colony_streets/north_east_street)
-"nip" = (
-/obj/structure/girder,
-/turf/open/auto_turf/shale/layer1,
-/area/lv522/outdoors/colony_streets/north_east_street)
 "niu" = (
-/obj/structure/prop/vehicles/crawler{
-	icon_state = "crawler_covered_bed"
+/obj/structure/cargo_container{
+	icon_state = "gorg 2,0";
+	tag = "icon-WY 0,0"
 	},
-/turf/open/auto_turf/shale/layer1,
+/obj/structure/stairs/perspective{
+	dir = 9;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
 /area/lv522/outdoors/colony_streets/north_east_street)
 "nix" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -32572,10 +32598,6 @@
 "niU" = (
 /turf/open/floor/carpet,
 /area/lv522/indoors/b_block/bar)
-"njj" = (
-/obj/structure/barricade/wooden,
-/turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
 "njm" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/item/stack/sheet/wood,
@@ -32613,12 +32635,11 @@
 	},
 /area/lv522/indoors/a_block/bridges/dorms_fitness)
 "nkv" = (
-/obj/structure/cargo_container{
-	icon_state = "gorg 0,0";
-	tag = "icon-gorg 0,0"
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva{
+	icon_state = "radiator_tile2"
 	},
-/turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/area/lv522/indoors/a_block/hallway)
 "nkA" = (
 /obj/structure/stairs/perspective{
 	dir = 1;
@@ -32640,12 +32661,10 @@
 	},
 /area/lv522/outdoors/colony_streets/south_street)
 "nla" = (
-/obj/structure/cargo_container{
-	icon_state = "gorg 2,0";
-	tag = "icon-WY 0,0"
+/turf/open/floor/shiva{
+	icon_state = "radiator_tile2"
 	},
-/turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/area/lv522/indoors/a_block/hallway)
 "nly" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -33204,11 +33223,9 @@
 	},
 /area/lv522/indoors/a_block/hallway)
 "nuu" = (
-/obj/structure/platform_decoration{
-	dir = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 1
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_full"
 	},
 /turf/open/floor/prison{
 	dir = 1;
@@ -33266,11 +33283,11 @@
 /turf/open/floor/plating,
 /area/lv522/atmos/filt)
 "nvB" = (
-/obj/structure/barricade/wooden{
-	dir = 1
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic,
+/turf/open/floor/corsat{
+	icon_state = "marked"
 	},
-/turf/open/auto_turf/shale/layer1,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/area/lv522/indoors/a_block/hallway)
 "nvS" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -33299,12 +33316,15 @@
 	},
 /area/lv522/landing_zone_forecon/UD6_Typhoon)
 "nxg" = (
-/obj/structure/prop/vehicles/crawler{
-	dir = 8;
-	icon_state = "crawler_crate_alt2";
-	layer = 3.2
+/obj/structure/prop/structure_lattice,
+/obj/structure/stairs/perspective{
+	dir = 5;
+	icon_state = "p_stair_full"
 	},
-/turf/open/auto_turf/shale/layer0,
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
 /area/lv522/outdoors/colony_streets/north_east_street)
 "nxj" = (
 /obj/item/stack/rods,
@@ -33361,9 +33381,15 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/c_block/mining)
 "nzj" = (
-/obj/structure/girder,
-/turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/obj/structure/stairs/perspective{
+	dir = 6;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
+/area/lv522/outdoors/colony_streets/east_central_street)
 "nzs" = (
 /obj/structure/prop/invuln/ice_prefab/trim{
 	dir = 4;
@@ -33672,11 +33698,14 @@
 /turf/open/auto_turf/shale/layer0,
 /area/lv522/outdoors/colony_streets/south_west_street)
 "nGC" = (
-/obj/structure/barricade/wooden{
-	dir = 1
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
 	},
-/turf/open/auto_turf/shale/layer0,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/turf/open/floor/prison{
+	dir = 1;
+	icon_state = "blue_plate"
+	},
+/area/lv522/outdoors/colony_streets/east_central_street)
 "nGF" = (
 /obj/structure/prop/vehicles/crawler{
 	density = 1;
@@ -42157,6 +42186,9 @@
 	icon_state = "white_cyan1"
 	},
 /area/lv522/indoors/a_block/corpo)
+"rgW" = (
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/lv522/oob)
 "rhd" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plating,
@@ -51533,7 +51565,7 @@
 	},
 /area/lv522/indoors/c_block/cargo)
 "uKj" = (
-/obj/structure/window/framed/strata/reinforced,
+/obj/structure/window/framed/shiva,
 /turf/open/floor/plating,
 /area/lv522/indoors/lone_buildings/chunk)
 "uKl" = (
@@ -53848,7 +53880,7 @@
 	id = "mining_secure_blast_3";
 	name = "Blast Door Control"
 	},
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/indoors/lone_buildings/storage_blocks)
 "vDL" = (
 /obj/structure/prop/ice_colony/dense/planter_box{
@@ -54339,7 +54371,7 @@
 	id = "mining_secure_blast_1";
 	name = "Blast Door Control"
 	},
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/indoors/lone_buildings/storage_blocks)
 "vOj" = (
 /obj/structure/surface/table/almayer,
@@ -57112,7 +57144,7 @@
 /area/lv522/indoors/c_block/cargo)
 "wRX" = (
 /obj/effect/acid_hole,
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/indoors/lone_buildings/storage_blocks)
 "wRZ" = (
 /obj/structure/largecrate/random/barrel{
@@ -57450,7 +57482,7 @@
 /turf/open/floor/plating,
 /area/lv522/indoors/c_block/cargo)
 "wZI" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/indoors/lone_buildings/chunk)
 "xaD" = (
 /obj/structure/machinery/light{
@@ -60141,7 +60173,7 @@
 /turf/open/auto_turf/shale/layer1,
 /area/lv522/outdoors/colony_streets/south_east_street)
 "yco" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/outdoors/colony_streets/north_street)
 "ycp" = (
 /obj/structure/platform_decoration{
@@ -60643,7 +60675,7 @@
 	},
 /area/lv522/indoors/a_block/bridges/corpo)
 "ylo" = (
-/turf/closed/wall/strata_outpost,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv522/indoors/lone_buildings/storage_blocks)
 "ylr" = (
 /turf/open/floor/prison{
@@ -80256,7 +80288,7 @@ oZI
 iqQ
 oZI
 puY
-hrd
+wZI
 bQC
 ruU
 ruU
@@ -101647,12 +101679,12 @@ qSH
 qSH
 jPt
 jhj
-jhj
-jhj
-jhj
-jhj
-nhi
-nuu
+gdO
+nla
+gvZ
+gvZ
+nkv
+gdO
 vlT
 vlT
 vlT
@@ -101895,14 +101927,14 @@ qSH
 qSH
 qSH
 qSH
-qSH
-qSH
-vGp
-eKN
-mWU
-nip
-nip
-nvB
+mXn
+oHQ
+nla
+cMg
+cMg
+nkv
+oHQ
+vlT
 tTD
 rnB
 rnB
@@ -102144,15 +102176,15 @@ qSH
 qSH
 qSH
 qSH
-qSH
-qSH
-qSH
-vGp
-mXn
-mWU
-nip
-nvB
-vGp
+niu
+oHQ
+nla
+cMg
+cMg
+nkv
+oHQ
+kQK
+tTD
 rnB
 rnB
 rnB
@@ -102392,17 +102424,17 @@ cel
 lbX
 qSH
 qSH
-qSH
-qSH
-qSH
-qSH
-qSH
-qSH
-niu
+eKN
+nuu
 nvB
-vGp
-qSH
-qSH
+nMT
+gvZ
+gvZ
+cMg
+nvB
+nGC
+rnB
+rnB
 rnB
 rnB
 rnB
@@ -102641,18 +102673,18 @@ lUy
 lbY
 qSH
 qSH
-qSH
-qSH
-qSH
-qSH
-qSH
-qSH
-qSH
-nxg
+gvA
+nuu
+xWx
+nMT
+gvZ
+gvZ
+cMg
+xWx
 nGC
-qSH
-qSH
-qSH
+rnB
+rnB
+rnB
 rnB
 rnB
 rnB
@@ -102891,18 +102923,18 @@ lcZ
 vGp
 vGp
 qSH
-qSH
-qSH
-qSH
-qSH
-gxM
-njj
-qSH
+nxg
+oHQ
+nla
+cMg
+cMg
+nkv
+oHQ
 nzj
-nGC
-qSH
-qSH
-qSH
+rnB
+rnB
+rnB
+rnB
 rnB
 rnB
 rnB
@@ -103140,19 +103172,19 @@ lcZ
 vGp
 vGp
 itd
-itd
-qSH
-qSH
-gvA
-qSH
+jMh
+oHQ
+nla
+cMg
+cMg
 nkv
-nzj
-nzj
-qSH
-qSH
-qSH
-qSH
-qSH
+oHQ
+vlT
+rnB
+rnB
+rnB
+rnB
+rnB
 rnB
 tTD
 tTD
@@ -103388,19 +103420,19 @@ cpy
 cpy
 vGp
 vGp
-vGp
-vGp
-itd
-itd
-qSH
-qSH
+gxM
+jhj
+gdO
 nla
-nzj
-nGC
-qSH
-qSH
-qSH
-qSH
+gvZ
+gvZ
+nla
+gdO
+cpy
+rnB
+rnB
+rnB
+rnB
 tTD
 tTD
 tTD
@@ -103639,16 +103671,16 @@ cpy
 cpy
 cpy
 cpy
+rgW
+rgW
+lgf
+lgf
+rgW
+rgW
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-qSH
-qSH
-qSH
-qSH
+rnB
+rnB
 alI
 cpy
 cpy
