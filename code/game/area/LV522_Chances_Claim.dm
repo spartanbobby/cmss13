@@ -358,7 +358,7 @@
 	name = "Atmospheric Processor"
 	icon_state = "engineering"
 	ceiling = CEILING_REINFORCED_METAL
-	soundscape_playlist = AMBIENCE_SHIP
+	ambience_exterior = AMBIENCE_SHIP
 
 /area/lv522/atmos/outdoor
 	name = "Atmospheric Processor - Outdoors"
