@@ -267,9 +267,10 @@
 /area/LV624_Outpost_Furidamu/outdoors/jungle/c)
 "aV" = (
 /turf/closed/shuttle/ert{
-	icon_state = "upp3"
+	icon_state = "leftengine_1";
+	opacity = 0
 	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/south/ceiling)
+/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north)
 "aW" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/tool,
@@ -995,7 +996,7 @@
 /obj/item/ammo_casing/bullet{
 	icon_state = "cartridge_3_1"
 	},
-/obj/item/ammo_magazine/smg/ppsh{
+/obj/item/ammo_magazine/smg/pps43{
 	current_rounds = 0
 	},
 /turf/open/floor{
@@ -2653,11 +2654,11 @@
 /turf/open/gm/river,
 /area/LV624_Outpost_Furidamu/outdoors/river)
 "iM" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/weapon/gun/revolver/nagant,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/interior/wood,
-/area/LV624_Outpost_Furidamu/indoors/buildings/lz1_admin)
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_1";
+	opacity = 0
+	},
+/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north)
 "iN" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/floor/interior/wood,
@@ -3191,7 +3192,7 @@
 /obj/structure/machinery/light,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/smg/ppsh/extended,
+/obj/item/ammo_magazine/smg/pps43/extended,
 /turf/open/floor{
 	icon_state = "white"
 	},
@@ -3715,7 +3716,7 @@
 /area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north/ceiling)
 "mj" = (
 /obj/structure/largecrate/supply/supplies/mre,
-/obj/item/weapon/gun/smg/mac15,
+/obj/item/weapon/gun/smg/pps43,
 /obj/effect/landmark/objective_landmark/science,
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/indoors/buildings/Bunker/noceiling)
@@ -3783,7 +3784,7 @@
 /obj/item/ammo_casing/bullet{
 	icon_state = "cartridge_3_1"
 	},
-/obj/item/ammo_magazine/smg/ppsh{
+/obj/item/ammo_magazine/smg/pps43{
 	current_rounds = 0
 	},
 /turf/open/floor{
@@ -4033,9 +4034,10 @@
 /area/LV624_Outpost_Furidamu/outdoors/river)
 "ni" = (
 /turf/closed/shuttle/ert{
-	icon_state = "upp1"
+	icon_state = "rightengine_1";
+	opacity = 0
 	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/s)
+/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/south)
 "nj" = (
 /obj/item/reagent_container/food/snacks/boiledrice{
 	layer = 3.1;
@@ -5818,7 +5820,7 @@
 /area/LV624_Outpost_Furidamu/indoors/hut/tcomm)
 "sR" = (
 /obj/structure/largecrate/supply/weapons/m41a,
-/obj/item/weapon/gun/smg/ppsh,
+/obj/item/weapon/gun/smg/pps43,
 /turf/open/floor/plating,
 /area/LV624_Outpost_Furidamu/indoors/buildings/Bunker)
 "sU" = (
@@ -8144,14 +8146,6 @@
 /area/LV624_Outpost_Furidamu/outdoors/river/s)
 "Az" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/pistol/c99{
-	pixel_x = 4;
-	pixel_y = 11
-	},
-/obj/item/ammo_magazine/pistol/c99{
-	pixel_x = -6;
-	pixel_y = 11
-	},
 /turf/open/floor/interior/wood,
 /area/LV624_Outpost_Furidamu/indoors/buildings/lz1_admin)
 "AA" = (
@@ -8421,11 +8415,6 @@
 /obj/effect/landmark/lv624/fog_blocker,
 /turf/open/gm/river,
 /area/LV624_Outpost_Furidamu/outdoors/river/s)
-"Bt" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp16"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/s)
 "Bv" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/structure/surface/table,
@@ -8661,13 +8650,13 @@
 /turf/open/floor/plating,
 /area/LV624_Outpost_Furidamu/outdoors/ua_bunker/se)
 "Cj" = (
-/obj/item/weapon/gun/smg/ppsh{
+/obj/item/weapon/gun/smg/pps43{
 	current_mag = null
 	},
-/obj/item/ammo_magazine/smg/ppsh/extended{
+/obj/item/ammo_magazine/smg/pps43/extended{
 	current_rounds = 0;
 	pixel_x = 8;
-	pixel_y = -15
+	pixel_y = -17
 	},
 /obj/item/ammo_casing/bullet{
 	icon_state = "cartridge_3_1"
@@ -9098,7 +9087,7 @@
 /area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north/ceiling)
 "DH" = (
 /obj/structure/largecrate/supply/ammo/m41a_box,
-/obj/item/weapon/gun/smg/ppsh,
+/obj/item/weapon/gun/smg/pps43,
 /turf/open/floor/plating,
 /area/LV624_Outpost_Furidamu/indoors/buildings/Bunker)
 "DI" = (
@@ -9994,11 +9983,6 @@
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/s)
-"GA" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp1"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north/ceiling)
 "GC" = (
 /turf/open/floor{
 	dir = 10;
@@ -10673,11 +10657,6 @@
 /obj/item/reagent_container/glass/bucket/janibucket,
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/s)
-"IM" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp16"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north/ceiling)
 "IN" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -11347,11 +11326,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/LV624_Outpost_Furidamu/outdoors/ua_bunker/sw)
-"KR" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp3"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/north/ceiling)
 "KS" = (
 /turf/closed/shuttle/ert{
 	icon_state = "upp4"
@@ -11692,7 +11666,6 @@
 /area/LV624_Outpost_Furidamu/outdoors/ua_bunker/ne)
 "LZ" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/weapon/gun/pistol/c99/upp,
 /obj/structure/machinery/light{
 	dir = 1
 	},
@@ -12115,11 +12088,6 @@
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/sw)
-"Np" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp1"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/south/ceiling)
 "Nq" = (
 /obj/structure/fence,
 /obj/structure/flora/jungle/vines{
@@ -12365,11 +12333,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/e)
-"Oe" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp16"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/barrens/south/ceiling)
 "Of" = (
 /turf/closed/wall/wood,
 /area/LV624_Outpost_Furidamu/indoors/buildings/lz1_barracks)
@@ -12649,7 +12612,7 @@
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/se)
 "Pf" = (
-/obj/item/weapon/gun/smg/ppsh,
+/obj/item/weapon/gun/smg/pps43,
 /turf/open/floor/plating,
 /area/LV624_Outpost_Furidamu/indoors/buildings/Bunker)
 "Pg" = (
@@ -13572,7 +13535,7 @@
 /obj/item/ammo_casing/bullet{
 	icon_state = "cartridge_3_1"
 	},
-/obj/item/ammo_magazine/smg/ppsh{
+/obj/item/ammo_magazine/smg/pps43{
 	current_rounds = 0
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -13966,7 +13929,7 @@
 /area/LV624_Outpost_Furidamu/outdoors/jungle/n)
 "Ty" = (
 /obj/structure/largecrate,
-/obj/item/weapon/gun/smg/ppsh,
+/obj/item/weapon/gun/smg/pps43,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/LV624_Outpost_Furidamu/indoors/buildings/Bunker)
 "Tz" = (
@@ -14417,11 +14380,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1/unweedable,
 /area/LV624_Outpost_Furidamu/outdoors/jungle/sw)
-"UT" = (
-/turf/closed/shuttle/ert{
-	icon_state = "upp3"
-	},
-/area/LV624_Outpost_Furidamu/outdoors/ua_bunker/s)
 "UU" = (
 /obj/structure/machinery/door/poddoor/almayer/closed{
 	dir = 4;
@@ -21894,7 +21852,7 @@ Mf
 Ib
 KS
 RH
-Bt
+KS
 KS
 Yg
 rO
@@ -22068,8 +22026,8 @@ hK
 dh
 KS
 KS
-ni
-SR
+Yg
+Dt
 kE
 Mf
 Mf
@@ -22575,8 +22533,8 @@ lc
 WS
 ra
 ra
-UT
-SR
+vx
+Dt
 kE
 Mf
 Mf
@@ -26597,7 +26555,7 @@ oK
 wi
 qr
 Xp
-Oe
+qr
 qr
 Qu
 zL
@@ -26771,8 +26729,8 @@ OP
 kJ
 qr
 qr
-Np
-oK
+Qu
+ni
 oK
 oK
 oK
@@ -27278,8 +27236,8 @@ rj
 mk
 RY
 RY
-aV
-oK
+yu
+ni
 oK
 oK
 aZ
@@ -29934,7 +29892,7 @@ YU
 ou
 Sc
 rZ
-IM
+Sc
 Sc
 Vu
 Ct
@@ -30108,8 +30066,8 @@ Zn
 QA
 Sc
 Sc
-GA
-kv
+Vu
+aV
 Wt
 Wt
 Wt
@@ -30615,8 +30573,8 @@ wd
 GL
 gy
 gy
-KR
-kv
+ql
+iM
 kv
 kv
 kv
@@ -47029,7 +46987,7 @@ cX
 FC
 sf
 cX
-iM
+Xv
 UG
 cX
 FC
