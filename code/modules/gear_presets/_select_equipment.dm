@@ -171,18 +171,18 @@
 /datum/equipment_preset/proc/load_vanity(mob/living/carbon/human/new_human, client/mob_client)
 	if(!new_human.client || !new_human.client.prefs || !new_human.client.prefs.gear)
 		return//We want to equip them with custom stuff second, after they are equipped with everything else.
-	var/datum/gear/G
 	for(var/gear_name in new_human.client.prefs.gear)
-		G = gear_datums_by_name[gear_name]
-		if(G)
-			if(G.allowed_roles && !(assignment in G.allowed_roles))
-				to_chat(new_human, SPAN_WARNING("Custom gear [G.display_name] cannot be equipped: Invalid Role"))
+		var/datum/gear/current_gear = gear_datums_by_name[gear_name]
+		if(current_gear)
+			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
+				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 				return
-			if(G.allowed_origins && !(new_human.origin in G.allowed_origins))
-				to_chat(new_human, SPAN_WARNING("Custom gear [G.display_name] cannot be equipped: Invalid Origin"))
+			if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins))
+				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 				return
-			if(!(G.slot && new_human.equip_to_slot_or_del(new G.path, G.slot)))
-				new_human.equip_to_slot_or_del(new G.path, WEAR_IN_BACK)
+			if(!(current_gear.slot && new_human.equip_to_slot_or_del(new current_gear.path, current_gear.slot)))
+				var/obj/equipping_gear = new current_gear.path
+				new_human.equip_to_slot_or_del(equipping_gear, WEAR_IN_BACK)
 
 	//Gives ranks to the ranked
 	var/current_rank = paygrade
@@ -430,7 +430,6 @@
 		/obj/item/tool/hatchet = null,
 		/obj/item/tool/hatchet = null,
 		/obj/item/storage/box/MRE = null,
-		/obj/item/clothing/mask/gas/pmc = null,
 		/obj/item/clothing/glasses/night/m42_night_goggles/upp = null,
 		/obj/item/storage/box/handcuffs = null,
 		/obj/item/storage/pill_bottle/happy = null,
@@ -950,6 +949,22 @@ var/list/rebel_rifles = list(
 		list("Shoulder Holster", 10, /obj/item/clothing/accessory/storage/holster, null, VENDOR_ITEM_REGULAR),
 		list("Webbing", 10, /obj/item/clothing/accessory/storage/webbing, null, VENDOR_ITEM_REGULAR)
 	)
+
+/datum/equipment_preset/proc/load_upp_shotgun(mob/living/carbon/human/new_human)
+	var/random_shotgun = rand(1,3)
+	switch(random_shotgun)
+		if(1)
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/type23/breacher, WEAR_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavybuck, WEAR_L_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavybuck, WEAR_R_STORE)
+		if(2)
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/type23/breacher/slug, WEAR_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavyslug, WEAR_L_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavyslug, WEAR_R_STORE)
+		if(3)
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/type23/breacher/flechette, WEAR_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavyflechette, WEAR_L_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/heavyflechette, WEAR_R_STORE)
 
 /datum/equipment_preset/proc/add_upp_weapon(mob/living/carbon/human/new_human)
 	var/random_gun = rand(1,5)

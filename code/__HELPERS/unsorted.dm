@@ -21,16 +21,16 @@
 #define between(low, middle, high) (max(min(middle, high), low))
 
 //Offuscate x for coord system
-#define obfuscate_x(x) (x + obfs_x)
+#define obfuscate_x(x) (x + GLOB.obfs_x)
 
 //Offuscate y for coord system
-#define obfuscate_y(y) (y + obfs_y)
+#define obfuscate_y(y) (y + GLOB.obfs_y)
 
 //Deoffuscate x for coord system
-#define deobfuscate_x(x) (x - obfs_x)
+#define deobfuscate_x(x) (x - GLOB.obfs_x)
 
 //Deoffuscate y for coord system
-#define deobfuscate_y(y) (y - obfs_y)
+#define deobfuscate_y(y) (y - GLOB.obfs_y)
 
 #define can_xeno_build(T) (!T.density && !(locate(/obj/structure/fence) in T) && !(locate(/obj/structure/tunnel) in T) && (locate(/obj/effect/alien/weeds) in T))
 
@@ -2066,3 +2066,30 @@ GLOBAL_LIST_INIT(duplicate_forbidden_vars,list(
 		if(stop_type && istype(turf_to_check, stop_type))
 			break
 	return turf_to_check
+
+/// Given a direction, return the direction and the +-45 degree directions next to it
+/proc/get_related_directions(direction = NORTH)
+	switch(direction)
+		if(NORTH)
+			return list(NORTH, NORTHEAST, NORTHWEST)
+
+		if(EAST)
+			return list(EAST, NORTHEAST, SOUTHEAST)
+
+		if(SOUTH)
+			return list(SOUTH, SOUTHEAST, SOUTHWEST)
+
+		if(WEST)
+			return list(WEST, NORTHWEST, SOUTHWEST)
+
+		if(NORTHEAST)
+			return list(NORTHEAST, NORTH, EAST)
+
+		if(SOUTHEAST)
+			return list(SOUTHEAST, EAST, SOUTH)
+
+		if(SOUTHWEST)
+			return list(SOUTHWEST, SOUTH, WEST)
+
+		if(NORTHWEST)
+			return list(NORTHWEST, NORTH, WEST)

@@ -55,8 +55,16 @@
 #define COMSIG_GUN_BURST_SHOTS_TO_FIRE_MODIFIED "gun_burst_shots_to_fire_modified"
 #define COMSIG_GUN_BURST_SHOT_DELAY_MODIFIED "gun_burst_shot_delay_modified"
 
+#define COMSIG_GUN_VULTURE_FIRED_ONEHAND "gun_vulture_fired_onehand"
+#define COMSIG_VULTURE_SCOPE_MOVED "vulture_scope_moved"
+#define COMSIG_VULTURE_SCOPE_SCOPED "vulture_scope_scoped"
+#define COMSIG_VULTURE_SCOPE_UNSCOPED "vulture_scope_unscoped"
+
 /// from /obj/item/weapon/gun/proc/recalculate_attachment_bonuses() : ()
 #define COMSIG_GUN_RECALCULATE_ATTACHMENT_BONUSES "gun_recalculate_attachment_bonuses"
 
 /// from  /obj/item/weapon/gun/proc/load_into_chamber() : ()
 #define COMSIG_GUN_INTERRUPT_FIRE "gun_interrupt_fire"
+
+//Additional procs on items that will be triggered right after the human finishes spawns in
+#define COMSIG_POST_SPAWN_UPDATE "post_spawn_update"

@@ -147,12 +147,12 @@
 /obj/structure/machinery/defenses/start_processing()
 	if(!machine_processing)
 		machine_processing = TRUE
-		fast_machines += src
+	START_PROCESSING(SSdefprocess, src)
 
 /obj/structure/machinery/defenses/stop_processing()
 	if(machine_processing)
 		machine_processing = FALSE
-		fast_machines -= src
+	STOP_PROCESSING(SSdefprocess, src)
 
 /obj/structure/machinery/defenses/proc/earn_kill()
 	kills++
@@ -448,7 +448,7 @@
 		return
 	update_health(severity)
 
-/obj/structure/machinery/defenses/bullet_act(obj/item/projectile/P)
+/obj/structure/machinery/defenses/bullet_act(obj/projectile/P)
 	bullet_ping(P)
 	visible_message(SPAN_WARNING("[src] is hit by the [P]!"))
 	var/ammo_flags = P.ammo.flags_ammo_behavior | P.projectile_override_flags
