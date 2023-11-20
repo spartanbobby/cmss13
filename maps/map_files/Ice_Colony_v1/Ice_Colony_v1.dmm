@@ -242,7 +242,11 @@
 /turf/closed/wall/r_wall,
 /area/ice_colony/surface/requesitions)
 "aP" = (
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/plating/icefloor{
+	dir = 10;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHWEST)"
+	},
 /area/shuttle/elevator3/underground)
 "aQ" = (
 /obj/structure/surface/table,
@@ -934,6 +938,13 @@
 "cM" = (
 /turf/open/floor/plating,
 /area/ice_colony/surface/disposals)
+"cN" = (
+/turf/open/floor/plating/icefloor{
+	dir = 6;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHEAST)"
+	},
+/area/shuttle/elevator3/underground)
 "cO" = (
 /obj/structure/surface/rack,
 /obj/item/tool/shovel/snow,
@@ -1664,6 +1675,29 @@
 	tag = "icon-darkbrowncorners2 (NORTH)"
 	},
 /area/ice_colony/surface/hangar/beta)
+"eM" = (
+/turf/open/floor/plating/icefloor{
+	icon_state = "warnplate";
+	tag = "icon-warnplate"
+	},
+/area/shuttle/elevator3/underground)
+"eN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W-corner";
+	tag = "icon-W-corner"
+	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
+	shuttleId = "ice_classic_shuttle";
+	dockId = "ice_lab_lower";
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkpurple2";
+	tag = "icon-darkpurple2 (EAST)"
+	},
+/area/ice_colony/underground/research/storage)
 "eO" = (
 /obj/structure/surface/rack,
 /obj/item/storage/briefcase/inflatable,
@@ -1700,7 +1734,20 @@
 /turf/open/auto_turf/snow/layer0,
 /area/ice_colony/exterior/surface/valley/south/excavation)
 "eU" = (
-/turf/open/floor/plating/icefloor,
+/obj/docking_port/stationary/trijent_elevator{
+	airlock_area = /area/shuttle/elevator2/underground;
+	airlock_exit = "elevator";
+	elevator_network = "dorm";
+	width = 8;
+	height = 5;
+	id = "ice_dorm_lower";
+	name = "Dormitory Lower Floor"
+	},
+/turf/open/floor/plating/icefloor{
+	dir = 10;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHWEST)"
+	},
 /area/shuttle/elevator2/underground)
 "eV" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -1790,6 +1837,18 @@
 	tag = "icon-darkgreencorners2 (NORTH)"
 	},
 /area/ice_colony/surface/dorms/canteen)
+"fk" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
+	shuttleId = "ice_classic_shuttle2";
+	dockId = "ice_dorm_upper";
+	pixel_y = 32
+	},
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkyellow2";
+	tag = "icon-darkyellow2 (EAST)"
+	},
+/area/ice_colony/surface/dorms)
 "fl" = (
 /turf/open/floor{
 	dir = 1;
@@ -1816,9 +1875,9 @@
 	},
 /area/ice_colony/surface/hangar/hallway)
 "fo" = (
-/turf/closed/shuttle/elevator{
-	dir = 8;
-	tag = "icon-wall (WEST)"
+/turf/open/floor/plating/icefloor{
+	icon_state = "warnplate";
+	tag = "icon-warnplate"
 	},
 /area/shuttle/elevator3/ground)
 "fp" = (
@@ -1846,6 +1905,23 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
 /area/ice_colony/surface/engineering)
+"fu" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	tag = "icon-plant-10"
+	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
+	shuttleId = "ice_classic_shuttle2";
+	dockId = "ice_dorm_lower";
+	dir = 8;
+	pixel_y = 32
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkgreen2";
+	tag = "icon-darkgreen2 (NORTH)"
+	},
+/area/ice_colony/underground/reception)
 "fv" = (
 /turf/open/floor/plating/icefloor{
 	dir = 5;
@@ -2539,11 +2615,6 @@
 "hw" = (
 /turf/closed/wall,
 /area/ice_colony/surface/dorms/canteen)
-"hx" = (
-/turf/closed/shuttle{
-	icon_state = "wall3"
-	},
-/area/space)
 "hy" = (
 /turf/open/floor/corsat{
 	icon_state = "marked"
@@ -2777,12 +2848,6 @@
 	tag = "icon-darkgreencorners2 (NORTH)"
 	},
 /area/ice_colony/surface/clinic/treatment)
-"ih" = (
-/obj/structure/machinery/computer/shuttle_control/ice_colony/elevator2{
-	pixel_y = 30
-	},
-/turf/open/shuttle/elevator/grating,
-/area/shuttle/elevator2/ground)
 "ii" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8;
@@ -2829,6 +2894,13 @@
 	tag = "icon-darkred2"
 	},
 /area/ice_colony/underground/security)
+"io" = (
+/turf/open/floor/plating/icefloor{
+	dir = 5;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHEAST)"
+	},
+/area/shuttle/elevator2/underground)
 "ip" = (
 /turf/closed/wall,
 /area/ice_colony/surface/hangar/alpha)
@@ -3007,10 +3079,9 @@
 	},
 /area/ice_colony/surface/requesitions)
 "iQ" = (
+/obj/docking_port/stationary/marine_dropship/lz1,
 /turf/open/floor/plating,
-/area/shuttle/drop1/LV624{
-	name = "\improper Almayer Dropship 1"
-	})
+/area/lv624/lazarus/landing_zones/lz1)
 "iR" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor{
@@ -3055,9 +3126,10 @@
 	},
 /area/ice_colony/surface/storage_unit/power)
 "iW" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 9;
-	tag = "icon-wall (NORTHWEST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHWEST)"
 	},
 /area/shuttle/elevator2/ground)
 "iX" = (
@@ -3240,9 +3312,9 @@
 	},
 /area/ice_colony/surface/engineering)
 "jv" = (
-/turf/closed/shuttle/elevator{
-	dir = 8;
-	tag = "icon-wall (WEST)"
+/turf/open/floor/plating/icefloor{
+	icon_state = "warnplate";
+	tag = "icon-warnplate"
 	},
 /area/shuttle/elevator2/ground)
 "jw" = (
@@ -4001,6 +4073,10 @@
 	tag = "icon-darkyellow2"
 	},
 /area/ice_colony/surface/dorms)
+"lG" = (
+/turf/open/space/basic,
+/turf/open/floor/plating/icefloor,
+/area/shuttle/elevator3/underground)
 "lH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner";
@@ -4301,7 +4377,7 @@
 	},
 /area/ice_colony/exterior/underground/caves/dig)
 "mv" = (
-/obj/item/weapon/gun/pistol/c99,
+/obj/item/weapon/gun/pistol/t73,
 /turf/open/auto_turf/snow/layer0,
 /area/ice_colony/exterior/surface/clearing/pass)
 "mw" = (
@@ -4632,9 +4708,10 @@
 	},
 /area/ice_colony/surface/hydroponics/north)
 "nr" = (
-/turf/closed/shuttle/elevator{
-	dir = 1;
-	tag = "icon-wall (NORTH)"
+/turf/open/floor/plating/icefloor{
+	dir = 4;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (EAST)"
 	},
 /area/shuttle/elevator3/ground)
 "ns" = (
@@ -4769,9 +4846,10 @@
 	},
 /area/ice_colony/surface/engineering)
 "nK" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 9;
-	tag = "icon-wall (NORTHWEST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHWEST)"
 	},
 /area/shuttle/elevator3/ground)
 "nL" = (
@@ -5014,10 +5092,6 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/plating/icefloor,
 /area/ice_colony/underground/crew/disposals)
-"ow" = (
-/obj/structure/machinery/door/airlock/multi_tile/elevator/dormatory,
-/turf/open/shuttle/elevator/grating,
-/area/shuttle/elevator2/ground)
 "ox" = (
 /obj/structure/closet,
 /turf/open/floor{
@@ -5047,7 +5121,11 @@
 	},
 /area/ice_colony/underground/hallway/south_east)
 "oB" = (
-/turf/closed/shuttle/elevator/gears,
+/turf/open/floor/plating/icefloor{
+	dir = 1;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTH)"
+	},
 /area/shuttle/elevator2/ground)
 "oC" = (
 /obj/structure/pipes/vents/pump,
@@ -5280,6 +5358,13 @@
 	tag = "icon-darkgreencorners2 (NORTH)"
 	},
 /area/ice_colony/surface/dorms/canteen)
+"pm" = (
+/turf/open/floor/plating/icefloor{
+	dir = 9;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHWEST)"
+	},
+/area/shuttle/elevator3/underground)
 "pn" = (
 /obj/structure/closet/crate,
 /obj/item/tool/soap,
@@ -5970,7 +6055,7 @@
 /area/ice_colony/underground/engineering/locker)
 "rf" = (
 /turf/closed/wall/shiva/ice,
-/area/space)
+/area/ice_colony/exterior/surface/cliff)
 "rg" = (
 /obj/structure/machinery/light{
 	dir = 1;
@@ -6148,6 +6233,13 @@
 	tag = "icon-darkgreen2 (WEST)"
 	},
 /area/ice_colony/surface/clinic/storage)
+"rC" = (
+/turf/open/floor/plating/icefloor{
+	dir = 1;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTH)"
+	},
+/area/shuttle/elevator3/underground)
 "rD" = (
 /obj/structure/surface/table,
 /obj/item/device/flashlight,
@@ -6701,6 +6793,13 @@
 /obj/item/clothing/gloves/yellow,
 /turf/open/floor/wood,
 /area/ice_colony/surface/hangar/hallway)
+"tc" = (
+/turf/open/floor/plating/icefloor{
+	dir = 8;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (WEST)"
+	},
+/area/shuttle/elevator3/underground)
 "td" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor{
@@ -7198,16 +7297,6 @@
 	tag = "icon-darkblue2 (NORTH)"
 	},
 /area/ice_colony/surface/excavation)
-"us" = (
-/obj/structure/machinery/computer/shuttle_control/ice_colony/elevator2{
-	pixel_y = 30
-	},
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkyellow2";
-	tag = "icon-darkyellow2 (EAST)"
-	},
-/area/ice_colony/surface/dorms)
 "ut" = (
 /obj/structure/surface/table/holotable,
 /obj/item/folder/black_random,
@@ -7288,13 +7377,6 @@
 	icon_state = "vault"
 	},
 /area/ice_colony/surface/storage_unit/telecomms)
-"uF" = (
-/obj/structure/machinery/computer/shuttle_control/ice_colony/elevator3{
-	dir = 1;
-	pixel_y = 30
-	},
-/turf/open/shuttle/elevator,
-/area/shuttle/elevator3/ground)
 "uG" = (
 /obj/item/lightstick/planted,
 /turf/open/auto_turf/snow/layer2,
@@ -7529,7 +7611,11 @@
 	},
 /area/ice_colony/surface/clinic/storage)
 "vp" = (
-/turf/closed/shuttle/elevator,
+/turf/open/floor/plating/icefloor{
+	dir = 8;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (WEST)"
+	},
 /area/shuttle/elevator3/ground)
 "vq" = (
 /turf/open/floor{
@@ -7537,6 +7623,10 @@
 	tag = "icon-darkgreen2"
 	},
 /area/ice_colony/underground/crew/canteen)
+"vr" = (
+/turf/open/space/basic,
+/turf/open/floor/plating/icefloor,
+/area/shuttle/elevator2/underground)
 "vs" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_17"
@@ -7814,9 +7904,10 @@
 	},
 /area/ice_colony/underground/research/work)
 "wg" = (
-/turf/closed/shuttle/elevator{
-	dir = 1;
-	tag = "icon-wall (NORTH)"
+/turf/open/floor/plating/icefloor{
+	dir = 4;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (EAST)"
 	},
 /area/shuttle/elevator2/ground)
 "wh" = (
@@ -7922,9 +8013,6 @@
 "wu" = (
 /turf/open/auto_turf/snow/layer1,
 /area/ice_colony/exterior/surface/valley/south)
-"wv" = (
-/turf/open/floor/plating/icefloor,
-/area/shuttle/elevator2/transit)
 "ww" = (
 /obj/structure/machinery/power/apc/weak{
 	dir = 1
@@ -8066,6 +8154,19 @@
 	icon_state = "floor6"
 	},
 /area/ice_colony/exterior/underground/caves/dig)
+"wR" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent{
+	shuttleId = "ice_classic_shuttle";
+	dockId = "ice_lab_upper";
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkpurplecorners2";
+	tag = "icon-darkpurplecorners2 (NORTH)"
+	},
+/area/ice_colony/surface/research)
 "wT" = (
 /obj/structure/machinery/door/airlock/almayer/engineering{
 	dir = 1;
@@ -8269,9 +8370,21 @@
 	},
 /area/ice_colony/exterior/underground/caves/dig)
 "xx" = (
-/turf/closed/shuttle/elevator{
+/obj/docking_port/stationary/trijent_elevator{
+	id = "ice_lab_upper";
+	elevator_network = "lab";
+	roundstart_template = /datum/map_template/shuttle/trijent_elevator/ice_elevator/lab;
+	name = "Laboratory Upper Floor";
+	dir = 2;
+	height = 5;
+	width = 8;
+	airlock_area = /area/shuttle/elevator3/ground;
+	airlock_exit = "elevator"
+	},
+/turf/open/floor/plating/icefloor{
 	dir = 5;
-	tag = "icon-wall (NORTHEAST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHEAST)"
 	},
 /area/shuttle/elevator3/ground)
 "xy" = (
@@ -8302,7 +8415,11 @@
 /turf/open/auto_turf/snow/layer3,
 /area/ice_colony/exterior/surface/valley/west)
 "xC" = (
-/turf/closed/shuttle/elevator/gears,
+/turf/open/floor/plating/icefloor{
+	dir = 1;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTH)"
+	},
 /area/shuttle/elevator3/ground)
 "xD" = (
 /obj/structure/surface/table/holotable,
@@ -8722,12 +8839,11 @@
 	layer = 3.1;
 	name = "Remote Console Pod"
 	},
-/obj/structure/machinery/computer/shuttle_control/dropship1{
-	layer = 3.2;
-	pixel_y = -6
+/obj/structure/machinery/computer/shuttle/dropship/flight/lz1{
+	layer = 3.11
 	},
 /turf/open/auto_turf/snow/layer3,
-/area/ice_colony/landing/console)
+/area/ice_colony/exterior/surface/clearing/pass)
 "yK" = (
 /obj/structure/coatrack,
 /turf/open/floor/wood,
@@ -8848,6 +8964,13 @@
 	tag = "icon-darkgreen2 (NORTH)"
 	},
 /area/ice_colony/underground/hallway/south_east)
+"zb" = (
+/turf/open/floor/plating/icefloor{
+	dir = 1;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTH)"
+	},
+/area/shuttle/elevator2/underground)
 "zc" = (
 /obj/item/trash/raisins,
 /turf/open/floor/plating{
@@ -9399,9 +9522,6 @@
 	tag = "icon-warnplate"
 	},
 /area/ice_colony/exterior/surface/landing_pad)
-"AK" = (
-/turf/closed/shuttle/elevator/button/dorm,
-/area/shuttle/elevator2/ground)
 "AL" = (
 /obj/structure/machinery/light,
 /turf/open/floor{
@@ -9879,7 +9999,7 @@
 /area/ice_colony/exterior/surface/clearing/pass)
 "Ce" = (
 /turf/closed/wall/rock/brown,
-/area/space)
+/area/ice_colony/exterior/surface/cliff)
 "Cf" = (
 /obj/structure/bed/chair/office/light,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -10001,9 +10121,10 @@
 /turf/closed/wall/r_wall,
 /area/ice_colony/surface/clinic/storage)
 "Cw" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 10;
-	tag = "icon-wall (SOUTHWEST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHWEST)"
 	},
 /area/shuttle/elevator3/ground)
 "Cx" = (
@@ -10051,10 +10172,6 @@
 /obj/structure/machinery/computer3,
 /turf/open/floor/plating/icefloor,
 /area/ice_colony/underground/maintenance/south)
-"CE" = (
-/obj/structure/machinery/door/airlock/multi_tile/elevator/research,
-/turf/open/shuttle/elevator/grating,
-/area/shuttle/elevator3/ground)
 "CF" = (
 /obj/structure/surface/table,
 /obj/item/clipboard,
@@ -12175,12 +12292,6 @@
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
 /area/ice_colony/surface/requesitions)
-"IT" = (
-/turf/closed/wall/hangar,
-/area/space)
-"IU" = (
-/turf/closed/shuttle/elevator/dorm,
-/area/shuttle/elevator2/ground)
 "IV" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -12381,6 +12492,13 @@
 	tag = "icon-dark2"
 	},
 /area/ice_colony/surface/garage/one)
+"Jw" = (
+/turf/open/floor/plating/icefloor{
+	dir = 4;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (EAST)"
+	},
+/area/shuttle/elevator3/underground)
 "Jx" = (
 /turf/closed/wall/r_wall,
 /area/ice_colony/surface/garage/repair)
@@ -12546,6 +12664,13 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/wood,
 /area/ice_colony/surface/hangar/hallway)
+"JZ" = (
+/turf/open/floor/plating/icefloor{
+	dir = 4;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (EAST)"
+	},
+/area/shuttle/elevator2/underground)
 "Ka" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	id = "ice_classic_underground_armoury";
@@ -12923,9 +13048,10 @@
 /turf/open/floor/plating/icefloor,
 /area/ice_colony/underground/crew/disposals)
 "La" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 5;
-	tag = "icon-wall (NORTHEAST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHEAST)"
 	},
 /area/shuttle/elevator2/ground)
 "Lb" = (
@@ -13019,15 +13145,19 @@
 	icon_state = "darkbluecorners2"
 	},
 /area/ice_colony/underground/command/center)
-"Lo" = (
-/turf/open/space,
-/area/space)
 "Lp" = (
 /obj/structure/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/wood,
 /area/ice_colony/surface/hangar/hallway)
+"Lq" = (
+/turf/open/floor/plating/icefloor{
+	dir = 8;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (WEST)"
+	},
+/area/shuttle/elevator2/underground)
 "Lr" = (
 /obj/structure/machinery/power/apc/weak,
 /turf/open/floor{
@@ -13318,7 +13448,11 @@
 	},
 /area/ice_colony/underground/crew/canteen)
 "Mf" = (
-/turf/closed/shuttle/elevator,
+/turf/open/floor/plating/icefloor{
+	dir = 8;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (WEST)"
+	},
 /area/shuttle/elevator2/ground)
 "Mg" = (
 /obj/structure/flora/pottedplant,
@@ -13361,7 +13495,8 @@
 	},
 /area/ice_colony/surface/clinic/lobby)
 "Mn" = (
-/turf/open/shuttle/elevator,
+/turf/open/space/basic,
+/turf/open/floor/plating/icefloor,
 /area/shuttle/elevator3/ground)
 "Mo" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -13541,6 +13676,12 @@
 	tag = "icon-darkbrowncorners2 (WEST)"
 	},
 /area/ice_colony/surface/substation)
+"MM" = (
+/turf/open/floor/plating/icefloor{
+	icon_state = "warnplate";
+	tag = "icon-warnplate"
+	},
+/area/shuttle/elevator2/underground)
 "MN" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -14290,7 +14431,8 @@
 	},
 /area/ice_colony/surface/garage/one)
 "OV" = (
-/turf/open/shuttle/elevator,
+/turf/open/space/basic,
+/turf/open/floor/plating/icefloor,
 /area/shuttle/elevator2/ground)
 "OW" = (
 /obj/structure/machinery/colony_floodlight,
@@ -14895,9 +15037,20 @@
 /turf/open/floor/plating,
 /area/ice_colony/surface/engineering)
 "QF" = (
-/turf/closed/shuttle/elevator{
+/obj/docking_port/stationary/trijent_elevator{
+	height = 5;
+	width = 8;
+	id = "ice_dorm_upper";
+	name = "Dormitory Upper Floor";
+	roundstart_template = /datum/map_template/shuttle/trijent_elevator/ice_elevator/dorm;
+	airlock_exit = "elevator";
+	elevator_network = "dorm";
+	airlock_area = /area/shuttle/elevator2/ground
+	},
+/turf/open/floor/plating/icefloor{
 	dir = 10;
-	tag = "icon-wall (SOUTHWEST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHWEST)"
 	},
 /area/shuttle/elevator2/ground)
 "QG" = (
@@ -15071,9 +15224,6 @@
 	tag = "icon-dark2"
 	},
 /area/ice_colony/surface/hangar/beta)
-"Rh" = (
-/turf/open/shuttle/elevator/grating,
-/area/shuttle/elevator2/ground)
 "Ri" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/paper_bin,
@@ -15454,9 +15604,6 @@
 	tag = "icon-darkgreen2 (EAST)"
 	},
 /area/ice_colony/surface/clinic/storage)
-"Sq" = (
-/turf/open/shuttle/elevator/grating,
-/area/shuttle/elevator3/ground)
 "Ss" = (
 /obj/structure/surface/table/holotable,
 /obj/item/folder/black_random,
@@ -15772,12 +15919,6 @@
 /obj/structure/ice/thin/single,
 /turf/open/ice,
 /area/ice_colony/exterior/surface/clearing/pass)
-"Tl" = (
-/turf/closed/shuttle/elevator{
-	dir = 4;
-	tag = "icon-wall (EAST)"
-	},
-/area/shuttle/elevator2/ground)
 "Tm" = (
 /obj/structure/surface/table/woodentable,
 /turf/open/floor/wood,
@@ -15967,6 +16108,23 @@
 	tag = "icon-darkyellow2 (WEST)"
 	},
 /area/ice_colony/surface/engineering)
+"TN" = (
+/obj/docking_port/stationary/trijent_elevator{
+	id = "ice_lab_lower";
+	elevator_network = "lab";
+	name = "Laboratory Lower Floor";
+	dir = 2;
+	width = 8;
+	height = 5;
+	airlock_area = /area/shuttle/elevator3/underground;
+	airlock_exit = "elevator"
+	},
+/turf/open/floor/plating/icefloor{
+	dir = 5;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHEAST)"
+	},
+/area/shuttle/elevator3/underground)
 "TO" = (
 /obj/structure/surface/table/reinforced,
 /obj/item/storage/firstaid/fire,
@@ -16071,12 +16229,11 @@
 	layer = 3.1;
 	name = "Remote Console Pod"
 	},
-/obj/structure/machinery/computer/shuttle_control/dropship2{
-	layer = 3.1;
-	pixel_y = -9
+/obj/structure/machinery/computer/shuttle/dropship/flight/lz2{
+	layer = 3.11
 	},
 /turf/open/auto_turf/snow/layer3,
-/area/ice_colony/landing/console)
+/area/ice_colony/exterior/surface/valley/south)
 "Ue" = (
 /obj/structure/surface/rack,
 /turf/open/floor/plating/icefloor,
@@ -16486,9 +16643,10 @@
 	},
 /area/ice_colony/surface/dorms)
 "Vj" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 6;
-	tag = "icon-wall (SOUTHEAST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHEAST)"
 	},
 /area/shuttle/elevator2/ground)
 "Vk" = (
@@ -16517,9 +16675,10 @@
 	},
 /area/ice_colony/surface/dorms)
 "Vn" = (
-/turf/closed/shuttle/elevator{
+/turf/open/floor/plating/icefloor{
 	dir = 6;
-	tag = "icon-wall (SOUTHEAST)"
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHEAST)"
 	},
 /area/shuttle/elevator3/ground)
 "Vo" = (
@@ -16555,6 +16714,13 @@
 	},
 /turf/open/floor/wood,
 /area/ice_colony/underground/crew/dorm_r)
+"Vu" = (
+/turf/open/floor/plating/icefloor{
+	dir = 6;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (SOUTHEAST)"
+	},
+/area/shuttle/elevator2/underground)
 "Vw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner"
@@ -16684,6 +16850,13 @@
 	tag = "icon-darkbrown2 (WEST)"
 	},
 /area/ice_colony/surface/excavation)
+"VN" = (
+/turf/open/floor/plating/icefloor{
+	dir = 9;
+	icon_state = "warnplate";
+	tag = "icon-warnplate (NORTHWEST)"
+	},
+/area/shuttle/elevator2/underground)
 "VO" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	id = "Classic_0003";
@@ -16886,12 +17059,6 @@
 	tag = "icon-darkyellowcorners2"
 	},
 /area/ice_colony/surface/dorms)
-"Wo" = (
-/turf/closed/shuttle/elevator{
-	dir = 4;
-	tag = "icon-wall (EAST)"
-	},
-/area/shuttle/elevator3/ground)
 "Wp" = (
 /obj/structure/machinery/light{
 	dir = 4;
@@ -17271,10 +17438,9 @@
 	},
 /area/ice_colony/surface/dorms)
 "Xq" = (
+/obj/docking_port/stationary/marine_dropship/lz2,
 /turf/open/floor/plating,
-/area/shuttle/drop2/LV624{
-	name = "\improper Almayer Dropship 2"
-	})
+/area/lv624/lazarus/landing_zones/lz2)
 "Xr" = (
 /obj/item/lightstick/planted,
 /turf/open/auto_turf/snow/layer2,
@@ -17729,16 +17895,6 @@
 	tag = "icon-darkbrown2"
 	},
 /area/ice_colony/surface/hangar/beta)
-"YH" = (
-/obj/structure/machinery/computer/shuttle_control/ice_colony/elevator3{
-	pixel_y = -16
-	},
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (NORTH)"
-	},
-/area/ice_colony/surface/research)
 "YI" = (
 /obj/item/storage/box/lightstick,
 /turf/open/floor{
@@ -17869,9 +18025,6 @@
 	},
 /turf/open/floor/plating/icefloor,
 /area/ice_colony/underground/maintenance/east)
-"Zd" = (
-/turf/open/floor/plating/icefloor,
-/area/shuttle/elevator3/transit)
 "Ze" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -24793,10 +24946,10 @@ lh
 zm
 aF
 ci
-aP
-aP
-aP
-aP
+pm
+tc
+tc
+tc
 aP
 ci
 Ce
@@ -25029,11 +25182,11 @@ lg
 lg
 wJ
 ci
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -25263,13 +25416,13 @@ EB
 EB
 EB
 EB
-EB
+eN
 ci
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -25501,11 +25654,11 @@ nA
 nA
 nA
 nO
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -25737,11 +25890,11 @@ nA
 nA
 nA
 ho
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -25973,11 +26126,11 @@ Lb
 Lb
 Lb
 ci
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -26209,11 +26362,11 @@ im
 im
 NT
 ci
-aP
-aP
-aP
-aP
-aP
+rC
+lG
+lG
+lG
+eM
 ci
 Ce
 Ce
@@ -26445,11 +26598,11 @@ pt
 dc
 aF
 ci
-aP
-aP
-aP
-aP
-aP
+TN
+Jw
+Jw
+Jw
+cN
 ci
 Ce
 Ce
@@ -30656,7 +30809,7 @@ bZ
 bZ
 oE
 bZ
-IT
+NG
 Ce
 Ce
 Ce
@@ -30828,11 +30981,11 @@ YM
 RX
 Qp
 Qp
-YH
+wR
 uk
 xC
-uF
-Sq
+Mn
+Mn
 Mn
 fo
 uk
@@ -30892,7 +31045,7 @@ bZ
 bZ
 oE
 RZ
-IT
+NG
 Ce
 Ce
 Ce
@@ -31066,11 +31219,11 @@ Ev
 Ev
 Ev
 uk
-CE
-Sq
-Sq
-Sq
-Wo
+xC
+Mn
+Mn
+Mn
+fo
 uk
 IL
 IL
@@ -31128,7 +31281,7 @@ bZ
 bZ
 nX
 WF
-IT
+NG
 Ce
 Ce
 Ce
@@ -31302,11 +31455,11 @@ Ev
 Ev
 Ev
 jD
-Sq
-Sq
+xC
 Mn
-Sq
-Wo
+Mn
+Mn
+fo
 uk
 IL
 pB
@@ -31364,7 +31517,7 @@ bZ
 Oe
 bZ
 NG
-IT
+NG
 Ce
 Ce
 Ce
@@ -31538,11 +31691,11 @@ vd
 vd
 vd
 eW
-Sq
-Sq
+xC
 Mn
-Sq
-Wo
+Mn
+Mn
+fo
 uk
 IL
 IL
@@ -31774,11 +31927,11 @@ vd
 vd
 vd
 uk
-Sq
-Sq
-Sq
-Sq
-Wo
+xC
+Mn
+Mn
+Mn
+fo
 uk
 IL
 IL
@@ -32012,9 +32165,9 @@ Qc
 uk
 xC
 Mn
-Sq
 Mn
-Wo
+Mn
+fo
 uk
 IL
 IL
@@ -36927,19 +37080,19 @@ gI
 Ij
 gI
 gI
-iQ
-iQ
-iQ
+gI
+gI
+gI
 gI
 gI
 Ij
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
 gI
 Ij
 gI
@@ -37162,23 +37315,23 @@ gI
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-gI
-iQ
-iQ
-iQ
-iQ
 gI
 gI
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 dl
 np
 Gt
@@ -37398,23 +37551,23 @@ gI
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
 gI
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 gE
 np
 Gt
@@ -37631,26 +37784,26 @@ IJ
 Vg
 LU
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 Jf
 np
 Gt
@@ -37867,24 +38020,24 @@ IJ
 Vg
 hk
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 gI
 gI
 sl
@@ -38103,24 +38256,24 @@ IJ
 qp
 gJ
 gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 gI
 gI
 dl
@@ -38339,24 +38492,24 @@ IJ
 Vg
 hh
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 gI
 gI
 gE
@@ -38575,26 +38728,26 @@ IJ
 Vg
 LU
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 Jf
 np
 Gt
@@ -38814,23 +38967,23 @@ gI
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
 gI
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 sl
 np
 Gt
@@ -39050,23 +39203,23 @@ gI
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-iQ
-gI
-iQ
-iQ
-iQ
-iQ
 gI
 gI
-iQ
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
+gI
 dl
 np
 Gt
@@ -39287,19 +39440,19 @@ gI
 Ij
 gI
 gI
-iQ
-iQ
-iQ
+gI
+gI
+gI
 gI
 gI
 Ij
 gI
 gI
 gI
-iQ
-iQ
-iQ
-iQ
+gI
+gI
+gI
+gI
 gI
 Ij
 gI
@@ -43176,10 +43329,10 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
+VN
+Lq
+Lq
+Lq
 eU
 wK
 Gp
@@ -43412,11 +43565,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 wK
 jE
 Pj
@@ -43648,13 +43801,13 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 wK
-Uc
+fu
 Pj
 Pj
 Pj
@@ -43884,11 +44037,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 nb
 jN
 jN
@@ -44120,11 +44273,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 Ds
 YA
 YA
@@ -44356,11 +44509,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 wK
 Uc
 fD
@@ -44592,11 +44745,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+zb
+vr
+vr
+vr
+MM
 wK
 jE
 fD
@@ -44828,11 +44981,11 @@ Ce
 Ce
 Ce
 fg
-eU
-eU
-eU
-eU
-eU
+io
+JZ
+JZ
+JZ
+Vu
 wK
 Gp
 fD
@@ -47350,19 +47503,19 @@ bY
 bY
 bY
 bY
-Xq
-Xq
-Xq
+bY
+bY
+bY
 bY
 bY
 cL
 bY
 bY
 bY
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
 bY
 bY
 bY
@@ -47585,23 +47738,23 @@ bY
 bY
 bY
 cL
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
 bY
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 cL
 bY
-Xq
+bY
 KX
 IL
 wr
@@ -47821,23 +47974,23 @@ bY
 bY
 bY
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
 bY
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 qN
 IL
 wr
@@ -48054,26 +48207,26 @@ Gt
 Gt
 Nv
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 Xg
 IL
 DS
@@ -48290,24 +48443,24 @@ Gt
 Gt
 PK
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 bY
 bY
 Fs
@@ -48526,24 +48679,24 @@ Gt
 Gt
 LB
 bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 bY
 bY
 KX
@@ -48762,24 +48915,24 @@ Gt
 Gt
 mV
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 bY
 bY
 qN
@@ -48998,26 +49151,26 @@ Gt
 Gt
 Nv
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 Xg
 IL
 DS
@@ -49237,23 +49390,23 @@ bY
 bY
 bY
 bY
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
 bY
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 Fs
 IL
 DS
@@ -49473,23 +49626,23 @@ bY
 bY
 bY
 cL
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
-Xq
 bY
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
 cL
 bY
-Xq
+bY
 KX
 IL
 DS
@@ -49710,19 +49863,19 @@ bY
 bY
 bY
 bY
-Xq
-Xq
-Xq
+bY
+bY
+bY
 bY
 bY
 cL
 bY
 bY
 bY
-Xq
-Xq
-Xq
-Xq
+bY
+bY
+bY
+bY
 bY
 bY
 bY
@@ -51729,7 +51882,7 @@ rf
 Du
 oB
 OV
-Rh
+OV
 OV
 jv
 Du
@@ -51964,12 +52117,12 @@ rf
 rf
 Du
 oB
-Rh
-Rh
-Rh
-ow
+OV
+OV
+OV
+jv
 Du
-us
+fk
 fz
 fz
 fz
@@ -52199,11 +52352,11 @@ rf
 rf
 rf
 Du
-AK
-ih
+oB
 OV
-Rh
-Rh
+OV
+OV
+jv
 RO
 Ql
 Ql
@@ -52435,11 +52588,11 @@ rf
 rf
 rf
 Du
-IU
-Rh
+oB
 OV
-Rh
-Rh
+OV
+OV
+jv
 cq
 Nm
 Nm
@@ -52672,10 +52825,10 @@ rf
 rf
 Du
 oB
-Rh
-Rh
-Rh
-Rh
+OV
+OV
+OV
+jv
 Du
 mo
 mo
@@ -52909,9 +53062,9 @@ rf
 Du
 oB
 OV
-Rh
 OV
-Tl
+OV
+jv
 Du
 wW
 wW
@@ -53121,7 +53274,7 @@ Ah
 Nf
 Nf
 QN
-IT
+DB
 wA
 wA
 wA
@@ -53357,7 +53510,7 @@ DB
 DB
 DB
 DB
-IT
+DB
 Ce
 wA
 wA
@@ -58787,7 +58940,7 @@ qI
 qI
 qI
 qI
-JK
+qI
 qI
 qI
 qI
@@ -59006,24 +59159,24 @@ rf
 rf
 JK
 qI
-hx
-hx
-hx
-hx
-hx
-hx
-hx
-Lo
-Lo
-hx
-hx
-hx
-hx
-hx
-hx
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -59242,24 +59395,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -59478,24 +59631,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -59714,24 +59867,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -59950,24 +60103,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -60186,24 +60339,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -60422,24 +60575,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -60658,24 +60811,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -60894,24 +61047,24 @@ rf
 rf
 JK
 qI
-hx
-Zd
-Zd
-Zd
-Zd
-Zd
-hx
-Lo
-Lo
-hx
-wv
-wv
-wv
-wv
-wv
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -61130,24 +61283,24 @@ rf
 rf
 JK
 qI
-hx
-hx
-hx
-hx
-hx
-hx
-hx
-Lo
-Lo
-hx
-hx
-hx
-hx
-hx
-hx
-hx
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -61366,24 +61519,24 @@ rf
 rf
 JK
 qI
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
 qI
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
@@ -61601,25 +61754,25 @@ rf
 rf
 rf
 JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
+qI
 qI
 qI
 qI
