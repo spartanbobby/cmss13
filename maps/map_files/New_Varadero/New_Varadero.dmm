@@ -76,10 +76,13 @@
 	icon_state = "multi_tiles"
 	},
 /area/varadero/interior/medical)
+<<<<<<< HEAD
 "ade" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /turf/open/auto_turf/snow/layer2,
 /area/varadero/exterior/lz2_near)
+=======
+>>>>>>> cmss13-devs/master
 "adw" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior/cargo)
@@ -11342,6 +11345,7 @@
 	icon_state = "asteroidfloor"
 	},
 /area/varadero/interior/comms1)
+<<<<<<< HEAD
 "ias" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /obj/structure/machinery/landinglight/ds1/spoke{
@@ -11350,6 +11354,8 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/varadero/exterior/lz2_near)
+=======
+>>>>>>> cmss13-devs/master
 "iat" = (
 /obj/structure/barricade/wooden{
 	dir = 1
@@ -16816,6 +16822,14 @@
 /obj/effect/spawner/random/attachment,
 /turf/open/floor/carpet,
 /area/varadero/interior/administration)
+"lIW" = (
+/obj/structure/machinery/landinglight/ds1/spoke{
+	pixel_y = -5;
+	pixel_x = 13
+	},
+/obj/structure/machinery/camera/autoname/lz_camera,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/exterior/lz2_near)
 "lJo" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -26461,6 +26475,14 @@
 	},
 /turf/open/floor/wood,
 /area/varadero/interior/beach_bar)
+"sbP" = (
+/obj/structure/machinery/landinglight/ds1/spoke{
+	pixel_y = -5;
+	pixel_x = -13
+	},
+/obj/structure/machinery/camera/autoname/lz_camera,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/exterior/lz2_near)
 "sbX" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_22";
@@ -34290,6 +34312,7 @@
 	icon_state = "blue"
 	},
 /area/varadero/interior/technical_storage)
+<<<<<<< HEAD
 "xpL" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /obj/structure/machinery/landinglight/ds1/spoke{
@@ -34298,6 +34321,8 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/varadero/exterior/lz2_near)
+=======
+>>>>>>> cmss13-devs/master
 "xpP" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior/comms1)
@@ -47682,8 +47707,7 @@ wMw
 pbp
 sHV
 bZU
-bZU
-bZU
+rtm
 bZU
 bZU
 bZU
@@ -47701,6 +47725,7 @@ bZU
 bZU
 bZU
 bZU
+rtm
 bZU
 xsH
 mrC
@@ -47866,7 +47891,7 @@ irk
 bZU
 bZU
 bZU
-rtm
+bZU
 bZU
 bZU
 bZU
@@ -47881,7 +47906,7 @@ bZU
 bZU
 bZU
 qOh
-rtm
+bZU
 bZU
 bZU
 bwP
@@ -49322,7 +49347,7 @@ irk
 bZU
 bZU
 bZU
-rtm
+bZU
 bZU
 bZU
 bZU
@@ -49337,7 +49362,7 @@ qOh
 bZU
 bZU
 bZU
-rtm
+bZU
 bZU
 bZU
 bwP
@@ -49502,8 +49527,7 @@ wMw
 pbp
 cYZ
 bZU
-bZU
-bZU
+rtm
 bZU
 bZU
 bZU
@@ -49521,6 +49545,7 @@ bZU
 bZU
 bZU
 bZU
+rtm
 bZU
 miF
 mrC
@@ -61141,28 +61166,48 @@ wlB
 wlB
 pvQ
 wlB
+<<<<<<< HEAD
 pvQ
 pvQ
 pvQ
 pvQ
+=======
+lTg
+lTg
+lTg
+emP
+>>>>>>> cmss13-devs/master
 pXT
 pvQ
 pvQ
 wlB
 wlB
 wlB
+<<<<<<< HEAD
 pvQ
 pvQ
 pvQ
 emP
 pvQ
+=======
+lTg
+lTg
+emP
+lTg
+lTg
+>>>>>>> cmss13-devs/master
 wlB
 wlB
 wlB
 wlB
 wlB
+<<<<<<< HEAD
 pvQ
 pXT
+=======
+lTg
+lIW
+>>>>>>> cmss13-devs/master
 pXT
 rhu
 wlB
@@ -61324,11 +61369,19 @@ wlB
 vNy
 wlB
 wlB
+<<<<<<< HEAD
 wlB
 pvQ
 pvQ
 pvQ
 ade
+=======
+eia
+lTg
+lTg
+lTg
+wlB
+>>>>>>> cmss13-devs/master
 wlB
 wlB
 wlB
@@ -61343,8 +61396,13 @@ wlB
 wlB
 wlB
 nFX
+<<<<<<< HEAD
 ias
 pvQ
+=======
+pXT
+lTg
+>>>>>>> cmss13-devs/master
 wlB
 pvQ
 pvQ
@@ -62761,6 +62819,7 @@ wUU
 "}
 (149,1,1) = {"
 wUU
+<<<<<<< HEAD
 oTs
 rUa
 rUa
@@ -62775,16 +62834,41 @@ rUa
 rUa
 ymb
 xJH
+=======
+nvv
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+pRa
+pRa
+mPW
+nsN
+>>>>>>> cmss13-devs/master
 wlB
 wlB
 wlB
 wlB
+<<<<<<< HEAD
 pvQ
 pvQ
 pvQ
 pvQ
 pvQ
 ade
+=======
+lTg
+lTg
+lTg
+lTg
+lTg
+wlB
+>>>>>>> cmss13-devs/master
 wlB
 wlB
 wlB
@@ -62799,8 +62883,13 @@ nFX
 wlB
 wlB
 wlB
+<<<<<<< HEAD
 xpL
 pvQ
+=======
+uHD
+lTg
+>>>>>>> cmss13-devs/master
 wlB
 pvQ
 wlB
@@ -62943,6 +63032,7 @@ wUU
 "}
 (150,1,1) = {"
 wUU
+<<<<<<< HEAD
 oTs
 rUa
 rUa
@@ -62976,13 +63066,53 @@ pvQ
 pvQ
 emP
 pvQ
+=======
+nvv
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+mPk
+pRa
+pRa
+wLB
+nsN
+hPq
+wlB
+wlB
+lTg
+lTg
+wlB
+lTg
+emP
+uHD
+lTg
+lTg
+wlB
+wlB
+wlB
+lTg
+lTg
+emP
+lTg
+lTg
+>>>>>>> cmss13-devs/master
 wlB
 wlB
 wlB
 wlB
 wlB
+<<<<<<< HEAD
 pvQ
 uHD
+=======
+lTg
+sbP
+>>>>>>> cmss13-devs/master
 uHD
 pvQ
 pvQ

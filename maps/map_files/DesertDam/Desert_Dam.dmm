@@ -51568,6 +51568,10 @@
 /obj/structure/desertdam/decals/road_edge,
 /turf/open/asphalt,
 /area/desert_dam/exterior/valley/valley_labs)
+"tcB" = (
+/obj/structure/machinery/camera/autoname/lz_camera,
+/turf/open/floor/plating,
+/area/desert_dam/exterior/landing_pad_two)
 "tdf" = (
 /obj/structure/surface/table,
 /obj/item/folder/yellow,
@@ -51892,6 +51896,21 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/floor/prison,
 /area/desert_dam/building/cafeteria/loading)
+<<<<<<< HEAD
+=======
+"uGU" = (
+/obj/effect/decal/sand_overlay/sand1/corner1{
+	dir = 8
+	},
+/turf/open/desert/dirt{
+	icon_state = "dirt2"
+	},
+/area/desert_dam/exterior/valley/valley_crashsite)
+"uHT" = (
+/obj/structure/machinery/camera/autoname/lz_camera,
+/turf/open/floor/plating,
+/area/desert_dam/exterior/landing_pad_one)
+>>>>>>> cmss13-devs/master
 "uKo" = (
 /obj/structure/platform/mineral/sandstone/runed{
 	dir = 4
@@ -56764,6 +56783,7 @@ dTs
 cDb
 cDK
 cDY
+tcB
 cDY
 cDY
 cDY
@@ -56772,6 +56792,7 @@ cDY
 cDY
 cDY
 cDY
+tcB
 cDY
 cDY
 cDY
@@ -56780,9 +56801,7 @@ cDY
 cDY
 cDY
 cDY
-cDY
-cDY
-cDY
+tcB
 cDY
 cMD
 cBS
@@ -59104,6 +59123,7 @@ uTo
 cDb
 cDV
 cDY
+tcB
 cDY
 cDY
 cDY
@@ -59112,6 +59132,7 @@ cDY
 cDY
 cDY
 cDY
+tcB
 cDY
 cDY
 cDY
@@ -59120,9 +59141,7 @@ cDY
 cDY
 cDY
 cDY
-cDY
-cDY
-cDY
+tcB
 cDY
 cNb
 cBS
@@ -59626,6 +59645,7 @@ aUD
 aVj
 acI
 aWh
+uHT
 aWh
 aWh
 aWh
@@ -59634,6 +59654,7 @@ aWh
 aWh
 aWh
 aWh
+uHT
 aWh
 aWh
 aWh
@@ -59642,9 +59663,7 @@ aWh
 aWh
 aWh
 aWh
-aWh
-aWh
-aWh
+uHT
 aWh
 bAF
 aVi
@@ -61966,6 +61985,7 @@ aUD
 aVg
 acJ
 aWh
+uHT
 aWh
 aWh
 aWh
@@ -61974,6 +61994,7 @@ aWh
 aWh
 aWh
 aWh
+uHT
 aWh
 aWh
 aWh
@@ -61982,9 +62003,7 @@ aWh
 aWh
 aWh
 aWh
-aWh
-aWh
-aWh
+uHT
 aWh
 bFg
 aVi

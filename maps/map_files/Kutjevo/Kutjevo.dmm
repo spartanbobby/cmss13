@@ -486,6 +486,10 @@
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/kutjevo/exterior/scrubland)
+"aKg" = (
+/obj/structure/tunnel,
+/turf/open/auto_turf/sand/layer0,
+/area/kutjevo/interior/colony_South)
 "aKl" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 1
@@ -848,8 +852,13 @@
 /area/kutjevo/interior/construction)
 "bsq" = (
 /obj/structure/tunnel,
+<<<<<<< HEAD
 /turf/open/auto_turf/snow/layer0,
 /area/kutjevo/interior/colony_central)
+=======
+/turf/open/auto_turf/sand/layer0,
+/area/kutjevo/interior/colony_north)
+>>>>>>> cmss13-devs/master
 "bsw" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8
@@ -7664,11 +7673,17 @@
 /turf/open/floor/almayer/research/containment/floor2,
 /area/kutjevo/interior/complex/med/auto_doc)
 "lZT" = (
+<<<<<<< HEAD
 /obj/structure/tunnel{
 	id = "hole1"
 	},
 /turf/open/auto_turf/snow/layer4,
 /area/kutjevo/interior/colony_north)
+=======
+/obj/structure/tunnel,
+/turf/open/auto_turf/sand/layer1,
+/area/kutjevo/exterior/construction)
+>>>>>>> cmss13-devs/master
 "lZZ" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 4
@@ -8463,11 +8478,23 @@
 /turf/closed/wall/kutjevo/colony/reinforced/hull,
 /area/kutjevo/interior/complex/botany/east)
 "niP" = (
+<<<<<<< HEAD
 /obj/structure/tunnel{
 	id = "hole3"
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/kutjevo/exterior/complex_border/botany_medical_cave)
+=======
+/obj/structure/tunnel,
+/turf/open/auto_turf/sand/layer0,
+/area/kutjevo/exterior/runoff_river)
+"niT" = (
+/obj/structure/flora/grass/tallgrass/desert/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/sand/layer0,
+/area/kutjevo/exterior/runoff_dunes)
+>>>>>>> cmss13-devs/master
 "njQ" = (
 /obj/effect/landmark/corpsespawner/security/marshal,
 /turf/open/floor/kutjevo/tan/multi_tiles,
@@ -10424,6 +10451,10 @@
 	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner,
 /area/kutjevo/interior/complex/med/triage)
+"pVH" = (
+/obj/structure/tunnel,
+/turf/open/auto_turf/sand/layer2,
+/area/kutjevo/exterior/runoff_river)
 "pWe" = (
 /obj/structure/platform_decoration/strata{
 	dir = 1
@@ -10866,11 +10897,17 @@
 	},
 /area/kutjevo/interior/oob)
 "qLV" = (
+<<<<<<< HEAD
 /obj/structure/tunnel{
 	id = "hole2"
 	},
 /turf/open/auto_turf/snow/layer3,
 /area/kutjevo/exterior/stonyfields)
+=======
+/obj/structure/tunnel,
+/turf/open/auto_turf/sand/layer0,
+/area/kutjevo/interior/colony_S_East)
+>>>>>>> cmss13-devs/master
 "qMC" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -13960,11 +13997,17 @@
 /turf/open/floor/kutjevo/multi_tiles,
 /area/kutjevo/exterior/runoff_bridge)
 "vzy" = (
+<<<<<<< HEAD
 /obj/structure/tunnel{
 	id = "hole4"
 	},
 /turf/open/auto_turf/snow/layer2,
 /area/kutjevo/exterior/scrubland)
+=======
+/obj/structure/tunnel,
+/turf/open/gm/dirtgrassborder2,
+/area/kutjevo/exterior/complex_border/med_park)
+>>>>>>> cmss13-devs/master
 "vzC" = (
 /obj/structure/platform/kutjevo{
 	dir = 1
@@ -17878,8 +17921,8 @@ wGH
 cWV
 exI
 nbV
-nbV
 umo
+nbV
 nbV
 nbV
 lAI
@@ -18950,8 +18993,8 @@ xrT
 xBm
 wvX
 hzN
-hzN
 wqk
+hzN
 hzN
 hzN
 ppX
@@ -19548,8 +19591,8 @@ wGH
 cWV
 uhO
 bbc
-nbV
 umo
+nbV
 nbV
 nbV
 lAI
@@ -20620,8 +20663,8 @@ oJE
 xBm
 saK
 hzN
-hzN
 wqk
+hzN
 hzN
 hzN
 ppX
@@ -25823,6 +25866,7 @@ xrT
 xrT
 huR
 huR
+<<<<<<< HEAD
 xrT
 xrT
 ybV
@@ -25830,6 +25874,56 @@ ybV
 xMV
 xrT
 xrT
+=======
+sVF
+sVF
+hrz
+hrz
+iin
+sVF
+sVF
+kIn
+kIn
+sYd
+sYd
+bXl
+sYd
+sYd
+sYd
+sYd
+bXl
+kIn
+sYd
+bXl
+sYd
+bXl
+bXl
+bXl
+dUE
+sYd
+bXl
+bXl
+bXl
+bXl
+sYd
+bXl
+sYd
+bXl
+sYd
+sYd
+sYd
+bXl
+bXl
+bXl
+bXl
+sYd
+jtJ
+sYd
+sYd
+sYd
+sYd
+sYd
+>>>>>>> cmss13-devs/master
 kIn
 kIn
 wae
@@ -29343,12 +29437,21 @@ lkC
 uHP
 qVU
 jkR
+<<<<<<< HEAD
 wei
 wei
 wei
 wei
 wei
 tKY
+=======
+bEp
+bEp
+bEp
+bEp
+bEp
+niP
+>>>>>>> cmss13-devs/master
 dic
 dic
 dic
@@ -31413,7 +31516,7 @@ xJg
 xJg
 xJg
 xJg
-qLV
+xJg
 jfQ
 jfQ
 xJg
@@ -32697,7 +32800,7 @@ jhS
 jhS
 jhS
 wff
-niP
+wff
 wff
 wff
 jhS
@@ -33325,7 +33428,7 @@ dxF
 mxB
 mxB
 mxB
-quy
+vzy
 tUm
 wYp
 bGV
@@ -35571,7 +35674,7 @@ nKh
 nKh
 nKh
 wtH
-sbX
+pVH
 mtS
 fPH
 jnY
@@ -40506,6 +40609,7 @@ wTt
 hUk
 hUk
 hUk
+<<<<<<< HEAD
 gSi
 gSi
 ttK
@@ -40515,6 +40619,17 @@ dMX
 ttK
 gSi
 lZT
+=======
+bEH
+bEH
+bkR
+bkR
+bkR
+wTt
+bkR
+bEH
+bEH
+>>>>>>> cmss13-devs/master
 hUk
 hUk
 hUk
@@ -40861,7 +40976,7 @@ hUk
 hUk
 hUk
 hUk
-xWK
+lZT
 nlA
 xWK
 xWK
@@ -44585,11 +44700,19 @@ wXd
 wXd
 wXd
 wXd
+<<<<<<< HEAD
 uNW
 uNW
 uNW
 uNW
 uNW
+=======
+aKg
+bpj
+npL
+bpj
+bpj
+>>>>>>> cmss13-devs/master
 iwF
 iwF
 uNW
@@ -46504,16 +46627,25 @@ pfq
 wTt
 wTt
 cTY
+<<<<<<< HEAD
 wTt
 wTt
 wTt
 wTt
 wTt
+=======
+bkR
+bkR
+bkR
+wTt
+bsq
+>>>>>>> cmss13-devs/master
 hUk
 hUk
 hUk
 hUk
 wTt
+<<<<<<< HEAD
 wTt
 wTt
 wTt
@@ -46557,6 +46689,51 @@ yjO
 yjO
 yjO
 yjO
+=======
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+bkR
+wTt
+bkR
+bkR
+wTt
+bEH
+hSU
+wTt
+wTt
+uiK
+uiK
+mnT
+mnT
+nlv
+mnT
+mnT
+mnT
+mnT
+mnT
+mnT
+mnT
+mnT
+mnT
+uiK
+uiK
+mnT
+nlv
+mnT
+nlv
+mnT
+mnT
+mnT
+uiK
+>>>>>>> cmss13-devs/master
 feg
 lEA
 feg
@@ -47882,10 +48059,17 @@ sNZ
 feg
 feg
 feg
+<<<<<<< HEAD
 bsq
 yjO
 yjO
 yjO
+=======
+uiK
+mnT
+mnT
+mnT
+>>>>>>> cmss13-devs/master
 feg
 feg
 feg
@@ -52251,11 +52435,18 @@ ptY
 ptY
 vdv
 ptY
+<<<<<<< HEAD
 ptY
 ptY
 ptY
 ptY
 ptY
+=======
+ebB
+ebB
+bOc
+qLV
+>>>>>>> cmss13-devs/master
 dxF
 uNW
 fll

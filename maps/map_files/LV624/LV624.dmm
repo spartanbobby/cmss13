@@ -10395,7 +10395,7 @@
 "bnz" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1;
-	name = "\improper Corporate Liason"
+	name = "\improper Corporate Liaison"
 	},
 /turf/open/floor{
 	icon_state = "white"
@@ -14366,7 +14366,7 @@
 "pQn" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	locked = 1;
-	name = "\improper Corporate Liason"
+	name = "\improper Corporate Liaison"
 	},
 /turf/open/floor{
 	icon_state = "white"
@@ -23920,7 +23920,7 @@ aZP
 aOB
 oOB
 aRg
-aRg
+aCi
 aRg
 aRg
 aRg
@@ -23938,7 +23938,7 @@ aRg
 aRg
 aRg
 aRg
-aRg
+aCi
 aRg
 odw
 aRg
@@ -24150,7 +24150,6 @@ aTv
 aRg
 aRg
 aRg
-aCi
 aRg
 aRg
 aRg
@@ -24165,7 +24164,8 @@ aRg
 aRg
 aRg
 aRg
-aCi
+aRg
+aRg
 aKO
 aRg
 aEw
@@ -25974,7 +25974,7 @@ aTv
 aRg
 aRg
 aRg
-aCi
+aRg
 aRg
 aRg
 aRg
@@ -25989,7 +25989,7 @@ aRg
 aRg
 aRg
 aRg
-aCi
+aRg
 aRg
 aRg
 aEw
@@ -26200,7 +26200,7 @@ aZP
 aOB
 kvE
 aRg
-aRg
+aCi
 aRg
 aRg
 aRg
@@ -26218,7 +26218,7 @@ aRg
 aRg
 aRg
 aRg
-aRg
+aCi
 aRg
 byK
 aRg
@@ -50603,8 +50603,8 @@ aGz
 aGz
 aDJ
 ank
-ank
 ano
+ank
 ank
 ank
 ank
@@ -52883,8 +52883,8 @@ btF
 aDi
 aDL
 ank
-ank
 ano
+ank
 ank
 ank
 ank
