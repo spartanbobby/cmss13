@@ -9,9 +9,24 @@
 /turf/open/floor/carpet,
 /area/varadero/interior/chapel)
 "aaA" = (
-/obj/effect/landmark/monkey_spawn,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
+/area/varadero/interior/comms2)
 "aaB" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva{
@@ -275,6 +290,10 @@
 	},
 /turf/open/gm/dirt,
 /area/varadero/exterior/farocean)
+"akZ" = (
+/obj/structure/sign/safety/restrictedarea,
+/turf/closed/wall/r_wall,
+/area/varadero/interior/oob)
 "alB" = (
 /obj/effect/overlay/palmtree_r{
 	icon_state = "palm2";
@@ -1089,7 +1108,7 @@
 	pixel_y = 8
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "aTS" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva{
@@ -1465,6 +1484,11 @@
 /obj/structure/fence,
 /turf/open/gm/coast/north,
 /area/varadero/exterior/lz2_near)
+"blq" = (
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior_protected/caves/central)
 "blz" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -1930,6 +1954,12 @@
 	},
 /turf/open/gm/dirt,
 /area/varadero/exterior/lz2_near)
+"bCF" = (
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowcorners"
+	},
+/area/varadero/interior/electrical)
 "bDn" = (
 /obj/structure/bedsheetbin,
 /obj/item/ammo_magazine/rifle/m4ra,
@@ -2095,7 +2125,7 @@
 	pixel_y = 16
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "bLn" = (
 /obj/item/shard{
 	icon_state = "large";
@@ -2283,8 +2313,23 @@
 	},
 /area/varadero/interior/caves/north_research)
 "bRa" = (
-/turf/open/floor/almayer,
-/area/varadero/interior_protected/caves/central)
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
+/area/varadero/interior/comms2)
 "bRe" = (
 /obj/structure/largecrate/random,
 /turf/open/shuttle/elevator/grating,
@@ -2307,7 +2352,7 @@
 	pixel_y = -6
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "bRM" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /obj/structure/machinery/storm_siren{
@@ -2325,7 +2370,7 @@
 "bRV" = (
 /obj/item/reagent_container/food/snacks/eat_bar,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "bSv" = (
 /obj/structure/stairs/perspective{
 	color = "#b29082";
@@ -2517,6 +2562,10 @@
 	icon_state = "asteroidwarning"
 	},
 /area/varadero/exterior/lz1_near)
+"cam" = (
+/obj/structure/prop/dam/truck/cargo,
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/north_research)
 "cap" = (
 /obj/structure/machinery/power/apc{
 	dir = 1;
@@ -2753,7 +2802,7 @@
 "cjp" = (
 /obj/structure/barricade/wooden,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "cjw" = (
 /obj/structure/cargo_container/kelland/right,
 /turf/open/auto_turf/sand_white/layer1,
@@ -2765,8 +2814,8 @@
 "cjV" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/blood/oil/streak,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "cjX" = (
@@ -2938,7 +2987,7 @@
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "cqS" = (
 /turf/closed/wall/r_wall,
 /area/varadero/exterior/lz2_near)
@@ -3028,10 +3077,24 @@
 	},
 /area/varadero/interior/electrical)
 "cuR" = (
-/turf/open/floor{
-	icon_state = "asteroidwarning"
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = -8;
+	pixel_y = 11
 	},
-/area/varadero/interior_protected/caves/central)
+/obj/structure/filingcabinet{
+	density = 0;
+	icon_state = "chestdrawer";
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
+/area/varadero/interior/comms2)
 "cuU" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/exterior/pontoon_beach)
@@ -3237,8 +3300,9 @@
 /obj/structure/machinery/storm_siren{
 	pixel_y = 5
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "cCv" = (
@@ -3376,8 +3440,8 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "cFk" = (
@@ -3544,10 +3608,11 @@
 "cLP" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/tool,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/comms2)
+/area/varadero/interior/electrical)
 "cMQ" = (
 /obj/structure/machinery/landinglight/ds2/delayone{
 	dir = 4
@@ -3570,6 +3635,11 @@
 	icon_state = "multi_tiles"
 	},
 /area/varadero/interior/electrical)
+"cNA" = (
+/obj/structure/flora/bush/ausbushes/var3/stalkybush,
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "cOH" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1;
@@ -3579,24 +3649,6 @@
 	icon_state = "floor3"
 	},
 /area/varadero/interior/medical)
-"cOJ" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = -8;
-	pixel_y = 11
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = 8;
-	pixel_y = 11
-	},
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/comms2)
 "cON" = (
 /obj/item/prop/almayer/comp_open,
 /obj/structure/surface/table,
@@ -3656,6 +3708,15 @@
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/dirt,
 /area/varadero/exterior/lz2_near)
+"cPZ" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 9
+	},
+/turf/open/floor/shiva{
+	dir = 10;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "cQi" = (
 /obj/effect/landmark/xeno_hive_spawn,
 /obj/effect/landmark/ert_spawns/groundside_xeno,
@@ -3905,11 +3966,11 @@
 /turf/open/floor/wood,
 /area/varadero/interior_protected/caves/swcaves)
 "cZx" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
-/area/varadero/interior_protected/caves/central)
+/area/varadero/interior/comms2)
 "cZW" = (
 /obj/structure/prop/rock/brown,
 /obj/structure/platform/kutjevo/smooth{
@@ -4102,7 +4163,7 @@
 	},
 /obj/structure/surface/rack,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "dgj" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
@@ -4651,6 +4712,12 @@
 	icon_state = "asteroidplating"
 	},
 /area/varadero/interior/comms1)
+"dyB" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/shiva{
+	dir = 1
+	},
+/area/varadero/interior/electrical)
 "dyT" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/carpet,
@@ -4794,6 +4861,10 @@
 /obj/structure/largecrate/supply/supplies/water,
 /turf/open/floor/interior/plastic,
 /area/varadero/interior_protected/caves/digsite)
+"dHK" = (
+/obj/structure/prop/dam/truck/mining,
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/north_research)
 "dJf" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -4869,7 +4940,7 @@
 "dLb" = (
 /obj/structure/largecrate/supply/supplies/mre,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "dLs" = (
 /obj/structure/machinery/light,
 /turf/open/floor{
@@ -5056,9 +5127,12 @@
 	},
 /area/varadero/interior/cargo)
 "dVt" = (
-/obj/structure/largecrate/supply,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/obj/structure/closet/wardrobe/engineering_yellow,
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
+	},
+/area/varadero/interior/comms2)
 "dVN" = (
 /obj/effect/decal/strata_decals/grime/grime2,
 /obj/item/weapon/gun/rifle/m41a,
@@ -5375,7 +5449,7 @@
 "eeh" = (
 /obj/effect/landmark/corpsespawner/colonist/burst,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "eem" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/gm/grass/grass1/weedable,
@@ -6679,6 +6753,10 @@
 	icon_state = "squareswood"
 	},
 /area/varadero/interior_protected/vessel)
+"ffT" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/electrical)
 "ffY" = (
 /obj/structure/prop/rock/brown,
 /turf/open/gm/river{
@@ -7145,10 +7223,10 @@
 /area/varadero/interior/administration)
 "fxL" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "fxS" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor{
@@ -7220,11 +7298,17 @@
 	},
 /area/varadero/interior/comms1)
 "fCi" = (
-/turf/open/floor{
-	dir = 5;
-	icon_state = "asteroidwarning"
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 1;
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
 	},
-/area/varadero/interior_protected/caves/central)
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "multi_tiles"
+	},
+/area/varadero/interior/comms3)
 "fDQ" = (
 /turf/open/floor/shiva{
 	icon_state = "red"
@@ -7242,8 +7326,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "fFl" = (
@@ -7515,7 +7599,7 @@
 	pixel_y = -7
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "fNd" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor{
@@ -7544,6 +7628,14 @@
 	},
 /turf/open/gm/dirt,
 /area/varadero/exterior/eastbeach)
+"fOU" = (
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/digsite)
 "fPa" = (
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/gm/dirt,
@@ -7716,9 +7808,11 @@
 /turf/open/gm/dirt,
 /area/varadero/exterior/eastbeach)
 "fYe" = (
-/obj/structure/prop/rock/brown,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/comms2)
 "fYw" = (
 /obj/item/trash/liquidfood,
 /turf/open/floor/shiva{
@@ -8385,6 +8479,10 @@
 	},
 /turf/open/gm/dirt,
 /area/varadero/exterior/eastbeach)
+"gAs" = (
+/obj/structure/sign/safety/restrictedarea,
+/turf/closed/wall/r_wall,
+/area/varadero/interior_protected/caves/central)
 "gAy" = (
 /obj/structure/target/syndicate,
 /turf/open/auto_turf/sand_white/layer1,
@@ -8396,12 +8494,15 @@
 	},
 /area/varadero/interior/oob)
 "gBc" = (
-/obj/structure/window/framed/colony/reinforced,
-/obj/structure/window/framed/colony/reinforced,
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/machinery/door/airlock/almayer/engineering{
+	dir = 1;
+	req_access_txt = "100"
+	},
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "gBB" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva{
@@ -9076,7 +9177,7 @@
 "gXN" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "gXY" = (
 /obj/item/paper/crumpled/bloody,
 /obj/effect/landmark/corpsespawner/security,
@@ -9180,11 +9281,9 @@
 /turf/open/gm/dirt,
 /area/varadero/exterior/eastbeach)
 "hdk" = (
-/turf/open/floor{
-	dir = 10;
-	icon_state = "asteroidwarning"
-	},
-/area/varadero/interior_protected/caves/central)
+/obj/structure/largecrate/random,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/maintenance/security)
 "hdt" = (
 /obj/structure/closet/crate/construction,
 /obj/item/tool/pickaxe,
@@ -9661,6 +9760,13 @@
 	},
 /turf/open/gm/dirt,
 /area/varadero/exterior/pontoon_beach)
+"htl" = (
+/obj/structure/stairs/perspective{
+	color = "#6b675e";
+	icon_state = "p_stair_full"
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/hall_SE)
 "htn" = (
 /turf/open/gm/dirt{
 	icon_state = "desert2"
@@ -9760,8 +9866,8 @@
 /area/varadero/exterior/eastocean)
 "hvy" = (
 /obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "hvO" = (
@@ -9866,10 +9972,8 @@
 	dir = 4
 	},
 /obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "hyU" = (
 /obj/structure/closet/wardrobe/chaplain_black,
 /obj/effect/landmark/objective_landmark/close,
@@ -9892,19 +9996,8 @@
 	},
 /area/varadero/interior/medical)
 "hAK" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = -8
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = 8
-	},
-/obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "hAN" = (
@@ -9989,6 +10082,14 @@
 "hCJ" = (
 /turf/closed/wall/huntership,
 /area/varadero/interior_protected/vessel)
+"hCO" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/stairs/perspective{
+	color = "#6b675e";
+	icon_state = "p_stair_full"
+	},
+/turf/open/gm/dirt2,
+/area/varadero/interior/hall_SE)
 "hCS" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -10038,8 +10139,8 @@
 /area/varadero/interior/maintenance/north)
 "hEI" = (
 /obj/structure/machinery/light/small,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "hFU" = (
@@ -10061,7 +10162,7 @@
 /obj/structure/closet/crate/construction,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "hGP" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -10195,7 +10296,7 @@
 "hLL" = (
 /obj/structure/largecrate/random/mini/wooden,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "hLS" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/dirt,
@@ -10296,6 +10397,16 @@
 	icon_state = "multi_tiles"
 	},
 /area/varadero/interior/cargo)
+"hPY" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/electrical)
 "hQj" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8;
@@ -10332,9 +10443,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "hQE" = (
 /obj/structure/machinery/light{
@@ -10788,10 +10897,10 @@
 	},
 /area/varadero/interior/cargo)
 "ikm" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/effect/landmark/queen_spawn,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/turf/open/floor/shiva{
+	dir = 1
+	},
+/area/varadero/interior/comms2)
 "ikY" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -10802,23 +10911,6 @@
 	icon_state = "yellow"
 	},
 /area/varadero/interior/cargo)
-"ilo" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = 8;
-	pixel_y = 11
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	icon_state = "chestdrawer";
-	pixel_x = -8;
-	pixel_y = 11
-	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/comms2)
 "ilV" = (
 /turf/open/floor/shiva{
 	dir = 8;
@@ -12164,7 +12256,7 @@
 "jok" = (
 /obj/structure/girder/displaced,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "joF" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -12273,6 +12365,12 @@
 	name = "shallow ocean"
 	},
 /area/varadero/interior_protected/caves/digsite)
+"jsy" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/shiva{
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "jsG" = (
 /obj/effect/landmark/objective_landmark/far,
 /obj/structure/surface/table/reinforced/prison,
@@ -12461,7 +12559,7 @@
 /turf/open/floor{
 	icon_state = "asteroidwarning"
 	},
-/area/varadero/exterior/monsoon)
+/area/varadero/interior_protected/caves/digsite)
 "jyU" = (
 /obj/structure/machinery/alarm{
 	dir = 8;
@@ -13061,7 +13159,7 @@
 "jWF" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_core,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "jXb" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -13235,26 +13333,22 @@
 /turf/open/shuttle/elevator,
 /area/varadero/interior/records)
 "kcG" = (
-/obj/structure/platform_decoration/kutjevo,
-/obj/item/lightstick/red/spoke/planted{
-	indestructible = 1;
-	pixel_x = -10;
-	pixel_y = 2;
-	unacidable = 1
+/obj/structure/barricade/wooden{
+	dir = 8
 	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/maintenance/security)
 "kcM" = (
 /turf/open/gm/dirt{
 	icon_state = "desert1"
 	},
 /area/varadero/exterior/monsoon)
 "kdA" = (
-/obj/structure/platform_decoration/kutjevo{
-	dir = 1
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowcorners"
 	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/area/varadero/interior/comms2)
 "kdH" = (
 /obj/structure/machinery/storm_siren{
 	dir = 4;
@@ -13458,7 +13552,7 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "kmK" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno/limb,
 /turf/open/floor{
@@ -13524,7 +13618,7 @@
 	},
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "kpE" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/shiva{
@@ -13744,13 +13838,8 @@
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves/swcaves)
 "kzf" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	dir = 8;
-	layer = 2.99
-	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/turf/closed/wall/rock/brown,
+/area/varadero/exterior/eastocean)
 "kzo" = (
 /obj/effect/landmark/hunter_secondary,
 /obj/effect/decal/cleanable/blood/drip,
@@ -13815,7 +13904,7 @@
 	dir = 1
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/caves/east)
 "kAl" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -13943,6 +14032,10 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
 /area/varadero/interior/maintenance/north)
+"kFR" = (
+/obj/structure/fence,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/varadero/interior_protected/caves/central)
 "kGr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
@@ -14068,11 +14161,6 @@
 	},
 /area/varadero/interior/caves/north_research)
 "kLV" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	dir = 8;
-	layer = 2.99
-	},
 /obj/structure/machinery/storm_siren{
 	dir = 4;
 	pixel_x = -3
@@ -14319,9 +14407,11 @@
 	},
 /area/varadero/interior/comms3)
 "kWj" = (
-/obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/comms2)
 "kXd" = (
 /obj/structure/machinery/door/airlock/almayer/engineering{
 	name = "\improper Underground Engineering Locker Room";
@@ -14460,7 +14550,7 @@
 	dir = 10;
 	icon_state = "asteroidwarning"
 	},
-/area/varadero/interior_protected/caves/central)
+/area/varadero/interior_protected/caves/swcaves)
 "lcR" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/corsat{
@@ -14471,7 +14561,7 @@
 "ldk" = (
 /obj/structure/closet/crate/miningcar,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "ldo" = (
 /obj/structure/stairs/perspective{
 	color = "#b29082";
@@ -14565,11 +14655,9 @@
 /turf/closed/wall,
 /area/varadero/interior/hall_N)
 "liR" = (
-/turf/open/floor{
-	dir = 6;
-	icon_state = "asteroidwarning"
-	},
-/area/varadero/interior_protected/caves/central)
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "ljq" = (
 /turf/open/floor/shiva{
 	dir = 4;
@@ -14624,8 +14712,8 @@
 /area/varadero/interior/hall_SE)
 "lln" = (
 /obj/item/tool/wrench,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "llq" = (
@@ -14642,11 +14730,6 @@
 	},
 /area/varadero/interior/electrical)
 "llE" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	dir = 8;
-	layer = 2.99
-	},
 /obj/item/lightstick/red/spoke/planted{
 	indestructible = 1;
 	pixel_x = -1;
@@ -14888,8 +14971,9 @@
 /area/varadero/interior/bunks)
 "lsh" = (
 /obj/structure/largecrate/random,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
 /area/varadero/interior/comms2)
 "lsu" = (
@@ -15218,17 +15302,11 @@
 /turf/open/gm/coast/east,
 /area/varadero/exterior/lz2_near)
 "lFW" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	dir = 8;
-	layer = 2.99
+/obj/structure/machinery/light/small{
+	dir = 8
 	},
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	layer = 2.99
-	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/maintenance/security)
 "lHf" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -15239,10 +15317,6 @@
 	},
 /area/varadero/interior/hall_SE)
 "lHF" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	layer = 2.99
-	},
 /obj/item/lightstick/red/spoke/planted{
 	indestructible = 1;
 	pixel_x = -1;
@@ -15264,10 +15338,6 @@
 	},
 /area/varadero/interior_protected/caves/swcaves)
 "lIt" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	layer = 2.99
-	},
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_x = 16;
@@ -15334,7 +15404,7 @@
 	pixel_y = 7
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "lJS" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/auto_turf/sand_white/layer1,
@@ -15707,12 +15777,6 @@
 	},
 /turf/open/gm/coast/beachcorner2/north_east,
 /area/varadero/interior_protected/caves/swcaves)
-"lTO" = (
-/obj/structure/closet/wardrobe/engineering_yellow,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/comms2)
 "lTR" = (
 /obj/effect/landmark/ert_spawns/groundside_xeno,
 /turf/open/floor/shiva{
@@ -15724,15 +15788,24 @@
 	dir = 4;
 	icon_state = "chair_alt"
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
+"lUj" = (
+/obj/structure/stairs/perspective{
+	color = "#6b675e";
+	icon_state = "p_stair_full"
+	},
+/turf/open/gm/dirt2,
+/area/varadero/interior/hall_SE)
 "lUs" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/toolbox/mechanical/green,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "lUG" = (
@@ -15755,8 +15828,9 @@
 	dir = 8;
 	icon_state = "chair_alt"
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 5;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "lVC" = (
@@ -16012,6 +16086,13 @@
 	icon_state = "multi_tiles"
 	},
 /area/varadero/interior/electrical)
+"mdi" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "mei" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -16037,8 +16118,8 @@
 	dir = 4
 	},
 /obj/item/tool/screwdriver,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "meQ" = (
@@ -16067,8 +16148,8 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "mhd" = (
@@ -16081,8 +16162,9 @@
 /obj/structure/machinery/power/apc{
 	dir = 1
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
 /area/varadero/interior/comms2)
 "mhf" = (
@@ -16103,9 +16185,7 @@
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "mhG" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -16259,7 +16339,7 @@
 	pixel_y = -4
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "mnm" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass{
 	dir = 1;
@@ -16687,8 +16767,11 @@
 	},
 /area/varadero/exterior/lz1_near)
 "mBB" = (
-/turf/open/gm/coast/south,
-/area/varadero/exterior/monsoon)
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellowcorners"
+	},
+/area/varadero/interior/electrical)
 "mBG" = (
 /obj/structure/pipes/standard/manifold/fourway/hidden/green,
 /obj/effect/landmark/corpsespawner/doctor,
@@ -17073,16 +17156,13 @@
 /turf/open/floor/carpet,
 /area/varadero/interior/chapel)
 "mQi" = (
-/obj/structure/platform_decoration/kutjevo{
-	dir = 1
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice1";
-	pixel_x = -16;
-	pixel_y = -8
-	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/oob)
 "mQv" = (
 /obj/structure/bed/chair,
 /obj/structure/machinery/storm_siren{
@@ -17249,6 +17329,14 @@
 	icon_state = "green"
 	},
 /area/varadero/interior/hall_SE)
+"mUY" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/maintenance/security)
 "mVT" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer1,
@@ -17349,9 +17437,7 @@
 	req_access_txt = "100";
 	req_one_access = null
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/floor/plating,
 /area/varadero/interior/hall_SE)
 "mXT" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -17359,6 +17445,14 @@
 	icon_state = "asteroidplating"
 	},
 /area/varadero/interior/maintenance/north)
+"mXU" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 10
+	},
+/turf/open/floor/shiva{
+	icon_state = "yellowcorners"
+	},
+/area/varadero/interior/electrical)
 "mZL" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -17423,8 +17517,9 @@
 	pixel_x = 3;
 	pixel_y = 17
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "ncy" = (
@@ -17693,9 +17788,7 @@
 "nkG" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/item/device/flashlight/lamp/tripod,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "nkR" = (
 /obj/structure/bed/chair{
@@ -17707,8 +17800,9 @@
 	pixel_x = -10;
 	pixel_y = -9
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
 /area/varadero/interior/comms2)
 "nln" = (
@@ -17721,8 +17815,9 @@
 	dir = 8;
 	pixel_x = 3
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "nlN" = (
@@ -17975,7 +18070,7 @@
 "nvn" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "nvv" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/river/ocean{
@@ -17994,12 +18089,16 @@
 /area/varadero/interior/hall_SE)
 "nwd" = (
 /obj/effect/landmark/corpsespawner/miner,
-/turf/open/auto_turf/sand_white/layer1,
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
 /area/varadero/interior/maintenance/security)
 "nwi" = (
-/obj/structure/prop/rock/brown,
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 10
+	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/caves/east)
 "nwq" = (
 /obj/item/clothing/suit/armor/vest,
 /turf/open/floor/shiva{
@@ -18030,12 +18129,10 @@
 	},
 /area/varadero/interior/hall_N)
 "nxH" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	layer = 2.99
-	},
-/turf/open/gm/dirt,
-/area/varadero/exterior/eastbeach)
+/obj/structure/surface/rack,
+/obj/item/tool/screwdriver,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "nya" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
@@ -18159,7 +18256,7 @@
 	pixel_y = -9
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "nBl" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -18583,12 +18680,9 @@
 /turf/open/floor/wood,
 /area/varadero/interior_protected/caves/swcaves)
 "nOq" = (
-/obj/item/stack/tile/plasteel{
-	pixel_x = 8;
-	pixel_y = 6
-	},
+/obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/caves/east)
 "nOx" = (
 /obj/item/stack/sheet/wood{
 	amount = 40
@@ -18624,10 +18718,11 @@
 	pixel_x = 17;
 	pixel_y = 16
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "nPI" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -18653,10 +18748,11 @@
 /area/varadero/interior/research)
 "nPX" = (
 /obj/item/device/flashlight/lamp/tripod,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 5;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "nQo" = (
 /obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/shiva{
@@ -18696,10 +18792,9 @@
 	},
 /area/varadero/interior/caves/north_research)
 "nRO" = (
-/turf/open/floor{
-	icon_state = "asteroidwarning"
-	},
-/area/varadero/interior/oob)
+/obj/structure/largecrate/random,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "nSd" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
@@ -18772,7 +18867,11 @@
 "nTG" = (
 /obj/structure/largecrate/random,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
+"nUd" = (
+/obj/structure/prop/dam/truck,
+/turf/open/gm/dirt2,
+/area/varadero/interior_protected/caves)
 "nUA" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -18781,6 +18880,12 @@
 	icon_state = "floor3"
 	},
 /area/varadero/interior/hall_SE)
+"nVb" = (
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellowcorners"
+	},
+/area/varadero/interior/electrical)
 "nVn" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva{
@@ -18925,7 +19030,11 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/window/framed/colony/reinforced,
+/obj/structure/machinery/door/airlock/almayer/maint{
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
+	},
 /turf/open/floor/plating,
 /area/varadero/interior/hall_SE)
 "ocB" = (
@@ -18934,17 +19043,15 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/caves/east)
 "ods" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
 /obj/structure/closet/crate,
 /obj/item/prop/magazine/dirty/torn/alt,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "odE" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 4
@@ -18959,10 +19066,8 @@
 	},
 /obj/structure/surface/rack,
 /obj/item/tool/wrench,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "odY" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
@@ -18986,10 +19091,11 @@
 	dir = 4;
 	pixel_x = 7
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "oeA" = (
 /obj/structure/prop/souto_land/pole,
 /obj/structure/prop/souto_land/pole{
@@ -19008,7 +19114,7 @@
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "ofE" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
@@ -19176,10 +19282,7 @@
 /area/varadero/interior_protected/caves)
 "omX" = (
 /obj/structure/surface/rack,
-/obj/item/tool/screwdriver,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "ooe" = (
 /obj/structure/bed/chair{
@@ -19187,10 +19290,8 @@
 	pixel_x = 3;
 	pixel_y = 17
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "oos" = (
 /obj/structure/machinery/alarm{
 	pixel_y = 24
@@ -19224,10 +19325,11 @@
 /area/varadero/interior_protected/maintenance/south)
 "oqp" = (
 /obj/structure/closet/crate/trashcart,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellowfull"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "oqt" = (
 /turf/open/floor{
 	dir = 4;
@@ -19504,9 +19606,7 @@
 "oBq" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/toolbox,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "oBJ" = (
 /obj/structure/surface/rack,
@@ -19521,8 +19621,11 @@
 	},
 /area/varadero/interior/caves/north_research)
 "oBU" = (
-/turf/open/gm/dirt,
-/area/varadero/interior/maintenance/security)
+/obj/structure/platform_decoration/kutjevo{
+	dir = 8
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "oCb" = (
 /turf/open/floor/shiva{
 	dir = 8;
@@ -19639,9 +19742,16 @@
 	},
 /area/varadero/interior/medical)
 "oGv" = (
-/obj/item/device/flashlight/lamp/tripod,
+/obj/structure/platform/stair_cut{
+	icon_state = "kutjevo_platform_sm_stair_alt"
+	},
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "oHj" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -19815,24 +19925,25 @@
 /turf/open/floor/wood,
 /area/varadero/interior/hall_SE)
 "oOn" = (
-/turf/open/gm/river{
-	default_name = "shallow ocean";
-	name = "shallow ocean"
+/obj/item/device/flashlight/lamp/tripod,
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "oOr" = (
 /turf/closed/wall/r_wall/elevator{
 	dir = 10
 	},
 /area/varadero/interior/hall_N)
 "oOB" = (
-/obj/structure/barricade/wooden{
-	dir = 4
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/electrical)
 "oPn" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -19847,13 +19958,15 @@
 /turf/open/gm/dirt,
 /area/varadero/interior/caves/north_research)
 "oPs" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/item/stack/tile/plasteel{
 	pixel_x = 8;
 	pixel_y = 6
 	},
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "oPu" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer1,
@@ -19987,13 +20100,19 @@
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "oVw" = (
 /obj/structure/toilet,
 /turf/open/floor{
 	icon_state = "white"
 	},
 /area/varadero/interior/security)
+"oVJ" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior_protected/caves/central)
 "oVM" = (
 /obj/structure/xenoautopsy/tank/larva,
 /turf/open/shuttle{
@@ -20052,10 +20171,12 @@
 	},
 /area/varadero/exterior/comms4)
 "oYQ" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/obj/item/stack/tile/plasteel{
+	layer = 2.89;
+	pixel_x = 17;
+	pixel_y = 16
 	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
 "oYX" = (
 /obj/structure/safe/floor{
@@ -20251,8 +20372,11 @@
 	},
 /area/varadero/interior/cargo)
 "pfI" = (
-/turf/open/floor/plating,
-/area/varadero/interior/maintenance/security)
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 5
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "pfJ" = (
 /obj/structure/prop/ice_colony/tiger_rug{
 	icon_state = "White";
@@ -20876,11 +21000,16 @@
 /turf/open/gm/coast/beachcorner/north_east,
 /area/varadero/interior/caves/east)
 "pEO" = (
-/obj/structure/surface/table/woodentable,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
 	},
-/area/varadero/interior/maintenance/security)
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/electrical)
 "pFd" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -21104,30 +21233,17 @@
 	},
 /area/varadero/exterior/lz1_near)
 "pRm" = (
-/obj/structure/bed/chair{
-	dir = 4;
-	icon_state = "chair_alt";
-	pixel_y = 9
-	},
 /obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
+	dir = 4
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "pSP" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
-"pTg" = (
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/barricade/wooden,
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
@@ -21666,6 +21782,17 @@
 	icon_state = "floor6"
 	},
 /area/varadero/interior_protected/vessel)
+"qeR" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 1;
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/electrical)
 "qfC" = (
 /turf/open/floor/shiva,
 /area/varadero/interior/technical_storage)
@@ -21873,12 +22000,13 @@
 	},
 /area/varadero/interior/research)
 "qnj" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	layer = 2.99
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 4
 	},
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/exterior/eastbeach)
+/turf/open/floor/shiva{
+	dir = 1
+	},
+/area/varadero/interior/electrical)
 "qnA" = (
 /obj/structure/largecrate/supply/supplies/water,
 /turf/open/shuttle/elevator/grating,
@@ -22139,11 +22267,19 @@
 	},
 /area/varadero/interior/research)
 "qwf" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "asteroidwarning"
+/obj/structure/prop/rock/brown,
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 1;
+	layer = 2.99
 	},
-/area/varadero/interior_protected/caves/central)
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "qwu" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/clipboard{
@@ -22447,7 +22583,7 @@
 	req_one_access = null
 	},
 /turf/open/floor/plating,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior/hall_SE)
 "qGu" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -22618,18 +22754,18 @@
 	},
 /area/varadero/interior/hall_N)
 "qMd" = (
-/obj/structure/surface/table,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/obj/structure/platform_decoration/kutjevo{
+	dir = 4
 	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/oob)
 "qMr" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "qMR" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/item/weapon/gun/rifle/m4ra,
@@ -22650,11 +22786,14 @@
 	},
 /area/varadero/interior/toilets)
 "qNn" = (
-/obj/structure/machinery/light/small,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/obj/structure/machinery/light/small{
+	dir = 4
 	},
-/area/varadero/interior/maintenance/security)
+/turf/open/floor/shiva{
+	dir = 4;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "qNB" = (
 /obj/effect/landmark/lv624/fog_blocker{
 	time_to_dispel = 25000
@@ -22943,7 +23082,7 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "qVw" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -22971,8 +23110,13 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/varadero/interior_protected/caves/central)
 "qXO" = (
-/turf/closed/wall/shiva/prefabricated/reinforced,
-/area/varadero/interior_protected/caves/central)
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "qXP" = (
 /obj/structure/prop/rock/brown,
 /turf/open/gm/dirt,
@@ -23073,7 +23217,7 @@
 /obj/structure/surface/rack,
 /obj/item/tool/pickaxe,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "rdO" = (
 /turf/open/gm/dirt2,
 /area/varadero/interior/hall_SE)
@@ -23337,11 +23481,14 @@
 	},
 /area/varadero/interior/security)
 "rhU" = (
-/turf/open/floor{
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
 	dir = 8;
-	icon_state = "asteroidwarning"
+	layer = 2.99
 	},
-/area/varadero/interior_protected/caves/central)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "rir" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -23370,13 +23517,13 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
 "rjH" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 6
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/gm/dirt,
+/area/varadero/interior/electrical)
 "rjM" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -23385,6 +23532,14 @@
 	icon_state = "floor3"
 	},
 /area/varadero/interior/hall_N)
+"rjY" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 5
+	},
+/turf/open/floor/shiva{
+	dir = 1
+	},
+/area/varadero/interior/electrical)
 "rko" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -23788,17 +23943,28 @@
 /turf/open/gm/dirt,
 /area/varadero/exterior/eastbeach)
 "rwS" = (
-/turf/open/floor{
-	dir = 9;
-	icon_state = "asteroidwarning"
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
 	},
-/area/varadero/interior_protected/caves/central)
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/east)
 "rwV" = (
 /obj/structure/machinery/storm_siren{
 	pixel_y = 5
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
+"rxg" = (
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "rxn" = (
 /obj/structure/machinery/photocopier,
 /turf/open/floor/shiva{
@@ -23809,7 +23975,7 @@
 "rxL" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "rxO" = (
 /obj/structure/machinery/r_n_d/server,
 /turf/open/floor/shiva{
@@ -23819,12 +23985,10 @@
 /area/varadero/interior/research)
 "ryt" = (
 /obj/structure/barricade/wooden{
-	dir = 1
+	dir = 8
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/east)
 "ryT" = (
 /obj/structure/machinery/light,
 /obj/structure/barricade/handrail/wire{
@@ -24115,10 +24279,11 @@
 	},
 /area/varadero/interior_protected/vessel)
 "rJf" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
+/obj/structure/barricade/wooden{
+	dir = 4
 	},
-/area/varadero/interior_protected/caves/central)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "rJI" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -24157,11 +24322,10 @@
 	},
 /area/varadero/interior/oob)
 "rKT" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
-	},
-/area/varadero/interior_protected/caves/central)
+/obj/structure/prop/rock/brown,
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/east)
 "rLM" = (
 /obj/item/lightstick/variant/planted,
 /turf/open/gm/dirt,
@@ -24277,7 +24441,7 @@
 	},
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "rRU" = (
 /obj/structure/machinery/light,
 /obj/structure/bed/chair/office/dark{
@@ -24371,10 +24535,11 @@
 /area/varadero/interior/hall_SE)
 "rUT" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "rUV" = (
 /obj/item/shard{
 	icon_state = "large";
@@ -24384,10 +24549,11 @@
 /obj/structure/machinery/storm_siren{
 	pixel_y = 5
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "rUX" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/decal/cleanable/blood/xeno,
@@ -24857,10 +25023,10 @@
 	pixel_x = 17;
 	pixel_y = 16
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "sny" = (
 /obj/structure/closet/secure_closet/security,
 /obj/effect/landmark/objective_landmark/far,
@@ -24895,10 +25061,10 @@
 	},
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "spb" = (
 /obj/item/stack/sheet/metal,
 /turf/open/gm/river/ocean{
@@ -25216,7 +25382,7 @@
 	dir = 4
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "syJ" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/shiva{
@@ -25431,10 +25597,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "sFo" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/auto_turf/sand_white/layer1,
@@ -25544,8 +25710,9 @@
 /turf/open/floor/shiva,
 /area/varadero/interior/technical_storage)
 "sIw" = (
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
 /area/varadero/interior/comms2)
 "sIH" = (
@@ -25959,7 +26126,7 @@
 "sXU" = (
 /obj/structure/largecrate/random,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "sYi" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/hall_SE)
@@ -26007,6 +26174,13 @@
 	icon_state = "asteroidplating"
 	},
 /area/varadero/interior_protected/caves/swcaves)
+"sZC" = (
+/obj/structure/surface/rack,
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "sZW" = (
 /turf/open/gm/dirt,
 /area/varadero/exterior/lz1_near)
@@ -26048,6 +26222,11 @@
 	dir = 1
 	},
 /area/varadero/interior/medical)
+"tcA" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/obj/structure/fence,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "tcK" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -26109,7 +26288,7 @@
 	dir = 4
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "teD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -26131,7 +26310,7 @@
 "tfc" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tft" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor{
 	dir = 1;
@@ -26252,7 +26431,7 @@
 "tij" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tiX" = (
 /obj/structure/airlock_assembly,
 /turf/open/shuttle{
@@ -26382,7 +26561,7 @@
 "tmL" = (
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tnD" = (
 /obj/structure/window/framed/colony/reinforced,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -26553,7 +26732,7 @@
 	pixel_y = 13
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tsC" = (
 /obj/structure/machinery/computer/cameras{
 	dir = 4
@@ -26706,13 +26885,17 @@
 /turf/open/floor/wood,
 /area/varadero/interior/hall_SE)
 "tyz" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/structure/prop/rock/brown,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/exterior/eastbeach)
+/turf/open/gm/dirt,
+/area/varadero/interior/electrical)
 "tyN" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/bed/chair{
@@ -26744,7 +26927,7 @@
 	},
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tzM" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/shiva{
@@ -26793,6 +26976,17 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/gm/dirt,
 /area/varadero/interior/caves/north_research)
+"tCc" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 9
+	},
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/maintenance/security)
 "tCk" = (
 /turf/open/gm/coast/beachcorner/north_east,
 /area/varadero/interior_protected/caves/central)
@@ -26809,14 +27003,14 @@
 	pixel_y = 11
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tDg" = (
 /turf/open/gm/coast/west,
 /area/varadero/interior/oob)
 "tDt" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "tDQ" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -26960,6 +27154,12 @@
 	icon_state = "blue"
 	},
 /area/varadero/interior/hall_SE)
+"tIe" = (
+/turf/open/floor/shiva{
+	dir = 9;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "tIu" = (
 /obj/structure/bed/chair/office/dark,
 /obj/structure/disposalpipe/segment,
@@ -27278,9 +27478,11 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/oob)
 "tTa" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/turf/open/floor{
+	dir = 9;
+	icon_state = "asteroidwarning"
+	},
+/area/varadero/interior/oob)
 "tTv" = (
 /obj/item/ammo_casing{
 	icon_state = "casing_8"
@@ -27513,6 +27715,18 @@
 	icon_state = "yellow"
 	},
 /area/varadero/interior/cargo)
+"tZP" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 1;
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/electrical)
 "uah" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/landmark/objective_landmark/close,
@@ -27636,6 +27850,10 @@
 	icon_state = "squareswood"
 	},
 /area/varadero/interior/oob)
+"uej" = (
+/obj/structure/fence,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/varadero/interior_protected/caves/swcaves)
 "ueB" = (
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
@@ -27734,21 +27952,18 @@
 	},
 /area/varadero/interior/security)
 "uib" = (
-/obj/item/stack/tile/plasteel{
-	pixel_x = 8;
-	pixel_y = 6
+/turf/open/floor{
+	dir = 1;
+	icon_state = "asteroidwarning"
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/caves/east)
+/area/varadero/interior/oob)
 "uig" = (
 /turf/open/gm/dirt2,
 /area/varadero/interior/caves/north_research)
 "uip" = (
 /obj/structure/surface/rack,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "uiq" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/sand_white/layer1,
@@ -28060,11 +28275,11 @@
 	},
 /area/varadero/exterior/comms4)
 "urA" = (
-/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor{
+	dir = 8;
+	icon_state = "asteroidwarning"
 	},
-/area/varadero/interior/caves/east)
+/area/varadero/interior/oob)
 "urD" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
@@ -28085,9 +28300,7 @@
 /area/varadero/interior_protected/caves)
 "usz" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/security)
 "usQ" = (
 /turf/open/floor/shiva{
@@ -28276,11 +28489,8 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/interior/maintenance/security)
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "uAt" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -28395,7 +28605,7 @@
 "uFE" = (
 /obj/item/stack/tile/plasteel,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "uFH" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/disposalpipe/segment,
@@ -28794,7 +29004,7 @@
 	dir = 10
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "uUX" = (
 /obj/effect/landmark/objective_landmark/far,
 /turf/open/shuttle/elevator,
@@ -28944,7 +29154,7 @@
 	dir = 6
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "uZQ" = (
 /turf/open/gm/coast/east,
 /area/varadero/exterior/farocean)
@@ -29101,7 +29311,7 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/item/tool/crowbar/red,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "vel" = (
 /obj/structure/curtain/red,
 /turf/open/shuttle{
@@ -29170,9 +29380,11 @@
 	},
 /area/varadero/interior/hall_SE)
 "vhD" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/plating,
-/area/varadero/interior_protected/maintenance/south)
+/turf/open/floor{
+	dir = 1;
+	icon_state = "asteroidfloor"
+	},
+/area/varadero/interior/oob)
 "vhJ" = (
 /turf/open/floor/shiva{
 	dir = 8;
@@ -29189,7 +29401,7 @@
 	pixel_y = 16
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "viU" = (
 /obj/item/shard{
 	icon_state = "medium";
@@ -29536,7 +29748,7 @@
 	},
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "vuA" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva,
@@ -29942,14 +30154,15 @@
 /area/varadero/exterior/eastbeach)
 "vHu" = (
 /obj/item/stack/sheet/metal,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellow"
 	},
-/area/varadero/interior/maintenance/security)
+/area/varadero/interior/electrical)
 "vHB" = (
-/obj/item/device/flashlight/lamp/tripod,
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/gm/dirt,
+/area/varadero/interior/caves/east)
 "vHE" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/reagent_container/food/drinks/bottle/holywater,
@@ -30067,7 +30280,7 @@
 /turf/open/floor{
 	icon_state = "asteroidwarning"
 	},
-/area/varadero/exterior/monsoon)
+/area/varadero/interior_protected/caves/digsite)
 "vLo" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/disposalpipe/segment{
@@ -30103,13 +30316,20 @@
 	},
 /area/varadero/interior/caves/north_research)
 "vMv" = (
-/turf/closed/wall/r_wall,
-/area/varadero/exterior/monsoon)
-"vMx" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
+/obj/structure/machinery/door/airlock/almayer/engineering{
+	dir = 1;
+	req_access_txt = "100"
 	},
-/area/varadero/exterior/monsoon)
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/electrical)
+"vMx" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "asteroidwarning"
+	},
+/area/varadero/interior/caves/east)
 "vMV" = (
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
@@ -30177,6 +30397,10 @@
 	icon_state = "yellow"
 	},
 /area/varadero/interior/disposals)
+"vQm" = (
+/obj/effect/landmark/queen_spawn,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "vQz" = (
 /obj/structure/pipes/vents/pump{
 	dir = 1
@@ -30195,7 +30419,7 @@
 	dir = 5
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "vRq" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/gm/dirt,
@@ -30344,7 +30568,7 @@
 "vVj" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "vVm" = (
 /obj/structure/prop/structure_lattice{
 	density = 0;
@@ -30388,7 +30612,7 @@
 	pixel_y = 6
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "vWn" = (
 /turf/open/floor/shiva{
 	icon_state = "multi_tiles"
@@ -30525,6 +30749,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
 /area/varadero/interior/hall_SE)
+"wce" = (
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "wcl" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/shiva{
@@ -30759,7 +30987,7 @@
 	dir = 10;
 	icon_state = "asteroidwarning"
 	},
-/area/varadero/exterior/monsoon)
+/area/varadero/interior_protected/caves/digsite)
 "wja" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/gm/dirt2,
@@ -30782,6 +31010,12 @@
 /obj/structure/prop/ice_colony/flamingo,
 /turf/open/gm/dirt2,
 /area/varadero/interior_protected/caves)
+"wjV" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "asteroidfloor"
+	},
+/area/varadero/interior_protected/caves/digsite)
 "wki" = (
 /obj/structure/tunnel{
 	id = "north_research_tunnel"
@@ -30793,11 +31027,12 @@
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves/swcaves)
 "wkt" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
+/obj/structure/closet/crate,
+/turf/open/floor/shiva{
+	dir = 9;
+	icon_state = "yellow"
 	},
-/turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior/electrical)
 "wlB" = (
 /turf/open/gm/coast/beachcorner/south_east,
 /area/varadero/interior/caves/north_research)
@@ -30950,7 +31185,7 @@
 	dir = 4
 	},
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "wtk" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -31199,7 +31434,7 @@
 	dir = 8;
 	icon_state = "asteroidwarning"
 	},
-/area/varadero/exterior/monsoon)
+/area/varadero/interior_protected/caves/digsite)
 "wBU" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/auto_turf/sand_white/layer1,
@@ -31541,7 +31776,7 @@
 "wMl" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "wNa" = (
 /obj/structure/bed/chair{
 	dir = 8;
@@ -31720,6 +31955,7 @@
 /turf/open/gm/coast/beachcorner/north_west,
 /area/varadero/interior_protected/caves/swcaves)
 "wSX" = (
+/obj/structure/sign/safety/restrictedarea,
 /turf/closed/wall/r_wall,
 /area/varadero/interior_protected/caves/swcaves)
 "wTg" = (
@@ -31820,7 +32056,7 @@
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "wYT" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/disposalpipe/segment,
@@ -31976,7 +32212,7 @@
 	dir = 6
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xfe" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -31996,7 +32232,7 @@
 /obj/structure/closet/crate,
 /obj/effect/landmark/objective_landmark/far,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xfo" = (
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
@@ -32048,7 +32284,7 @@
 	},
 /obj/structure/largecrate/random,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xgY" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/icefloor{
@@ -32064,7 +32300,7 @@
 "xhE" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xhF" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/shiva{
@@ -32100,7 +32336,7 @@
 	},
 /obj/structure/surface/rack,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xiZ" = (
 /obj/structure/machinery/light/small{
 	dir = 8
@@ -32132,15 +32368,18 @@
 /turf/closed/wall,
 /area/varadero/interior_protected/maintenance/south)
 "xjB" = (
-/obj/structure/window/framed/colony/reinforced,
-/turf/open/floor/plating,
-/area/varadero/interior/caves/east)
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/shiva{
+	dir = 1;
+	icon_state = "yellowcorners"
+	},
+/area/varadero/interior/electrical)
 "xjG" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 4
 	},
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xke" = (
 /obj/item/explosive/grenade/incendiary,
 /turf/open/floor/shiva{
@@ -32391,7 +32630,7 @@
 "xsH" = (
 /obj/item/stack/tile/plasteel,
 /turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xtC" = (
 /obj/structure/barricade/handrail/wire{
 	layer = 3.1
@@ -32402,8 +32641,8 @@
 /area/varadero/exterior/eastbeach)
 "xuV" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor/shiva{
+	dir = 1
 	},
 /area/varadero/interior/comms2)
 "xuW" = (
@@ -32698,14 +32937,6 @@
 /turf/closed/wall/r_wall,
 /area/varadero/interior/caves/north_research)
 "xBv" = (
-/obj/structure/platform/kutjevo/rock{
-	dir = 1
-	},
-/obj/structure/platform/kutjevo/rock,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = -3
-	},
 /turf/open/gm/river{
 	default_name = "shallow ocean";
 	name = "shallow ocean"
@@ -32714,12 +32945,25 @@
 "xBw" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xBA" = (
 /turf/open/floor/shiva{
 	dir = 1
 	},
 /area/varadero/interior/library)
+"xBL" = (
+/obj/structure/machinery/door/airlock/almayer/maint{
+	name = "\improper Underground Maintenance";
+	req_access_txt = "100";
+	req_one_access = null
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/electrical)
 "xBS" = (
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
@@ -32732,7 +32976,7 @@
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xCn" = (
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves/swcaves)
@@ -32895,7 +33139,7 @@
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
 	},
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xHm" = (
 /obj/structure/filingcabinet,
 /obj/structure/machinery/light/small{
@@ -33055,8 +33299,14 @@
 	},
 /area/varadero/interior/hall_N)
 "xMV" = (
-/turf/open/gm/dirt2,
-/area/varadero/interior_protected/maintenance/south)
+/obj/structure/flora/bush/ausbushes/var3/stalkybush,
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	dir = 8;
+	layer = 2.99
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/east)
 "xNj" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/landmark/survivor_spawner,
@@ -33080,7 +33330,7 @@
 /obj/effect/landmark/xeno_hive_spawn,
 /obj/effect/landmark/ert_spawns/groundside_xeno,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xOG" = (
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/sheet/mineral/phoron/medium_stack{
@@ -33166,7 +33416,7 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "xRE" = (
 /turf/open/floor{
 	icon_state = "white"
@@ -33522,7 +33772,7 @@
 	pixel_x = -3
 	},
 /turf/open/gm/dirt,
-/area/varadero/exterior/monsoon)
+/area/varadero/interior_protected/caves/digsite)
 "ydk" = (
 /turf/open/gm/river{
 	default_name = "shallow ocean";
@@ -33615,7 +33865,7 @@
 /obj/item/device/mass_spectrometer,
 /obj/effect/landmark/xeno_spawn,
 /turf/open/auto_turf/sand_white/layer1,
-/area/varadero/interior_protected/maintenance/south)
+/area/varadero/interior_protected/caves/central)
 "yfQ" = (
 /obj/item/tool/pickaxe,
 /turf/open/auto_turf/sand_white/layer1,
@@ -33816,6 +34066,15 @@
 	icon_state = "redfull"
 	},
 /area/varadero/interior/hall_SE)
+"ylq" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 6
+	},
+/turf/open/floor/shiva{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/varadero/interior/electrical)
 "ylB" = (
 /turf/open/floor/plating/icefloor{
 	icon_state = "asteroidplating"
@@ -42566,7 +42825,7 @@ ccs
 wlB
 wJu
 wJu
-wJu
+dHK
 wJu
 wJu
 tBV
@@ -42825,7 +43084,7 @@ tBV
 wJu
 wJu
 wJu
-wJu
+cam
 wJu
 wJu
 ePP
@@ -45851,7 +46110,7 @@ ykE
 ykE
 uBi
 yiA
-vaC
+rTa
 rTa
 rTa
 yiA
@@ -46101,7 +46360,7 @@ gcb
 xqY
 ykE
 ykE
-yiA
+wBk
 yiA
 rIe
 rTa
@@ -47367,7 +47626,7 @@ yiA
 vni
 mAt
 rTa
-rTa
+nUd
 yiA
 yiA
 yiA
@@ -51374,7 +51633,7 @@ oTd
 vrE
 dfK
 nOj
-tOx
+xBS
 xBo
 xBo
 ykE
@@ -51938,7 +52197,7 @@ ykE
 ykE
 ykE
 ykE
-ycE
+akZ
 woJ
 woJ
 woJ
@@ -53702,7 +53961,7 @@ ykw
 ykw
 ykw
 ykw
-ycE
+akZ
 ykw
 ykw
 ykw
@@ -56704,12 +56963,12 @@ lPq
 mAt
 ykE
 ykE
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ykE
 ykE
@@ -56955,14 +57214,14 @@ tFQ
 tSY
 ykE
 ykE
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ykE
 ykE
@@ -57197,24 +57456,24 @@ vQz
 aXm
 wDG
 ybm
-xMq
-xMq
-xMV
-xMV
-xMV
-xMV
+xuW
+xuW
+tCA
+tCA
+tCA
+tCA
 tSY
 tSY
 ykE
 ykE
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ykE
 ykE
@@ -57450,23 +57709,23 @@ aXm
 wDH
 ybm
 sXU
-xMV
-xMV
-xMV
-xMV
-xFO
-xFO
-xFO
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+tCA
+tCA
+tCA
+tCA
+ykx
+ykx
+ykx
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ykE
 ykE
@@ -57701,24 +57960,24 @@ rdx
 aXm
 aXm
 svH
-xMV
-xMV
-xMV
-xMV
-xMV
-xFO
-xFO
+tCA
+tCA
+tCA
+tCA
+tCA
+ykx
+ykx
 nTG
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ykE
 ykx
@@ -57958,19 +58217,19 @@ tfc
 tfc
 tfc
 xBw
-xFO
-xFO
+ykx
+ykx
 nTG
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykE
 ylX
 ykx
@@ -58206,23 +58465,23 @@ nKu
 nKu
 wQK
 xhE
-xMV
-xMV
-xMV
-xFO
-xFO
+tCA
+tCA
+tCA
+ykx
+ykx
 cjp
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ylX
 ydH
 ydH
@@ -58458,23 +58717,23 @@ aXm
 aXm
 ybm
 syE
-xMV
-xMV
+tCA
+tCA
 tmL
-xFO
-xFO
+ykx
+ykx
 cjp
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 ykx
 ydH
 xZN
@@ -58494,7 +58753,7 @@ ydH
 ykx
 ykx
 ylX
-ykE
+akZ
 nHW
 nHW
 wrB
@@ -58710,10 +58969,10 @@ ybm
 ybm
 ybm
 teC
-xMV
-xMV
-xMV
-xFO
+tCA
+tCA
+tCA
+ykx
 tDt
 ykE
 ykE
@@ -58722,11 +58981,11 @@ ykE
 ykE
 ykE
 ykE
-xUH
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
 ykx
 ydH
 rlD
@@ -58746,7 +59005,7 @@ rlD
 ykx
 ykx
 ykx
-nHW
+uej
 nHW
 nHW
 wrB
@@ -58962,10 +59221,10 @@ vAz
 vAz
 cZZ
 teC
-xMV
-xMV
-xFO
-xFO
+tCA
+tCA
+ykx
+ykx
 dLb
 ykE
 ykE
@@ -58974,11 +59233,11 @@ ykE
 ykE
 ykE
 ykE
-xUH
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
 xGa
 qXB
 ydH
@@ -58998,7 +59257,7 @@ ykx
 ykx
 ykx
 ykx
-nHW
+uej
 nHW
 qVw
 rev
@@ -59213,10 +59472,10 @@ wcR
 wcR
 wcR
 cZZ
-wkt
-xMV
-xMV
-xFO
+jOG
+tCA
+tCA
+ykx
 tCS
 ykE
 ykE
@@ -59226,11 +59485,11 @@ ykE
 ykE
 ykE
 ykE
-xUH
-yeD
-yeD
-yeD
-yeD
+ykE
+ykE
+ykE
+ykE
+ykE
 ykx
 ykx
 ylX
@@ -59250,7 +59509,7 @@ ykx
 ykx
 ykx
 ykx
-ykx
+wVM
 ydH
 sVT
 rev
@@ -59465,9 +59724,9 @@ grT
 wcR
 wEW
 cZZ
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 ykx
 ykE
 ykE
@@ -59478,51 +59737,51 @@ ykE
 ykE
 ykE
 ykE
-xUH
-yeD
-yeD
-yeD
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-kWj
-xRx
+ykE
+ykE
+ykE
+ykE
 ykx
 ykx
 ykx
 ykx
-ydH
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-cuR
 ykx
 ykx
 ykx
 ykx
-cZx
-rKT
-rKT
-rKT
-rKT
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+wVM
+ykx
+nHW
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+oNq
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -59718,8 +59977,8 @@ wcR
 wFA
 uXR
 xfj
-xMV
-xMV
+tCA
+tCA
 ykx
 ykE
 ykE
@@ -59729,52 +59988,52 @@ ykE
 ykE
 ykE
 ykE
-xUH
-xUH
-yeD
-xFO
-wkt
-xFO
-xFO
+ykE
+ykE
+ykE
+ykx
+jOG
+ykx
+ykx
 cjp
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-dVt
-kWj
 ykx
 ykx
 ykx
 ykx
-ydH
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-rKT
-hdk
 ykx
 ykx
 ykx
-cZx
-rKT
-rKT
-rKT
-rKT
+ykx
+ykx
+ykx
+ykx
+ykx
+gAs
+wVM
+wVM
+wVM
+wVM
+xuW
+ykx
+nHW
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+gGp
+iCy
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -59970,8 +60229,8 @@ hUR
 wFP
 uXR
 xgB
-xMV
-xMV
+tCA
+tCA
 tBI
 tDg
 ykE
@@ -59983,50 +60242,50 @@ ykE
 ykE
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 cjp
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 cjp
 vVj
-xFO
-xFO
-xFO
-wUQ
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+gmB
+ykx
+wVM
 ykx
 ykx
 ykx
 ykx
 ykx
-cZx
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-qXO
-qXO
-qXO
 ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+rev
+rev
+rev
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -60222,8 +60481,8 @@ wmH
 vfH
 wQU
 teC
-xMV
-xMV
+tCA
+tCA
 xFW
 xNY
 xZs
@@ -60235,50 +60494,50 @@ ykE
 ylX
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
 cjp
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+wVM
+ykx
+ykx
 ykx
 ydH
 uvB
 ylX
-ykx
-cZx
-rKT
-qXO
-qXO
-qXO
-qXO
-qXO
-qXO
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+rev
+rev
+rev
+rev
+rev
+rev
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -60475,7 +60734,7 @@ wGP
 uXR
 syE
 xsH
-xMV
+tCA
 xFW
 xOn
 xZD
@@ -60487,52 +60746,52 @@ ykx
 iFn
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
-xFO
-xFO
-xFO
-yeD
-yeD
-yeD
-yeD
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
+ykx
+ykx
+ykx
+ykE
+ykE
+ykE
+ykE
+ykx
+ykx
+ykx
+ykx
+ykx
 hLL
-xFO
-xFO
-xFO
+wVM
+ykx
+ykx
 ykx
 xZN
 qXB
 ykx
-ykx
-cZx
-rKT
-rKT
-qXO
-qXO
-qXO
-qXO
-rKT
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+gGp
+rev
+rev
+rev
+rev
+gGp
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -60725,9 +60984,9 @@ vVe
 nqk
 wGT
 uXR
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 tCk
 xOI
 ykx
@@ -60739,11 +60998,11 @@ ykx
 ykx
 ykx
 fbQ
-vHB
-xFO
-wkt
-xFO
-xFO
+wcN
+ykx
+jOG
+ykx
+ykx
 tSY
 ykE
 ykE
@@ -60755,36 +61014,36 @@ ykE
 ykE
 tSY
 tSY
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+wVM
+ykx
+ykx
 ykx
 ykx
 xZN
 ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -60978,8 +61237,8 @@ wGs
 vVt
 uXR
 teC
-xMV
-xMV
+tCA
+tCA
 ujR
 ykx
 ydH
@@ -60991,11 +61250,11 @@ ykx
 ykx
 ykx
 fbQ
-xFO
-tqn
+ykx
+iFn
 rQY
-xFO
-xFO
+ykx
+ykx
 ykE
 ykE
 ykE
@@ -61007,36 +61266,36 @@ ykE
 ykE
 ykE
 tSY
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+wVM
+ykx
+ykx
 ydH
 ydH
 ykx
 ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -61229,9 +61488,9 @@ uXR
 uXR
 uXR
 uXR
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 ykx
 ujR
 ydH
@@ -61243,11 +61502,11 @@ ykx
 ykx
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykE
 ykE
 ykE
@@ -61259,36 +61518,36 @@ ykE
 ykE
 ykE
 tSY
-xFO
-xFO
-wUQ
-xFO
-xFO
+ykx
+ykx
+gAs
+ykx
+ykx
 ydH
 ydH
 ykx
 ykx
-ykx
-cZx
-rKT
-rKT
-qXO
-qXO
-qXO
-qXO
-rKT
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+gGp
+rev
+rev
+rev
+rev
+gGp
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -61473,7 +61732,7 @@ bQX
 ufn
 xeO
 xeO
-rdO
+lUj
 uQH
 vgT
 sYi
@@ -61482,8 +61741,8 @@ rdO
 rdO
 rdO
 teC
-xMV
-xMV
+tCA
+tCA
 ykx
 ydH
 xZN
@@ -61495,11 +61754,11 @@ ykx
 ykx
 ylX
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 ykE
 ykE
@@ -61511,36 +61770,36 @@ ylX
 ykE
 ykE
 ykE
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+gmB
+wVM
+ykx
+ykx
 ylX
 ykx
 ydH
 gmB
-ykx
-cZx
-rKT
-qXO
-qXO
-qXO
-qXO
-qXO
-qXO
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+rev
+rev
+rev
+rev
+rev
+rev
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -61725,7 +61984,7 @@ bQX
 jXn
 ito
 ito
-uFP
+hCO
 uFP
 uFP
 uFP
@@ -61734,8 +61993,8 @@ uFP
 uFP
 uFP
 xhE
-xMV
-xMV
+tCA
+tCA
 ykx
 ydH
 ydH
@@ -61746,12 +62005,12 @@ ykx
 ykx
 ykx
 ylX
-xUH
-xFO
-xFO
-wkt
-xFO
-xFO
+ykE
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 yhy
 yhy
@@ -61763,36 +62022,36 @@ ykx
 ykx
 ykE
 ykE
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+wVM
+ykx
+ykx
 iFn
 ykx
 uvB
 ykx
-ydH
-cZx
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-qXO
-qXO
-qXO
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+nHW
+wrB
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+rev
+rev
+rev
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -61977,7 +62236,7 @@ bQX
 ufn
 xeO
 koG
-sYi
+htl
 sYi
 rdO
 rdO
@@ -61986,8 +62245,8 @@ sYi
 rdO
 sYi
 teC
-xMV
-xFO
+tCA
+ykx
 ykx
 ykx
 ydH
@@ -61998,9 +62257,9 @@ ykx
 rFi
 ykx
 ykE
-xUH
+ykE
 rwV
-xFO
+ykx
 uUS
 xBw
 xBw
@@ -62015,36 +62274,36 @@ yhy
 yhy
 ykE
 ykE
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+wVM
+ykx
+ykx
 xUH
 ykx
 ykx
 ykx
-uvB
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-rKT
-liR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+qVw
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+gGp
+xFi
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -62238,8 +62497,8 @@ wmK
 sYi
 sYi
 teC
-xMV
-xFO
+tCA
+ykx
 xuW
 ykx
 ykx
@@ -62250,12 +62509,12 @@ ykx
 ykx
 ykE
 ykE
-xUH
-yeD
-xFO
 ykE
 ykE
-xFO
+ykx
+ykE
+ykE
+ykx
 jOG
 yhy
 bwj
@@ -62267,36 +62526,36 @@ yhy
 yhy
 ykE
 ykE
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+wVM
+ykx
+ykx
 xUH
 ykx
 ykx
 ykx
-ykx
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-cuR
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+oNq
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -62490,8 +62749,8 @@ pNJ
 sYi
 wTw
 teC
-xMV
-xFO
+tCA
+ykx
 xuW
 ykx
 iFn
@@ -62502,12 +62761,12 @@ ykx
 ykx
 ykE
 ykE
-xUH
 ykE
 ykE
 ykE
 ykE
-xFO
+ykE
+ykx
 jOG
 ykx
 yhy
@@ -62518,37 +62777,37 @@ yhy
 ykx
 yhy
 yhy
-xFO
-xFO
+ykx
+ykx
 rxL
-wUQ
-xFO
-xFO
-xFO
+tcA
+ykx
+ykx
+ykx
 ylX
 ykx
 ykx
-ykx
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-cuR
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+oNq
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -62741,9 +63000,9 @@ vSU
 sYi
 sYi
 wTw
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 xuW
 ykx
 ykx
@@ -62754,12 +63013,12 @@ iFn
 ykx
 ylX
 ykE
-xUH
 ykE
 ykE
 ykE
 ykE
-xFO
+ykE
+ykx
 uBB
 yhy
 sfy
@@ -62770,37 +63029,37 @@ yhy
 ykx
 yhy
 yhy
-xFO
-xFO
+ykx
+ykx
 tzE
-xFO
-xFO
-xFO
-xFO
-xFO
+gAs
 ykx
 ykx
 ykx
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-bRa
-rJf
-rKT
-hdk
 ykx
 ykx
 ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+sjF
+uhA
+gGp
+iCy
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -62993,9 +63252,9 @@ vSU
 sYi
 sYi
 ifU
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 ykx
 ykx
 ykx
@@ -63022,37 +63281,37 @@ ykx
 ykx
 yhy
 yhy
-xFO
-xFO
+ykx
+ykx
 yeY
-xFO
-xFO
-xFO
-xFO
-xFO
-ykx
-ykx
-iFn
-cZx
-qXO
-qXO
-bRa
-bRa
-bRa
-bRa
-qXO
-qXO
-qXO
+wVM
 ykx
 ykx
 ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykx
+ykx
+ykx
+bhL
+wrB
+rev
+rev
+sjF
+sjF
+sjF
+sjF
+rev
+rev
+rev
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -63245,9 +63504,9 @@ vSU
 sYi
 sEX
 ifU
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 ykx
 xOM
 yax
@@ -63259,11 +63518,11 @@ ykx
 ykx
 ykx
 fbQ
-xFO
+ykx
 ykE
 ykE
 ykE
-xFO
+ykx
 jOG
 yhy
 ylX
@@ -63271,40 +63530,40 @@ ykx
 ykE
 ykx
 ykx
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
 bRJ
 kmG
-xFO
-xFO
-xFO
-wUQ
-xFO
-xFO
+ykx
+wVM
+ykx
+gmB
+ykx
+ykx
 ydH
 ykx
-wcN
-cZx
-rKT
-qXO
-qXO
-qXO
-qXO
-qXO
-qXO
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+xqb
+wrB
+gGp
+rev
+rev
+rev
+rev
+rev
+rev
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -63498,8 +63757,8 @@ sYi
 sYi
 sYi
 teC
-xMV
-xMV
+tCA
+tCA
 xGa
 xDy
 ybr
@@ -63511,8 +63770,8 @@ ykx
 ykx
 ykx
 fbQ
-xFO
-xFO
+ykx
+ykx
 uZj
 hGy
 xBw
@@ -63523,40 +63782,40 @@ ykE
 ykE
 ykx
 ykx
-kWj
+gCX
 mmZ
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+wVM
+ykx
+ykx
+ykx
+ykx
 bBl
 ykx
-ykx
-cZx
-rKT
-rKT
-qXO
-qXO
-qXO
-qXO
-rKT
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+wrB
+gGp
+gGp
+rev
+rev
+rev
+rev
+gGp
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -63750,8 +64009,8 @@ sYi
 sYi
 pNJ
 teC
-xMV
-xMV
+tCA
+tCA
 ydH
 xDy
 ybr
@@ -63763,11 +64022,11 @@ ydH
 ykx
 ykx
 fbQ
-xFO
-xFO
+ykx
+ykx
 viq
-xFO
-fYe
+ykx
+ylX
 ykx
 ykx
 ykx
@@ -63775,40 +64034,40 @@ ykE
 eEA
 ykx
 ykx
-kWj
-wUQ
-xFO
-xFO
+gCX
+gmB
+ykx
+ykx
 jWF
 xOo
-ikm
-xFO
-xFO
-xFO
-xFO
+wVM
+vQm
+ykx
+ykx
+ykx
 xZN
 ydH
-ykx
-fCi
-qwf
-qwf
-qwf
-qwf
-qwf
-qwf
-qwf
-qwf
-liR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+cPq
+oqt
+oqt
+oqt
+oqt
+oqt
+oqt
+oqt
+oqt
+xFi
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -64002,8 +64261,8 @@ sYi
 sYi
 sYi
 teC
-xMV
-xMV
+tCA
+tCA
 xDy
 ykx
 ybr
@@ -64015,11 +64274,11 @@ ydH
 ykx
 ykx
 fbQ
-tqn
-xFO
-wkt
-xFO
-xFO
+iFn
+ykx
+jOG
+ykx
+ykx
 ykE
 ykx
 ykx
@@ -64028,39 +64287,39 @@ ykx
 ykx
 ykx
 xRx
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-wUQ
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
+wVM
+ykx
+gmB
+ykx
+ykx
 rlD
 ydH
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -64254,8 +64513,8 @@ sYi
 sYi
 sYi
 xiV
-xMV
-xMV
+tCA
+tCA
 ykx
 xDy
 ykE
@@ -64267,11 +64526,11 @@ gOv
 aTJ
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykE
 ykx
 ykx
@@ -64279,40 +64538,40 @@ ykx
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
 kpo
-xFO
-xFO
-xFO
-aaA
-xFO
-xFO
+ykx
+wVM
+ykx
+xGa
+ykx
+ykx
 ydH
 ykx
-ykx
-gmB
-ydH
-ykx
-ylX
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+tSR
+nHW
+ykw
+vrj
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -64504,10 +64763,10 @@ ykS
 tXv
 tXv
 ykS
-xFO
+ykx
 teC
-xMV
-xMV
+tCA
+tCA
 ykx
 ykx
 ykx
@@ -64519,11 +64778,11 @@ gOv
 aTJ
 ykx
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -64534,37 +64793,37 @@ ykx
 ykx
 ylX
 ykE
-xFO
-xFO
+ykx
+ykx
 rxL
-xFO
-xFO
-xFO
-xFO
-xFO
+gAs
+ykx
+ykx
+ykx
+ykx
 ydH
 ykx
-ykx
-ykx
-wcN
-ykx
-ykx
-ykx
-ykx
-ykx
-rwS
-rhU
+ykw
+ykw
+xqb
+ykw
+ykw
+ykw
+ykw
+ykw
+bTl
+jPw
 lcF
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -64756,10 +65015,10 @@ gTY
 vXQ
 wpu
 agj
-xFO
+ykx
 teC
-xMV
-xFO
+tCA
+ykx
 ykx
 ykx
 ykx
@@ -64771,11 +65030,11 @@ ykx
 ykx
 ydH
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 ykx
 iFn
@@ -64786,37 +65045,37 @@ ykx
 yhy
 yhy
 ykE
-yeD
-xFO
+ykE
+ykx
 rxL
-xFO
-xFO
-xFO
-xFO
-xFO
+wVM
 ykx
 ykx
 ykx
 ykx
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-cuR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+oNq
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -65008,10 +65267,10 @@ vYm
 vZi
 eDd
 voJ
-xFO
+ykx
 teC
-xMV
-xFO
+tCA
+ykx
 ykx
 ykx
 ykx
@@ -65023,11 +65282,11 @@ ykx
 ydH
 xZN
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 yhy
 ykx
 ykx
@@ -65038,13 +65297,13 @@ ykx
 yhy
 yhy
 ykE
-yeD
-yeD
+ykE
+ykE
 rxL
-xFO
-wUQ
-xFO
-xFO
+wVM
+gmB
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -65056,19 +65315,19 @@ ykx
 ykx
 ykx
 ykx
-fCi
-qwf
-liR
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+cPq
+oqt
+xFi
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -65261,9 +65520,9 @@ aIB
 xeO
 wHj
 oUO
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 tCA
 iFn
 ykx
@@ -65275,11 +65534,11 @@ ykx
 ydH
 ydH
 aQq
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 ykx
 yhy
@@ -65291,11 +65550,11 @@ ykx
 yhy
 yhy
 ykE
-yeD
-xFO
-xFO
-xFO
-xFO
+ykE
+ykx
+wVM
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -65308,19 +65567,19 @@ ykx
 ylX
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -65512,9 +65771,9 @@ cRu
 xeO
 xeO
 tXv
-xFO
-wkt
-xMV
+ykx
+jOG
+tCA
 tmL
 tCA
 ykx
@@ -65527,11 +65786,11 @@ ydH
 ylX
 ylX
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 xGa
 yhy
 msG
@@ -65543,11 +65802,11 @@ ykx
 yhy
 yhy
 ykE
-yeD
-xFO
-xFO
-xFO
-xFO
+ykE
+ykx
+wVM
+ykx
+ykx
 ykx
 ykx
 gmB
@@ -65560,19 +65819,19 @@ ykE
 ykx
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -65765,9 +66024,9 @@ vZp
 sPY
 ykS
 rwV
-wkt
-xMV
-xMV
+jOG
+tCA
+tCA
 tCA
 tCA
 ykE
@@ -65779,11 +66038,11 @@ ykx
 ykE
 ykE
 fbQ
-xFO
-xFO
-wkt
-xFO
-xFO
+ykx
+ykx
+jOG
+ykx
+ykx
 ykx
 yhy
 yhy
@@ -65795,11 +66054,11 @@ ykx
 ykx
 yhy
 ylX
-yeD
-xFO
-tqn
-xFO
-xFO
+ykE
+ykx
+wVM
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -65812,16 +66071,16 @@ ykE
 ykx
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -66016,26 +66275,26 @@ vzT
 sVH
 sVH
 ykS
-xjp
+xOM
 teC
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-tTa
-tTa
-tTa
-vBE
-tTa
-tTa
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+fbQ
+fbQ
+fbQ
+mdi
+fbQ
+fbQ
 ykx
 ykx
 ykx
@@ -66047,15 +66306,15 @@ ykx
 ykx
 ykx
 ykx
-yeD
-xFO
-xFO
-xFO
-xFO
-iFn
-ykx
-ykx
 ykE
+ykx
+gAs
+wVM
+wVM
+wVM
+wVM
+wVM
+ycE
 ykE
 ylX
 ykx
@@ -66064,16 +66323,16 @@ ykE
 ykx
 ylX
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -66268,7 +66527,7 @@ dgj
 qSR
 qSR
 tZm
-vBt
+oVJ
 xjG
 tfc
 tfc
@@ -66286,8 +66545,8 @@ tfc
 tfc
 tfc
 xhE
-xFO
-tTa
+ykx
+fbQ
 ylX
 ykx
 ykx
@@ -66299,11 +66558,11 @@ yhy
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -66316,16 +66575,16 @@ ykE
 ykx
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -66520,26 +66779,26 @@ oIg
 plW
 mcB
 scQ
-xHt
-xFO
+blq
+ykx
 tij
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
 tso
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
 teC
 tij
-yeD
+ykE
 ykE
 ykE
 ykx
@@ -66551,11 +66810,11 @@ yhy
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -66568,16 +66827,16 @@ ykE
 ykx
 ykx
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -66775,23 +67034,23 @@ ykS
 cqC
 cjp
 cjp
-xFO
-xMV
-xMV
-xMV
-xFO
-xFO
-xFO
-xFO
-xFO
-xMV
-xMV
-xMV
+ykx
+tCA
+tCA
+tCA
+ykx
+ykx
+ykx
+ykx
+ykx
+tCA
+tCA
+tCA
 nvn
-xFO
+ykx
 vuy
 lJR
-yeD
+ykE
 ykE
 ykE
 ykx
@@ -66803,11 +67062,11 @@ yhy
 yhy
 yhy
 gmB
-wUQ
-xFO
-xFO
-xFO
-xFO
+gmB
+ykx
+ykx
+ykx
+ykx
 wcN
 ykx
 ykx
@@ -66820,16 +67079,16 @@ ykE
 ykx
 ylX
 ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -67025,8 +67284,8 @@ crN
 wsn
 tXv
 wYo
-xHt
-xHt
+blq
+blq
 xCa
 xGD
 wYo
@@ -67039,11 +67298,11 @@ ykS
 tXv
 tXv
 ykS
-xjp
-xFO
+ykS
+ykx
 teC
-xMV
-yeD
+tCA
+ykE
 ykE
 ykE
 ykE
@@ -67055,33 +67314,33 @@ yhy
 yhy
 yhy
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
 ykx
 ykx
 ykx
 ykx
-ykE
 ykx
 ykx
 ykx
-ykE
+ykx
+ykx
 ykE
 ykx
 ykx
 ykx
+ykE
+ykE
 ykx
 ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
+gGp
+gGp
+gGp
 gGp
 gGp
 gGp
@@ -67291,11 +67550,11 @@ oLy
 cjf
 gMi
 nzH
-xjp
+ykS
 uFE
 teC
-xMV
-yeD
+tCA
+ykE
 ykE
 ykE
 ykE
@@ -67307,15 +67566,15 @@ yhy
 msG
 yhy
 ykx
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
 rdJ
-xFO
 ykx
 ykx
 ykx
 ykx
+gAs
 ykx
 ykx
 ylX
@@ -67324,23 +67583,23 @@ ykE
 ykE
 ykx
 ylX
-ykx
-ykx
-ykx
-ykx
-ykx
-ykx
-cZx
-rKT
-rKT
-rKT
+ykw
+ykw
+ykw
+ykw
+ykw
+ykw
+wrB
 gGp
 gGp
 gGp
 gGp
 gGp
 gGp
-nRO
+gGp
+gGp
+gGp
+oNq
 xCn
 wrB
 gGp
@@ -67543,11 +67802,11 @@ xeO
 xeO
 xeO
 aNA
-vhD
-xFO
+tXv
+ykx
 teC
-xMV
-xFO
+tCA
+ykx
 ykE
 ykE
 ykE
@@ -67559,15 +67818,15 @@ yhy
 yhy
 yhy
 ykx
-xFO
-xFO
-xFO
-xFO
-wUQ
+ykx
+ykx
+ykx
+ykx
+gmB
 ykx
 ydH
 ydH
-ykx
+wVM
 ykx
 ykx
 ykE
@@ -67795,11 +68054,11 @@ xeO
 vOz
 xeO
 aNA
-vhD
-xFO
+tXv
+ykx
 teC
-xMV
-xFO
+tCA
+ykx
 ykE
 ykE
 ykE
@@ -67811,15 +68070,15 @@ ykx
 yhy
 ykx
 ylX
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ydH
 ydH
 xZN
-ydH
+kFR
 ykx
 ykx
 ykE
@@ -68047,15 +68306,15 @@ xLy
 fIp
 xeO
 aNA
-vhD
-xMV
+tXv
+tCA
 teC
-xMV
-xFO
-xFO
-yeD
-yeD
-yeD
+tCA
+ykx
+ykx
+ykE
+ykE
+ykE
 ykE
 ykE
 ykE
@@ -68063,15 +68322,15 @@ ykx
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ydH
 ydH
 ydH
-ydH
+kFR
 ykx
 ykx
 ykE
@@ -68106,7 +68365,7 @@ ykw
 xCn
 xCn
 xCn
-psG
+ykE
 xCn
 xCn
 xCn
@@ -68299,31 +68558,31 @@ xAa
 rHg
 iVq
 dEg
-vhD
-xMV
+tXv
+tCA
 teC
-xMV
-xFO
-xFO
-xFO
-xFO
-yeD
-xUH
-xUH
+tCA
+ykx
+ykx
+ykx
+ykx
+ykE
+ykE
+ykE
 ykE
 ykx
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ydH
 rlD
 ydH
-ykx
+wVM
 ykx
 ykE
 ykE
@@ -68357,9 +68616,9 @@ ykw
 ykw
 ykw
 xCn
-psG
-psG
-psG
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -68495,15 +68754,15 @@ tuT
 ifU
 ifU
 ifU
-sPD
 mXR
-sPD
+mXR
+ifU
 ifU
 ifU
 ifU
 ock
 mXR
-sPD
+ifU
 ifU
 ifU
 ifU
@@ -68551,31 +68810,31 @@ xAa
 rql
 xeO
 quX
-xjp
-xFO
+ykS
+ykx
 teC
-xFO
-xFO
-xFO
-xMV
-xMV
-xFO
+ykx
+ykx
+ykx
+tCA
+tCA
+ykx
 nTG
-xUH
+ykE
 ykE
 ykE
 ykx
 iFn
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ykx
 ydH
 ydH
-ykx
+gAs
 ykx
 ykE
 ykE
@@ -68607,11 +68866,11 @@ ykw
 ykw
 ykw
 ykw
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -68744,18 +69003,18 @@ fSD
 iKv
 ccd
 tuT
-qac
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-qac
-nNX
-uxM
-ryt
-ylB
+hdk
+hCt
+xUp
+xUp
+xUp
+kcG
+kcG
+hdk
+lFW
+wat
+xUp
+kcG
 xJH
 ykE
 ykE
@@ -68812,22 +69071,22 @@ tfc
 vec
 tfc
 vQO
-xFO
-xUH
+ykx
+ykE
 ykE
 ykE
 ylX
 ykx
 iFn
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ykx
 ydH
 jKt
-ykx
+wVM
 ylX
 ykE
 ykE
@@ -68858,12 +69117,12 @@ ykw
 ykw
 xCn
 xCn
-psG
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -68995,19 +69254,19 @@ mEG
 opo
 pwr
 nCy
-bDK
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-uxM
-ryt
-ylB
+fCi
+hCt
+xUp
+xUp
+xUp
+xUp
+xUp
+xUp
+xUp
+xUp
+wat
+xUp
+xUp
 xJH
 ykE
 ykE
@@ -69055,31 +69314,31 @@ xAa
 ufn
 xeO
 xAa
-xjp
+ykS
 dgh
 uip
-xFO
-xFO
-xMV
-xFO
-xFO
+ykx
+ykx
+tCA
+ykx
+ykx
 teC
-xMV
+tCA
 ykE
 ykE
 ykE
 ykE
 ykx
 ykx
-wUQ
-xFO
-xFO
-xFO
+gmB
+ykx
+ykx
+ykx
 jok
 ykx
 ykx
 ydH
-ykx
+wVM
 ykx
 ykE
 ykE
@@ -69109,12 +69368,12 @@ ykw
 ykw
 ykw
 xCn
-psG
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -69248,18 +69507,18 @@ lDU
 dCp
 lTg
 mbn
-yjo
-yjo
-yjo
-yjo
-yjo
+uNR
+uNR
+uNR
+uNR
+uNR
 nkG
-yjo
-yjo
-yjo
+uNR
+uNR
+uNR
 usz
-ylB
-ylB
+xUp
+xUp
 xJH
 ykE
 ykA
@@ -69314,24 +69573,24 @@ ykS
 ykS
 tXv
 ykS
-xFO
+ykx
 teC
-xMV
+tCA
 ykE
 ykE
 ykE
 ykE
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
 ylX
 ykx
 ykx
-ydH
+kFR
 ykx
 ykx
 ylX
@@ -69361,11 +69620,11 @@ ykw
 ykw
 xCn
 xCn
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -69499,19 +69758,19 @@ mEG
 opo
 pwr
 nCy
-bDK
+tuT
 mhw
-pxR
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
-ylB
+kcG
+xUp
+xUp
+xUp
+xUp
+xUp
+mLX
+xUp
 hQp
-ylB
-ylB
+xUp
+xUp
 xJH
 ykE
 ykA
@@ -69566,24 +69825,24 @@ ykS
 ecj
 sny
 ykS
-xMV
+tCA
 teC
-xFO
+ykx
 ykE
 ykE
 ykE
 ykE
 ykE
 ykx
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
 dLb
-xFO
+ykx
 ykE
 ylX
 ykx
-ykx
+wVM
 ykx
 ykx
 ykx
@@ -69612,12 +69871,12 @@ oNq
 ykw
 ykw
 xCn
-psG
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
+ykE
 wSQ
 rZX
 rZX
@@ -69755,14 +70014,14 @@ tuT
 xJH
 mwU
 ylB
-xUp
 ylB
-xUp
-hCt
-xJH
-xJH
-uxM
 ylB
+ylB
+ylB
+xJH
+mLX
+wat
+xUp
 oBq
 xJH
 ykE
@@ -69820,22 +70079,22 @@ ylo
 ykS
 rwV
 teC
-xFO
+ykx
 ykx
 ykE
 ykE
 ykE
 ykE
 ykE
-xFO
+ykx
 nTG
-xFO
-xFO
-yeD
-ykE
-ykE
-ykE
 ykx
+ykx
+xUH
+ykE
+ykE
+ykE
+wVM
 ykx
 ykx
 ykx
@@ -69864,11 +70123,11 @@ oNq
 ykw
 ykw
 xCn
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
 wSQ
 aLo
 qJT
@@ -70006,16 +70265,16 @@ nCy
 tuT
 ykE
 ykE
-hCt
-mLX
+ylB
+ylB
+ylB
+ylB
+ylB
 ylB
 xUp
+wat
 xUp
-xUp
-xUp
-uxM
-ylB
-oBJ
+omX
 xJH
 ykE
 ykA
@@ -70070,24 +70329,24 @@ vdx
 lmA
 jqw
 ykS
-xFO
+ykx
 teC
-xFO
+ykx
 ykx
 ykE
 ykE
 ykE
 ykE
 ykE
-xFO
-xFO
+ykx
+ykx
 bKu
-xFO
-yeD
-ykE
-ykE
-ykE
 ykx
+xUH
+ykE
+ykE
+ykE
+wVM
 ykx
 ydH
 ykx
@@ -70115,11 +70374,11 @@ gGp
 oNq
 ykw
 ykw
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
 wSQ
 aLo
 nEU
@@ -70261,11 +70520,11 @@ ykE
 ykE
 ylB
 aAX
-xUp
+ylB
 nwd
+ylB
 xUp
-xUp
-uxM
+wat
 omu
 xUp
 xJH
@@ -70322,28 +70581,28 @@ tXv
 llb
 poz
 tXv
-xFO
+ykx
 teC
-xFO
 ykx
 ykx
 ykx
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-yeD
-yeD
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
+xUH
+xUH
+ykx
+ykx
+gAs
+ykx
+ykx
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -70367,11 +70626,11 @@ gGp
 oNq
 xCn
 ykw
-psG
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
+ykE
 aLo
 nEU
 nEU
@@ -70513,14 +70772,14 @@ ykE
 ykE
 ylB
 ylB
-xUp
-xUp
-xUp
-xUp
-uxM
+ylB
+ylB
 ylB
 xUp
-xUp
+uzI
+vNB
+vNB
+vNB
 ykE
 ykE
 pdB
@@ -70576,26 +70835,26 @@ ykS
 ykS
 ofC
 teC
-xMV
-tTa
-xMV
-xMV
-xMV
-xMV
-xMV
-xFO
-xFO
-xFO
-xMV
-xMV
-xMV
-xMV
+tCA
+fbQ
+tCA
+tCA
+tCA
+tCA
+tCA
+ykx
+ykx
+ykx
+tCA
+tCA
+tCA
+tCA
 tmL
-xMV
-xMV
-xMV
-xFO
-wUQ
+tCA
+tCA
+tCA
+ykx
+gmB
 ykx
 tCA
 tCA
@@ -70619,10 +70878,10 @@ gGp
 oNq
 xCn
 ykw
-psG
-psG
-psG
-psG
+ykE
+ykE
+ykE
+ykE
 nEU
 nEU
 nEU
@@ -70765,14 +71024,14 @@ yjH
 yjH
 ykE
 ykE
-xUp
-xUp
-xUp
-xUp
-uzI
 ylB
-hCt
-xUp
+ylB
+ylB
+vNB
+uzI
+vNB
+pkl
+vNB
 ykE
 ykE
 ykA
@@ -70826,28 +71085,28 @@ nbH
 nbH
 dvG
 bWM
-xFO
+ykx
 teC
-xMV
+tCA
 gXN
-xMV
-xMV
-xMV
-xMV
+tCA
+tCA
+tCA
+tCA
 vWe
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
 tCA
 tCA
 tCA
@@ -70871,9 +71130,9 @@ gGp
 oNq
 xCn
 ykw
-psG
-psG
-psG
+ykE
+ykE
+ykE
 mTt
 nEU
 nEU
@@ -71018,14 +71277,14 @@ yjH
 ykE
 ykE
 ykE
-xUp
-ykE
-xJH
-hyG
 ylB
-xUp
-oGv
-hCt
+ykE
+vNB
+hyG
+vNB
+vNB
+wHD
+pkl
 ykE
 ykA
 ptp
@@ -71078,28 +71337,28 @@ xeO
 xeO
 tcK
 sPD
-xFO
-wkt
-xMV
+ykx
+jOG
+tCA
 gXN
-xMV
+tCA
 tmL
-xMV
-xFO
-xFO
-xFO
-xMV
-xMV
-xMV
-xMV
-xMV
-xMV
+tCA
+ykx
+ykx
+ykx
+tCA
+tCA
+tCA
+tCA
+tCA
+tCA
 wMl
-xFO
-xMV
-xMV
-xMV
-xMV
+ykx
+tCA
+tCA
+tCA
+tCA
 tCA
 tCA
 tCA
@@ -71123,9 +71382,9 @@ gGp
 oNq
 xCn
 ykw
-psG
-psG
-psG
+ykE
+ykE
+ykE
 mTt
 nEU
 nEU
@@ -71267,17 +71526,17 @@ szt
 moq
 uXE
 yjH
+yjH
+yjH
+yjH
 ykE
 ykE
-ykE
-ykE
-ykE
-xJH
-uxM
-ylB
-xUp
-xUp
-xUp
+vNB
+uzI
+vNB
+vNB
+vNB
+vNB
 ykA
 ykA
 ptw
@@ -71336,22 +71595,22 @@ xjp
 sde
 yeD
 yeD
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
 wsr
-yeD
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+xUH
+ykx
+ykx
+ykx
+gAs
+ykx
+ykx
+ykx
+ykx
 ylX
 ykx
 ykx
@@ -71376,7 +71635,7 @@ oNq
 xCn
 ykw
 ykw
-psG
+ykE
 wSQ
 aLo
 nEU
@@ -71521,16 +71780,16 @@ uXE
 mHl
 wdY
 uah
+yjH
 ykE
 ykE
-ykE
-xJH
-uxM
-ylB
-xUp
-xUp
-xUp
-bkT
+vNB
+uzI
+vNB
+vNB
+vNB
+vNB
+ykA
 pee
 ptM
 slz
@@ -71589,8 +71848,8 @@ sde
 ykE
 ykE
 ykE
-tSY
-tSY
+ykx
+ykx
 ykx
 ykx
 ykx
@@ -71599,11 +71858,11 @@ ykE
 ykE
 ylX
 ykx
-xFO
-xFO
-xFO
+wVM
+ykx
+ykx
 nTG
-xFO
+ykx
 xUH
 ykx
 ykx
@@ -71773,16 +72032,16 @@ mxW
 mHl
 wdY
 gWj
+yjH
 ykE
-ykE
-xUp
-nOq
-wat
-ylB
-xUp
-xUp
-xUp
-bkT
+liR
+euN
+uzI
+vNB
+vNB
+vNB
+vNB
+ykA
 peg
 pun
 xjn
@@ -71851,11 +72110,11 @@ ykE
 ykE
 ykx
 ykx
-xFO
-tqn
-xFO
+wVM
+iFn
+ykx
 rdJ
-xFO
+ykx
 xUH
 ykx
 ykx
@@ -72025,15 +72284,15 @@ bpC
 mIX
 wdY
 xCZ
-ykE
-xUp
-xUp
-xUp
-wat
-ylB
-xUp
-xUp
-xUp
+yjH
+vNB
+vNB
+vNB
+uzI
+vNB
+vNB
+vNB
+vNB
 ykA
 ykA
 puV
@@ -72103,14 +72362,14 @@ ykE
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
+wVM
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
 ykx
 ykx
 ylX
@@ -72277,14 +72536,14 @@ qDF
 wdY
 qSv
 xCZ
-ykE
-nwi
-xUp
-xUp
-wat
-ylB
-xUp
-xUp
+yjH
+suO
+vNB
+vNB
+uzI
+vNB
+vNB
+vNB
 ykE
 ykE
 ykA
@@ -72355,14 +72614,14 @@ ykx
 ykx
 ydH
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-yeD
+wVM
+ykx
+ykx
+ykx
+ykx
+ykx
+ykx
+ykE
 ykE
 ykx
 ykx
@@ -72529,14 +72788,14 @@ bpC
 wBI
 vSm
 nab
+yjH
 ykE
-ykE
-xUp
-xUp
+vNB
+vNB
 ocB
-ylB
-xUp
-xUp
+vNB
+vNB
+vNB
 vNB
 vNB
 ykE
@@ -72607,14 +72866,14 @@ ykx
 ydH
 ydH
 ykx
-xFO
-xFO
+wVM
+ykx
 vVj
-xFO
-xFO
-xFO
-xFO
-yeD
+ykx
+ykx
+ykx
+ykx
+ykE
 ykE
 ykx
 ykx
@@ -72781,20 +73040,20 @@ dnH
 yjH
 yjH
 yjH
-ykE
+yjH
 ykE
 ykE
 kzZ
-wat
-ylB
-ylB
-xUp
+uzI
+vNB
+vNB
+vNB
 oMg
 vNB
 vNB
 ykE
 ykE
-suO
+qXP
 ykE
 xJH
 ylB
@@ -72859,14 +73118,14 @@ ykx
 kpV
 xZN
 ykx
-xFO
-xFO
+wVM
+ykx
 eeh
-xFO
-xFO
+ykx
+ykx
 bRV
 aTK
-yeD
+ykE
 ykE
 ykE
 ykE
@@ -73037,16 +73296,16 @@ ykE
 ykE
 ykE
 ykE
-tKt
-ylB
-ylB
-xUp
+uzI
 vNB
 vNB
 vNB
 vNB
-suO
 vNB
+vNB
+vNB
+qXP
+dlP
 ykE
 xJH
 uma
@@ -73111,14 +73370,14 @@ ykx
 ykx
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
+wVM
+ykx
+ykx
+ykx
+ykx
 fMT
 nAV
-yeD
+ykE
 ykE
 ykE
 ykE
@@ -73289,18 +73548,18 @@ ykE
 ykE
 ykE
 ykE
-uxM
-ylB
-ylB
+uzI
+vNB
+vNB
+pnp
+vNB
+vNB
+vNB
+vNB
+dlP
+dlP
+vHB
 xJH
-pLo
-vNB
-vNB
-vNB
-vNB
-vNB
-oMg
-qaL
 ylB
 uxM
 ylB
@@ -73363,18 +73622,18 @@ ykE
 ylX
 ykx
 ykx
-xFO
+wVM
 nTG
-xFO
-xFO
-xFO
-xFO
+ykx
+ykx
+ykx
+ykx
 ldk
-yeD
+ykE
 iPx
 crd
 ykE
-ycE
+akZ
 wVM
 wkp
 wkp
@@ -73541,17 +73800,17 @@ ykE
 ykE
 ykE
 ykE
-uxM
-ylB
-xUp
-xUp
-pLo
+uzI
+vNB
+vNB
+vNB
+vNB
 vNB
 suO
-vNB
-vNB
-vNB
-pkl
+dlP
+dlP
+dlP
+qVE
 qjk
 ylB
 uxM
@@ -73615,14 +73874,14 @@ ykE
 ykE
 ykx
 ykx
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-xFO
-yeD
+gAs
+wVM
+wVM
+wVM
+wVM
+wVM
+wVM
+akZ
 ykE
 ykE
 ykE
@@ -73794,16 +74053,16 @@ ykE
 ykE
 ykE
 ods
-ylB
-ylB
-nPy
-pLo
-pLo
-pLo
-pLo
-pLo
-pLo
-pLo
+vNB
+vNB
+oYQ
+vNB
+vNB
+dlP
+dlP
+dlP
+dlP
+dlP
 qjk
 ylB
 uxM
@@ -73816,7 +74075,7 @@ ykE
 ykA
 ykA
 ykA
-ehc
+ykA
 ykA
 ykA
 oWf
@@ -73885,8 +74144,8 @@ xCn
 xCn
 xCn
 xCn
-xCn
-xCn
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -74045,12 +74304,12 @@ ykE
 ykE
 ykE
 ykE
-uxM
-ylB
-ylB
-xJH
-pLo
-pLo
+uzI
+vNB
+uST
+pnp
+vNB
+dlP
 dlP
 dlP
 dlP
@@ -74136,10 +74395,10 @@ xCn
 xCn
 xCn
 xCn
-xCn
-xCn
-xCn
-xCn
+ykE
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -74297,11 +74556,11 @@ ykE
 ykE
 ykE
 ykE
-odE
-yjo
-yjo
-vUL
-dlP
+nwi
+nOq
+nOq
+pfI
+vNB
 dlP
 dlP
 dlP
@@ -74320,7 +74579,7 @@ ykE
 ykA
 ykA
 ykA
-ehc
+ykA
 ykA
 ykA
 uqd
@@ -74389,8 +74648,8 @@ xCn
 xCn
 xCn
 xCn
-xCn
-xCn
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -74548,11 +74807,11 @@ ykE
 ykE
 ykE
 ykE
-yjH
+ykE
 odW
-omX
-ylB
-uxM
+vNB
+vNB
+uzI
 dlP
 dlP
 dlP
@@ -74782,7 +75041,7 @@ tLS
 sXc
 eZm
 tLS
-kcG
+plH
 qNX
 kJX
 kXG
@@ -74800,20 +75059,20 @@ ykE
 ykE
 ykE
 ykE
-yjH
-ylB
-ylB
-ylB
-uxM
-oBU
-pnp
+ykE
+nxH
+vNB
+vNB
+uzI
+dlP
+dlP
 qVE
 dlP
 pBG
 pPU
 ykE
 xJH
-ylB
+oBJ
 uxM
 ylB
 xJH
@@ -74828,7 +75087,7 @@ dlP
 vNB
 dlP
 vNB
-pLo
+vNB
 vNB
 wop
 ykA
@@ -75034,7 +75293,7 @@ tLS
 tLS
 tLS
 tLS
-qnj
+sXc
 yjH
 kKn
 kXY
@@ -75052,13 +75311,13 @@ ykE
 ykE
 ykE
 ykE
-yjH
-xJH
-ylB
-ylB
-uxM
-ylB
-pnp
+ykE
+ykE
+vNB
+vNB
+uzI
+dlP
+dlP
 dlP
 dlP
 pEI
@@ -75080,7 +75339,7 @@ vNB
 dlP
 uST
 vNB
-pLo
+vNB
 vNB
 wop
 ykA
@@ -75145,9 +75404,9 @@ ykw
 xCn
 xCn
 xCn
-xCn
-xCn
-xCn
+ykE
+ykE
+ykE
 xCn
 xCn
 xCn
@@ -75286,8 +75545,8 @@ xwP
 sXc
 tLS
 tLS
-nxH
-yjH
+tLS
+tLS
 yjH
 qNX
 qNX
@@ -75296,7 +75555,7 @@ yjH
 bQE
 cBR
 cFj
-sIw
+ikm
 hEI
 bQE
 ykE
@@ -75305,21 +75564,21 @@ ykE
 ykE
 ykE
 ykE
-xJH
-qac
-ylB
-uxM
-ylB
-pnp
-dlP
+ykE
+nRO
 vNB
+uzI
+vNB
+dlP
+dlP
+dlP
 ykE
 ykE
 ykE
 xJH
 ylB
 uxM
-oBJ
+ylB
 xJH
 ykE
 ykE
@@ -75331,9 +75590,9 @@ dlP
 vNB
 vNB
 vNB
-urA
-pLo
-pLo
+tBp
+vNB
+vNB
 wop
 ykA
 vEY
@@ -75538,17 +75797,17 @@ lDA
 tLS
 tLS
 sXc
-kdA
-kzf
+tLS
+tLS
 kLV
-kzf
+tLS
 llE
-kzf
-lFW
+hMI
 bQE
-cOJ
-cFj
+aaA
 sIw
+cFj
+ikm
 hAK
 bQE
 ykE
@@ -75557,21 +75816,21 @@ ykE
 ykE
 ykE
 ykE
+ykE
+kzZ
+vNB
+uzI
+dlP
+dlP
+dlP
+dlP
+ryt
+ykE
+ykE
 xJH
 uma
+uxM
 ylB
-uxM
-oOn
-pnp
-vNB
-vNB
-vNB
-ykE
-ykE
-xJH
-uma
-uxM
-qMd
 xJH
 ykE
 ykE
@@ -75583,7 +75842,7 @@ vNB
 vNB
 pkl
 wHD
-pLo
+vNB
 uST
 suO
 wop
@@ -75796,11 +76055,11 @@ tLS
 tLS
 sXc
 sXc
-tyz
 bQE
-ilo
-fFj
+bRa
 sIw
+fFj
+ikm
 hAK
 bQE
 ykE
@@ -75809,21 +76068,21 @@ ykE
 ykE
 ykE
 ykE
-xJH
+ykE
 ooe
-ylB
-uxM
-ylB
-pnp
-vNB
-vNB
-vNB
+uST
+uzI
+dlP
+dlP
+dlP
+dlP
+nRO
 ykE
 ykE
 xJH
 ylB
-uxM
-ylB
+vdh
+vUL
 xJH
 ykE
 ykE
@@ -75835,7 +76094,7 @@ vNB
 vNB
 vNB
 vNB
-pLo
+vNB
 vNB
 vNB
 vNB
@@ -76048,12 +76307,12 @@ sXc
 gOZ
 tLS
 tLS
-nxH
 bQE
+cuR
 sIw
 meP
-sIw
-sIw
+ikm
+hAK
 bQE
 ykE
 ykE
@@ -76061,22 +76320,22 @@ ykE
 ykE
 ykE
 ykE
-xJH
-xJH
-ylB
-uxM
-pxR
-pnp
-vNB
-vNB
-vNB
 ykE
 ykE
-xJH
-tKt
-uxM
-ylB
-qaL
+vNB
+uzI
+dlP
+dlP
+dlP
+dlP
+nRO
+ykE
+ykE
+yjH
+hPY
+yjH
+xBL
+yjH
 suO
 vNB
 vNB
@@ -76087,7 +76346,7 @@ vNB
 tBp
 vNB
 uST
-pLo
+vNB
 vNB
 vNB
 vNB
@@ -76300,12 +76559,12 @@ tLS
 tLS
 tLS
 ast
-qnj
 bQE
+cuR
 sIw
 cFj
-sIw
-sIw
+ikm
+hAK
 bQE
 ykE
 ykE
@@ -76314,21 +76573,21 @@ ykE
 ykE
 ykE
 ykE
-xJH
-ylB
-uxM
-qac
-pnp
-uST
+ykE
 vNB
+uzI
 dlP
+dlP
+pgn
+dlP
+rJf
 ykE
 ykE
-xJH
-qta
-uxM
-ylB
-xJH
+yjH
+tIe
+ylq
+cPZ
+yjH
 vNB
 uST
 vNB
@@ -76336,10 +76595,10 @@ vNB
 vNB
 vNB
 vNB
-pLo
-pLo
-uib
-pLo
+vNB
+vNB
+euN
+vNB
 vNB
 vNB
 uST
@@ -76552,34 +76811,34 @@ tLS
 tLS
 jwA
 tLS
-qnj
 bQE
+cZx
 sIw
 cFj
 lln
-sIw
+hAK
 bQE
 ykE
-xJH
-xJH
-xJH
-xJH
+yjH
+yjH
+yjH
+yjH
 ykE
 ykE
 xJH
-ylB
-uxM
-qac
-pnp
-uST
+oBU
+uzI
 vNB
-suO
+dlP
+dlP
+dlP
+rKT
 ykE
-ykE
-xJH
-ylB
-uxM
-ylB
+yjH
+yjH
+jbZ
+kPe
+uXE
 qVi
 rjo
 wHD
@@ -76588,10 +76847,10 @@ vNB
 suO
 vNB
 vNB
-pLo
-pLo
-pLo
-pLo
+vNB
+vNB
+vNB
+vNB
 wop
 wop
 vNB
@@ -76804,41 +77063,41 @@ lDA
 tLS
 tLS
 tLS
-qnj
 bQE
-lTO
-cFj
+dVt
 sIw
+cFj
+ikm
 hvy
-ykE
+ycE
 bQE
 naB
 nkR
 lsh
-bQE
-xJH
-ykE
-xJH
-ylB
-uxM
+yjH
+yjH
+yjH
+yjH
+oGv
+pEO
 oOB
-pnp
-vNB
-uST
-vNB
-ykE
-xJH
-qks
-ylB
-uxM
-ylB
-ghN
-ghN
-vgx
-vgx
-xJH
-xJH
-ghN
+oOB
+rjH
+rjH
+tyz
+yjH
+yjH
+wkt
+nVb
+kPe
+uXE
+yjH
+ffT
+qNX
+qNX
+yjH
+yjH
+yjH
 tlq
 qjk
 ghN
@@ -77056,41 +77315,41 @@ lDA
 lDA
 tLS
 tLS
-qnj
-lPx
+bQE
+bQE
 lTY
 cFj
-sIw
-sIw
-sIw
-sIw
+ikm
+kdA
+kWj
+kWj
 nbZ
-sIw
-sIw
+kWj
+kWj
 cLP
 nPy
-ylB
-ylB
-ylB
-uxM
-ylB
-pnp
-pnp
-vNB
-vNB
-xJH
-xJH
-ylB
-ylB
-uxM
-ylB
-ylB
-ylB
-ylB
-ylB
-oBJ
-ylB
-xUp
+kXu
+kXu
+kXu
+pRm
+kXu
+kXu
+kXu
+kXu
+kXu
+yjH
+yjH
+xjB
+uHD
+kPe
+bCF
+kXu
+kXu
+kXu
+kXu
+sZC
+kXu
+qeR
 xUp
 ylB
 mLX
@@ -77309,7 +77568,7 @@ lDA
 tLS
 sXc
 lHF
-lPx
+bQE
 lUs
 mgU
 xuV
@@ -77319,31 +77578,31 @@ cjV
 xuV
 xuV
 xuV
-xuV
-yjo
-yjo
-yjo
-yjo
-odE
-yjo
-yjo
-yjo
-yjo
-yjo
-vUL
+szt
+szt
+szt
+szt
+szt
+qnj
+szt
+szt
+szt
+szt
+szt
+szt
 gBc
-rjH
-yjo
-odE
+szt
+szt
+qnj
 qMr
-yjo
-yjo
-yjo
-yjo
+szt
+szt
+szt
+szt
 smw
-yjo
-nXN
-yjo
+rjY
+yjH
+mUY
 yjo
 yjo
 yjo
@@ -77560,42 +77819,42 @@ lDA
 tLS
 tLS
 sXc
-qnj
-lPx
+sXc
+bQE
 lVx
-sIw
-sIw
-sIw
-sIw
-sIw
-sIw
+fYe
+fYe
+fYe
+fYe
+fYe
+fYe
 nlH
-sIw
-sIw
-ylB
-ylB
-ylB
-ylB
-ylB
-xUp
-xUp
-pfI
-ylB
-ylB
-pRm
-qaE
-xYy
-ylB
-ylB
-ylB
-ylB
-ylB
-ezU
-ylB
-ylB
-ylB
-ylB
-oHj
+fYe
+kXG
+mBB
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+spK
+uHD
+uHD
+uHD
+uHD
+uHD
+uHD
+dyB
+uHD
+uHD
+mXU
+tZP
+tCc
 ylB
 ylB
 ylB
@@ -77823,30 +78082,30 @@ bQE
 bQE
 bQE
 bQE
-bQE
+yjH
 nPX
-ylB
-ylB
-nPX
-oHj
-oPs
-xUp
-xUp
-ylB
-pEO
-pTg
-gBc
-oHj
-ylB
-ylB
+kXG
+kXG
+oOn
 qNn
-xJH
-xJH
-xJH
-ylB
-ylB
-ylB
-xJH
+oPs
+kXG
+kXG
+kXG
+kXG
+qNn
+vMv
+qNn
+kXG
+kXG
+qNn
+kXG
+kXG
+kXG
+mBB
+uHD
+uXE
+yjH
 xJH
 qaL
 vgx
@@ -78064,7 +78323,7 @@ lDA
 tLS
 jmo
 tLS
-mQi
+gAo
 ykE
 bQE
 lPx
@@ -78075,30 +78334,30 @@ mMo
 itA
 mJH
 nwr
-bQE
-xJH
+yjH
+yjH
 oer
 oqp
-xJH
-xJH
-oPu
-oPu
-oPu
-oYQ
-xjB
-pnp
-pnp
-pnp
-xjB
-oYQ
-pnp
-pnp
-vNB
-oYQ
-ylB
-ylB
-ylB
-oYQ
+yjH
+yjH
+yjH
+yjH
+yjH
+qNX
+qNX
+yjH
+yjH
+yjH
+qNX
+spK
+yjH
+yjH
+yjH
+yjH
+jbZ
+uHD
+uXE
+spK
 vNB
 vNB
 vNB
@@ -78328,29 +78587,29 @@ bVL
 bVL
 nya
 nBl
-xJH
-xJH
-xJH
-xJH
-suO
-vNB
-pkl
-vNB
-dlP
-dlP
-vNB
-vNB
-uST
-dlP
-vNB
-dlP
-vNB
-vNB
-oYQ
-ylB
-ylB
-ylB
-oYQ
+yjH
+qNX
+qNX
+yjH
+qwf
+qXO
+rhU
+qXO
+rwS
+rwS
+qXO
+qXO
+xMV
+rwS
+qXO
+rwS
+qXO
+rxg
+spK
+jbZ
+uHD
+uXE
+spK
 vNB
 vNB
 pkl
@@ -78571,7 +78830,7 @@ hJB
 hJB
 hJB
 ykE
-hJB
+ykE
 kMo
 bVL
 hJB
@@ -78580,11 +78839,11 @@ bVL
 hJB
 bVL
 nCh
-ykE
-ykE
-ykE
-ykE
-ykE
+mQi
+mQi
+mQi
+mQi
+qMd
 vNB
 vNB
 wHD
@@ -78597,12 +78856,12 @@ vNB
 vNB
 vNB
 qVE
-vNB
-pnp
-ylB
-ylB
-ylB
-pnp
+wce
+yjH
+jbZ
+uHD
+uXE
+yjH
 mTj
 qXP
 vNB
@@ -78822,8 +79081,8 @@ hJB
 hJB
 bVL
 hJB
-hJB
-bVL
+ykE
+ykE
 hJB
 bVL
 bVL
@@ -78833,11 +79092,11 @@ hJB
 bVL
 nDM
 boM
-ykE
-ykE
-ykE
-ykE
-ykE
+tSY
+tSY
+tSY
+tSY
+tSY
 vNB
 vNB
 vNB
@@ -78849,12 +79108,12 @@ vNB
 vNB
 vNB
 qXx
-vNB
-oYQ
-ylB
-ylB
-ylB
-oYQ
+wce
+spK
+jbZ
+uHD
+uXE
+spK
 vNB
 ykE
 ykE
@@ -79074,9 +79333,9 @@ llS
 hJB
 hJB
 lmk
-hJB
-hJB
-hJB
+ykE
+ykE
+ykE
 hJB
 hJB
 hJB
@@ -79089,11 +79348,11 @@ hJB
 bVL
 bVL
 hJB
-ykE
-ykE
-ykE
-ykE
-ykE
+tSY
+tSY
+tSY
+tSY
+tSY
 vNB
 vNB
 uST
@@ -79101,12 +79360,12 @@ dlP
 tkh
 vNB
 vNB
-uST
-oYQ
+cNA
+spK
 rUT
-ylB
-vHu
-oYQ
+uHD
+jsy
+spK
 wHD
 ykE
 ykE
@@ -79326,10 +79585,10 @@ hJB
 hJB
 hJB
 bVL
-hJB
-hJB
-hJB
-kcM
+ykE
+ykE
+ykE
+ykE
 hJB
 bVL
 rLM
@@ -79342,23 +79601,23 @@ bVL
 bVL
 bVL
 bVL
-ykE
-ykE
-ykE
-ykE
-ykE
-suO
-ykE
-ykE
-ykE
-dlP
-qXP
+tSY
+tSY
+tSY
+tTa
+urA
+vMx
+urA
+urA
+urA
+vMx
+vMx
 pnp
-pnp
+yjH
 vHu
 soR
-ylB
-pnp
+uXE
+yjH
 pnp
 ykE
 ykE
@@ -79579,10 +79838,10 @@ hJB
 rLM
 hJB
 hJB
-hJB
-bVL
-hJB
-hJB
+ykE
+ykE
+ykE
+ykE
 hJB
 hJB
 hJB
@@ -79597,13 +79856,13 @@ aSh
 bVL
 hJB
 hJB
-ykE
-ykE
-ykE
-ykE
-ykE
-ykE
-ykE
+uib
+vhD
+vhD
+vhD
+vhD
+vhD
+vhD
 yjH
 yjH
 yjH
@@ -79833,8 +80092,8 @@ hJB
 hJB
 hJB
 ykE
-hJB
-bVL
+ykE
+ykE
 mNj
 hJB
 hJB
@@ -80085,8 +80344,8 @@ hJB
 hJB
 ykE
 ykE
-bVL
-hJB
+ykE
+ykE
 hJB
 hJB
 bVL
@@ -80334,10 +80593,10 @@ fdL
 eWt
 ahI
 hJB
-hJB
 ykE
 ykE
-bVL
+ykE
+ykE
 hJB
 hJB
 bVL
@@ -80586,8 +80845,8 @@ ydk
 jKH
 lIx
 hJB
-hJB
-bVL
+ykE
+ykE
 ykE
 hJB
 boM
@@ -80838,9 +81097,9 @@ ydk
 jKH
 xvO
 hJB
-hJB
-hJB
-hJB
+ykE
+ykE
+ykE
 boM
 hJB
 hJB
@@ -80881,9 +81140,9 @@ ueB
 sRs
 yjH
 vLm
-itA
-itA
-itA
+fOU
+fOU
+fOU
 ykE
 ykE
 ykE
@@ -81090,10 +81349,10 @@ doX
 jKH
 lJk
 hJB
-hJB
-hJB
-hJB
-hJB
+ykE
+ykE
+ykE
+ykE
 hJB
 hJB
 hJB
@@ -81110,7 +81369,7 @@ bVL
 hJB
 hJB
 lIC
-elq
+pTx
 yjH
 sRs
 sRs
@@ -81133,10 +81392,10 @@ ueB
 sRs
 yjH
 jyN
-bVL
-bVL
-hJB
-hJB
+tyR
+tyR
+nXu
+nXu
 ykE
 ykE
 ykE
@@ -81342,10 +81601,10 @@ doX
 fdL
 eWt
 hJB
-kMy
-lQM
-kZk
-hJB
+ykE
+ykE
+ykE
+ykE
 hJB
 bVL
 hJB
@@ -81361,7 +81620,7 @@ hJB
 hJB
 boM
 hJB
-elq
+lIC
 yjH
 yjH
 sRs
@@ -81385,11 +81644,11 @@ sRs
 sRs
 yjH
 jyN
-bVL
-hJB
-hJB
-hJB
-hJB
+tyR
+nXu
+nXu
+nXu
+nXu
 ykE
 ykE
 ykE
@@ -81594,11 +81853,11 @@ doX
 ydk
 fdL
 lQM
-lVL
-gLI
-hLJ
-kZk
-hJB
+ykE
+ykE
+ykE
+ykE
+ykE
 hJB
 hJB
 bVL
@@ -81636,12 +81895,12 @@ yjH
 yjH
 yjH
 yjH
-pTx
+wjV
 whQ
-hJB
-hJB
-hJB
-hJB
+nXu
+nXu
+nXu
+nXu
 ykE
 ykE
 ykE
@@ -81847,10 +82106,10 @@ ydk
 ydk
 ydk
 gLI
-gLI
-gLI
-mBB
-bVL
+ykE
+ykE
+ykE
+ykE
 hJB
 kMy
 lQM
@@ -81888,13 +82147,13 @@ ueB
 ueB
 ueB
 yjH
-vMv
+yjH
 jyN
-hJB
-hJB
-hJB
-hJB
-hJB
+nXu
+nXu
+nXu
+nXu
+nXu
 ykE
 ykE
 ykE
@@ -82099,10 +82358,10 @@ ydk
 ydk
 doX
 ydk
-ydk
-gLI
-mBB
-hJB
+ykE
+ykE
+ykE
+ykE
 hJB
 ncS
 gLI
@@ -82140,19 +82399,19 @@ ueB
 ueB
 ueB
 ueB
-vMv
+yjH
 jyN
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
 ycY
-bVL
-hJB
+tyR
+nXu
 vPu
 tyR
 uTP
@@ -82351,9 +82610,9 @@ doX
 doX
 doX
 doX
-ydk
-gLI
-mBB
+ykE
+ykE
+ykE
 hJB
 mNw
 ncS
@@ -82392,19 +82651,19 @@ ueB
 ueB
 ueB
 ueB
-vMv
+yjH
 jyN
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-bVL
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+tyR
 kgZ
 nXu
 nXu
@@ -82603,9 +82862,9 @@ doX
 doX
 doX
 iqG
-ydk
-gLI
-hLJ
+ykE
+ykE
+ykE
 lQM
 lQM
 lVL
@@ -82622,7 +82881,7 @@ hJB
 hJB
 nDM
 lIC
-elq
+pTx
 yjH
 yjH
 ueB
@@ -82644,19 +82903,19 @@ ueB
 ueB
 ueB
 ueB
-vMx
+pmK
 jyN
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-bVL
-hJB
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+tyR
+nXu
 vPu
 tyR
 nXu
@@ -82856,7 +83115,7 @@ osA
 cnW
 mPk
 doX
-doX
+ykE
 gLI
 gLI
 gLI
@@ -82873,7 +83132,7 @@ kZk
 hJB
 hJB
 hJB
-elq
+pTx
 yjH
 yjH
 yjH
@@ -82896,19 +83155,19 @@ ueB
 ueB
 ueB
 ueB
-vMx
+pmK
 jyN
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-hJB
-bVL
-bVL
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+nXu
+tyR
+tyR
 vPu
 nXu
 tyR
@@ -83148,8 +83407,8 @@ ueB
 ueB
 ueB
 ueB
-vMx
-pTx
+pmK
+wjV
 wBN
 wBN
 wBN
@@ -83401,18 +83660,18 @@ ueB
 ueB
 ueB
 yjH
-pTx
-pTx
+wjV
+wjV
 yjH
-pTx
-pTx
+wjV
+wjV
 yjH
-pTx
-pTx
+wjV
+wjV
 yjH
-pTx
-pTx
-pTx
+wjV
+wjV
+wjV
 ykE
 lWX
 nXu
@@ -83614,8 +83873,8 @@ nvv
 doX
 doX
 doX
-doX
-doX
+kzf
+kzf
 doX
 doX
 doX
@@ -83865,11 +84124,11 @@ mPk
 akg
 doX
 doX
-doX
-doX
-doX
-doX
-doX
+kzf
+kzf
+kzf
+kzf
+kzf
 doX
 doX
 doX
@@ -84118,10 +84377,10 @@ nvv
 doX
 doX
 doX
-doX
-doX
-doX
-doX
+kzf
+kzf
+kzf
+kzf
 doX
 doX
 doX
@@ -84364,15 +84623,15 @@ mPk
 mPk
 mPk
 mPk
+jMQ
 mPk
 mPk
-mPk
 doX
 doX
 doX
 doX
-doX
-doX
+kzf
+kzf
 doX
 gPC
 doX
@@ -84616,8 +84875,8 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
+jMQ
+jMQ
 mPk
 mPk
 osA
@@ -84867,9 +85126,9 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
+jMQ
+jMQ
+jMQ
 mPk
 mPk
 mPk
@@ -85120,7 +85379,7 @@ mPk
 mPk
 mPk
 mPk
-mPk
+jMQ
 mPk
 mPk
 mPk
@@ -85384,8 +85643,8 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
+jMQ
+jMQ
 mPk
 mPk
 mPk
@@ -85635,10 +85894,10 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
+jMQ
+jMQ
+jMQ
+jMQ
 mPk
 mPk
 mPk
@@ -85888,10 +86147,10 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
-mPk
+jMQ
+jMQ
+jMQ
+jMQ
 mPk
 mPk
 mPk
@@ -86141,9 +86400,9 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
+jMQ
+jMQ
+jMQ
 mPk
 mPk
 mPk
@@ -86394,9 +86653,9 @@ mPk
 mPk
 mPk
 mPk
-mPk
-mPk
-mPk
+jMQ
+jMQ
+jMQ
 mPk
 mPk
 mPk
