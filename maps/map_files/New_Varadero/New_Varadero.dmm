@@ -3978,7 +3978,7 @@
 	dir = 8;
 	layer = 2.99
 	},
-/turf/open/auto_turf/sand_white/layer1,
+/turf/open/auto_turf/strata_grass/layer1,
 /area/varadero/interior/caves/north_research)
 "cZZ" = (
 /obj/structure/window/framed/colony,
@@ -4211,7 +4211,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
 	},
-/turf/open/gm/dirt,
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/north_research)
 "dhN" = (
 /obj/structure/prop/structure_lattice{
@@ -5454,6 +5454,14 @@
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/gm/grass/grass1/weedable,
 /area/varadero/interior_protected/caves/central)
+"eeM" = (
+/obj/structure/stairs/perspective{
+	color = "#b29082";
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/north_research)
 "efm" = (
 /obj/structure/sign/safety/hazard{
 	pixel_x = 15
@@ -6069,10 +6077,9 @@
 	},
 /area/varadero/interior_protected/vessel)
 "eEy" = (
-/obj/structure/prop/rock/brown,
 /obj/structure/platform/kutjevo/smooth{
 	climb_delay = 1;
-	dir = 1;
+	dir = 4;
 	layer = 2.99
 	},
 /turf/open/auto_turf/sand_white/layer1,
@@ -6229,7 +6236,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 4
 	},
-/turf/open/auto_turf/sand_white/layer1,
+/turf/open/auto_turf/strata_grass/layer1,
 /area/varadero/interior/caves/north_research)
 "eLu" = (
 /obj/structure/closet/secure_closet/freezer/fridge/groceries,
@@ -9065,7 +9072,7 @@
 	dir = 8;
 	icon_state = "p_stair_full"
 	},
-/turf/open/gm/dirt,
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/north_research)
 "gVa" = (
 /obj/structure/prop/invuln/minecart_tracks{
@@ -18348,7 +18355,7 @@
 	dir = 8;
 	icon_state = "p_stair_full"
 	},
-/turf/open/gm/dirt,
+/turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/north_research)
 "nDM" = (
 /obj/effect/overlay/palmtree_r,
@@ -26159,6 +26166,10 @@
 	dir = 1
 	},
 /area/varadero/interior/research)
+"sYS" = (
+/obj/effect/landmark/objective_landmark/far,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/varadero/interior/caves/north_research)
 "sZp" = (
 /obj/item/weapon/baton,
 /turf/open/floor/shiva{
@@ -31570,6 +31581,16 @@
 /obj/item/tool/soap/syndie,
 /turf/open/floor/interior/plastic/alt,
 /area/varadero/interior/laundry)
+"wGF" = (
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/handrail/wire{
+	layer = 3.1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior/caves/north_research)
 "wGK" = (
 /turf/open/floor/shiva{
 	dir = 1;
@@ -44564,7 +44585,7 @@ wJu
 wJu
 wJu
 wJu
-nlZ
+wGF
 uXZ
 uXZ
 uXZ
@@ -44816,7 +44837,7 @@ wJu
 wJu
 wJu
 wJu
-nlZ
+wGF
 uXZ
 uXZ
 uXZ
@@ -45058,6 +45079,7 @@ wlB
 wJu
 wJu
 wJu
+ykc
 wJu
 wJu
 wJu
@@ -45066,9 +45088,8 @@ wJu
 wJu
 wJu
 wJu
-wJu
-wJu
-nlZ
+ykc
+wGF
 uXZ
 uXZ
 uXZ
@@ -45309,18 +45330,18 @@ wlB
 wJu
 wJu
 wJu
+ykc
+ykc
+ykc
 wJu
 wJu
 wJu
 wJu
 wJu
 wJu
-wJu
-wJu
-wJu
-wJu
-wJu
-nlZ
+ykc
+ykc
+wGF
 uXZ
 uXZ
 uXZ
@@ -45559,20 +45580,20 @@ ygZ
 aGM
 aGM
 aGM
-aGM
+eEy
 dhw
+ykc
+ykc
+ykc
 wJu
 wJu
 wJu
 wJu
 wJu
-wJu
-wJu
-wJu
-wJu
-wJu
-wJu
-nlZ
+ykc
+ykc
+ykc
+wGF
 uXZ
 uXZ
 uXZ
@@ -45815,14 +45836,14 @@ xBo
 nDL
 ePy
 ePy
+eeM
 ePy
 ePy
 ePy
 ePy
-ePy
-ePy
-ePy
-ePy
+eeM
+eeM
+eeM
 ePy
 gUT
 uXZ
@@ -47075,10 +47096,10 @@ xBo
 ecc
 wJu
 wJu
-xcE
-xcE
-xcE
-xcE
+wJu
+wJu
+wJu
+wJu
 wJu
 wJu
 wJu
@@ -47326,10 +47347,10 @@ bYA
 xBo
 ecc
 wJu
-ePP
-fuV
-xcE
-xcE
+wJu
+wJu
+wJu
+wJu
 wJu
 wJu
 wJu
@@ -47580,7 +47601,7 @@ ecc
 wJu
 wJu
 wJu
-xcE
+wJu
 wJu
 wJu
 xcE
@@ -47841,7 +47862,7 @@ wJu
 wJu
 mOM
 wJu
-wJu
+ePP
 xBo
 uXZ
 nRH
@@ -48334,7 +48355,7 @@ hkO
 xBo
 eDV
 wJu
-wJu
+xcE
 ykc
 ykc
 ykc
@@ -48584,8 +48605,8 @@ ydy
 xBo
 xBo
 xBo
-eEy
-wJu
+eDV
+xcE
 xcE
 ykc
 ykc
@@ -48837,7 +48858,7 @@ xBo
 ygZ
 cZW
 eLm
-gFU
+sYS
 ykc
 xcE
 ykc
@@ -49087,7 +49108,7 @@ juM
 pXp
 ygZ
 ygZ
-vpr
+fuV
 xcE
 xcE
 ykc
@@ -49592,7 +49613,7 @@ pXp
 ygZ
 ygZ
 ygZ
-ykc
+xcE
 ykc
 ezR
 ykc
