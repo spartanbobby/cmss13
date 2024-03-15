@@ -144,10 +144,9 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "asteroidwarning"
-	},
+/obj/structure/closet/crate,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/gm/dirt,
 /area/varadero/exterior/lz1_near)
 "agn" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -989,7 +988,7 @@
 	},
 /area/varadero/exterior/pontoon_beach)
 "aPj" = (
-/turf/closed/wall/r_wall/unmeltable,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/varadero/interior/cargo)
 "aPm" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1492,8 +1491,7 @@
 "blq" = (
 /obj/structure/machinery/light,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
+	icon_state = "asteroidwarning"
 	},
 /area/varadero/exterior/lz1_near)
 "blz" = (
@@ -2003,8 +2001,7 @@
 "bDK" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
+	icon_state = "asteroidwarning"
 	},
 /area/varadero/exterior/lz1_near)
 "bDW" = (
@@ -3841,14 +3838,11 @@
 /turf/open/gm/dirt,
 /area/varadero/exterior/lz1_near)
 "cUK" = (
-/obj/structure/machinery/storm_siren{
-	dir = 4;
-	pixel_x = -3
-	},
-/turf/open/floor{
-	icon_state = "bcircuit"
-	},
-/area/varadero/interior/maintenance/north)
+/obj/structure/closet/crate,
+/obj/item/tool/wet_sign,
+/obj/item/tool/stamp,
+/turf/open/gm/dirt,
+/area/varadero/exterior/lz1_near)
 "cUL" = (
 /obj/structure/machinery/reagentgrinder{
 	pixel_y = 7
@@ -4618,9 +4612,14 @@
 	},
 /area/varadero/interior/medical)
 "dss" = (
-/obj/structure/closet/crate,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/gm/dirt,
+/obj/structure/machinery/landinglight/ds2/spoke{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "asteroidwarning"
+	},
 /area/varadero/exterior/lz1_near)
 "dsL" = (
 /obj/structure/xenoautopsy/tank,
@@ -4630,10 +4629,11 @@
 	},
 /area/varadero/interior/oob)
 "dtW" = (
-/obj/structure/closet/crate,
-/obj/item/tool/stamp,
-/obj/item/tool/wet_sign,
-/turf/open/gm/dirt,
+/obj/structure/closet/toolcloset,
+/turf/open/floor{
+	dir = 9;
+	icon_state = "asteroidwarning"
+	},
 /area/varadero/exterior/lz1_near)
 "dur" = (
 /obj/structure/machinery/light/small{
@@ -5489,7 +5489,7 @@
 	pixel_x = 8
 	},
 /obj/structure/sign/safety/bulkhead_door,
-/turf/closed/wall/r_wall,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/varadero/interior/cargo)
 "efH" = (
 /obj/structure/sign/safety/bulkhead_door,
@@ -5499,7 +5499,7 @@
 	name = "West Dock Door";
 	pixel_x = 3
 	},
-/turf/closed/wall/r_wall,
+/turf/closed/wall/shiva/prefabricated/reinforced,
 /area/varadero/exterior/lz1_near)
 "egi" = (
 /obj/structure/machinery/landinglight/ds2/spoke{
@@ -6395,7 +6395,13 @@
 	},
 /area/varadero/interior/cargo)
 "eRf" = (
-/turf/closed/wall/r_wall/unmeltable,
+/obj/structure/machinery/storm_siren{
+	dir = 4;
+	pixel_x = -3
+	},
+/turf/open/floor{
+	icon_state = "bcircuit"
+	},
 /area/varadero/interior/maintenance/north)
 "eRT" = (
 /obj/structure/machinery/power/apc{
@@ -6805,12 +6811,13 @@
 	},
 /area/varadero/interior/cargo)
 "fhe" = (
-/obj/structure/closet/secure_closet/engineering_electrical,
-/turf/open/floor{
-	dir = 8;
-	icon_state = "asteroidwarning"
+/obj/structure/machinery/power/smes/buildable{
+	name = "colony distribution SMES"
 	},
-/area/varadero/exterior/lz1_near)
+/turf/open/floor/plating/icefloor{
+	icon_state = "asteroidplating"
+	},
+/area/varadero/interior/maintenance/north)
 "fhh" = (
 /turf/open/gm/coast/west,
 /area/varadero/exterior/farocean)
@@ -6999,14 +7006,6 @@
 	icon_state = "blue"
 	},
 /area/varadero/interior/administration)
-"foU" = (
-/obj/structure/machinery/power/terminal{
-	dir = 8
-	},
-/turf/open/floor{
-	icon_state = "bcircuit"
-	},
-/area/varadero/interior/maintenance/north)
 "fph" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
@@ -7202,13 +7201,6 @@
 	},
 /turf/open/floor/wood,
 /area/varadero/interior/administration)
-"fxA" = (
-/obj/structure/closet/toolcloset,
-/turf/open/floor{
-	dir = 8;
-	icon_state = "asteroidwarning"
-	},
-/area/varadero/exterior/lz1_near)
 "fxK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -8335,8 +8327,8 @@
 "gvM" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
+	dir = 10;
+	icon_state = "asteroidwarning"
 	},
 /area/varadero/exterior/lz1_near)
 "gvR" = (
@@ -8722,10 +8714,6 @@
 	icon_state = "desert3"
 	},
 /area/varadero/exterior/eastbeach)
-"gJF" = (
-/obj/structure/foamed_metal,
-/turf/open/floor/plating,
-/area/varadero/interior/oob)
 "gJI" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -20822,8 +20810,12 @@
 	},
 /area/varadero/interior/hall_NW)
 "pLX" = (
-/turf/closed/wall,
-/area/varadero/interior/maintenance/north)
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor{
+	dir = 8;
+	icon_state = "asteroidwarning"
+	},
+/area/varadero/exterior/lz1_near)
 "pMb" = (
 /obj/structure/coatrack,
 /obj/item/clothing/head/fedora{
@@ -23926,16 +23918,6 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
-"rJI" = (
-/obj/structure/platform/kutjevo/smooth{
-	climb_delay = 1;
-	dir = 4;
-	layer = 2.99
-	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
-/area/varadero/exterior/lz1_near)
 "rJY" = (
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/carpet,
@@ -25764,11 +25746,11 @@
 	},
 /area/varadero/interior_protected/caves/swcaves)
 "sYk" = (
-/obj/structure/machinery/power/smes/buildable{
-	name = "colony distribution SMES"
+/obj/structure/machinery/power/terminal{
+	dir = 8
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
+/turf/open/floor{
+	icon_state = "bcircuit"
 	},
 /area/varadero/interior/maintenance/north)
 "sYm" = (
@@ -27095,9 +27077,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/plating/icefloor{
-	icon_state = "asteroidplating"
-	},
+/turf/open/gm/dirt,
 /area/varadero/exterior/lz1_near)
 "tTP" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -53138,8 +53118,8 @@ ykE
 ykE
 ycE
 drP
-ycE
-gJF
+ykE
+ykE
 hdu
 dXw
 edR
@@ -53390,8 +53370,8 @@ ykE
 ykE
 ykE
 drQ
-ycE
-gJF
+ykE
+ykE
 hdu
 dYX
 vAG
@@ -53642,8 +53622,8 @@ cvB
 fAa
 ykE
 jXb
-ycE
-gJF
+ykE
+ykE
 hdu
 dZm
 ykJ
@@ -53894,8 +53874,8 @@ cTd
 uSx
 lfR
 wyi
-ycE
-gJF
+ykE
+ykE
 hdu
 hdu
 efm
@@ -54146,10 +54126,10 @@ qsy
 sZW
 iRB
 wyi
-ycE
-gJF
-gJF
-gJF
+ykE
+ykE
+ykE
+ykE
 hdu
 eNq
 vCa
@@ -54398,10 +54378,10 @@ cln
 sZW
 dlJ
 ece
-ycE
-gJF
-gJF
-gJF
+ykE
+ykE
+ykE
+ykE
 hdu
 ohg
 ewv
@@ -54650,10 +54630,10 @@ sZW
 mkD
 dmK
 baP
-ycE
-gJF
-gJF
-gJF
+ykE
+ykE
+ykE
+ykE
 hdu
 lAP
 uxU
@@ -54902,10 +54882,10 @@ sZW
 xAm
 sZW
 qsy
-ycE
-gJF
-gJF
-gJF
+ykE
+ykE
+ykE
+ykE
 hdu
 epO
 uxU
@@ -55154,10 +55134,10 @@ cUj
 cIk
 sZW
 cAD
-ycE
-gJF
-gJF
-gJF
+ykE
+ykE
+ykE
+ykE
 hdu
 dVe
 uxU
@@ -55383,12 +55363,12 @@ ykE
 qsy
 sZW
 sZW
-kNe
+sZW
 sZW
 ykE
 tuV
 qsy
-kNe
+sZW
 sZW
 bMB
 ykE
@@ -55406,10 +55386,10 @@ cUT
 qsy
 cEh
 sZW
-ycE
-gJF
-gJF
-gJF
+agj
+ykE
+ykE
+ykE
 hdu
 eNq
 ykJ
@@ -55635,12 +55615,12 @@ ykE
 acJ
 dcM
 sZW
-kNe
+sZW
 sZW
 ykE
 blU
 sZW
-kNe
+sZW
 qsy
 htD
 ykE
@@ -55657,11 +55637,11 @@ cIq
 cUV
 sZW
 dmQ
-dss
-ycE
-gJF
-gJF
-gJF
+sZW
+cUK
+ykE
+ykE
+ykE
 efo
 epT
 epT
@@ -55675,11 +55655,11 @@ jAY
 gBR
 gBR
 gBR
-jAY
-jAY
-jAY
-jAY
-jAY
+gBR
+qTV
+qTV
+qTV
+qTV
 gBR
 gBR
 gBR
@@ -55887,12 +55867,12 @@ dgF
 dgF
 jRN
 dcM
-kNe
 sZW
 sZW
 sZW
 sZW
-kNe
+sZW
+sZW
 sZW
 sZW
 bSv
@@ -55909,30 +55889,30 @@ cKg
 sZW
 ddn
 htD
-dtW
-ycE
-ycE
-ycE
-ycE
-hdu
+sZW
+sZW
+ykE
+ykE
+rEc
+aPj
 eqZ
 eqZ
 eqZ
 eqZ
 aPj
-jAY
-jAY
-gBR
-gBR
-gBR
-gBR
-jAY
-jAY
+qTV
+mSQ
+msj
+qTV
+msj
+msj
+mSQ
 qTV
 qTV
+fhe
+fhe
 qTV
 qTV
-gBR
 gBR
 gBR
 gBR
@@ -56139,12 +56119,12 @@ dgF
 dlD
 fuj
 jSP
-rJI
-rJI
-rJI
+btn
+btn
+btn
 tTN
-kNe
-kNe
+sZW
+sZW
 mrL
 bOC
 bSz
@@ -56162,7 +56142,7 @@ lLj
 ddM
 ddM
 lLj
-agj
+lLj
 bgh
 dWU
 dZM
@@ -56171,19 +56151,19 @@ teo
 teo
 teo
 erw
-eRf
-mSQ
-msj
-msj
+rEc
+dtW
+lLj
+lLj
 pLX
-msj
-msj
-msj
+lLj
+lLj
+cBs
 qTV
-qTV
+eRf
 sYk
 sYk
-qTV
+rad
 qTV
 jAY
 gBR
@@ -56419,23 +56399,23 @@ fuS
 fuS
 fuS
 egi
-fuS
-fuS
-fuS
-nLK
+lLj
+lLj
+lLj
+dss
 eRT
-lLj
-lLj
-lLj
-fxA
-fhe
-lLj
-lLj
+fuS
+fuS
+fuS
+fuS
+fuS
+fuS
+pQw
 qTV
-cUK
-foU
-foU
-rad
+qqR
+qqR
+qqR
+qqR
 qTV
 jAY
 gBR
@@ -56682,7 +56662,7 @@ fuS
 fuS
 fuS
 fuS
-fuS
+pQw
 sbE
 qqR
 qqR
@@ -56934,7 +56914,7 @@ fhq
 fuS
 fuS
 fuS
-fuS
+pQw
 sbE
 qqR
 qqR
@@ -57186,13 +57166,13 @@ fuS
 fuS
 fuS
 fuS
-fuS
-sbE
+pQw
+qTV
 qqR
 qqR
 qqR
 qqR
-sbE
+qTV
 jAY
 gBR
 gBR
@@ -58196,8 +58176,8 @@ fuS
 fuS
 fuS
 fuS
-chg
-pQw
+bgh
+cBs
 msj
 jAY
 gBR
