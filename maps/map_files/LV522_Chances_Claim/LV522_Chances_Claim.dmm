@@ -709,8 +709,14 @@
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/kitchen)
 "asI" = (
-/turf/open/floor/corsat,
-/area/lv522/oob)
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/prop/almayer/computers/sensor_computer1,
+/turf/open/floor/corsat{
+	icon_state = "plate"
+	},
+/area/lv522/atmos/north_command_centre)
 "asZ" = (
 /obj/structure/bed/chair,
 /obj/effect/decal/cleanable/dirt,
@@ -3652,9 +3658,9 @@
 /area/lv522/outdoors/colony_streets/north_east_street)
 "ccN" = (
 /obj/structure/window/reinforced{
-	dir = 8
+	dir = 4
 	},
-/obj/structure/prop/almayer/computers/sensor_computer1,
+/obj/structure/prop/almayer/computers/sensor_computer2,
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -14789,11 +14795,6 @@
 	},
 /turf/open/asphalt/cement,
 /area/lv522/outdoors/colony_streets/east_central_street)
-"hye" = (
-/turf/open/floor/corsat{
-	icon_state = "marked"
-	},
-/area/lv522/oob)
 "hyf" = (
 /obj/structure/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -15999,15 +16000,6 @@
 	icon_state = "23"
 	},
 /area/lv522/landing_zone_forecon/UD6_Tornado)
-"ibT" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/prop/almayer/computers/sensor_computer2,
-/turf/open/floor/corsat{
-	icon_state = "plate"
-	},
-/area/lv522/atmos/north_command_centre)
 "ibW" = (
 /obj/structure/window/framed/strata/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -65750,9 +65742,9 @@ cpy
 cpy
 cpy
 cpy
-cpy
-tiQ
-ylC
+saC
+saC
+saC
 ncS
 ylC
 ylC
@@ -65956,10 +65948,10 @@ cpy
 cpy
 cpy
 cpy
-cpy
-tiQ
-ylC
-ylC
+saC
+saC
+saC
+saC
 ljq
 ylC
 ylC
@@ -66163,8 +66155,8 @@ cpy
 cpy
 cpy
 cpy
-tiQ
-ylC
+saC
+saC
 ylC
 ylC
 ylC
@@ -66369,11 +66361,11 @@ cpy
 cpy
 cpy
 cpy
-tiQ
-tiQ
-hye
-hye
-hye
+saC
+saC
+xxW
+xxW
+xxW
 tiQ
 tiQ
 saC
@@ -66575,12 +66567,12 @@ cpy
 cpy
 cpy
 cpy
-tiQ
-asI
-asI
-asI
-asI
-asI
+saC
+saC
+kyK
+kyK
+kyK
+kyK
 tiQ
 saC
 saC
@@ -66782,12 +66774,12 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+kyK
+kyK
+saC
 saC
 saC
 saC
@@ -66988,12 +66980,12 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+kyK
+kyK
+saC
 saC
 saC
 saC
@@ -67194,12 +67186,12 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+kyK
+ccu
+saC
 saC
 saC
 saC
@@ -67400,12 +67392,12 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+ccu
+ccu
+saC
 saC
 saC
 saC
@@ -67606,11 +67598,11 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
+kyK
+kyK
+kyK
+kyK
+kyK
 tiQ
 saC
 saC
@@ -67812,11 +67804,11 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-asI
+kyK
+kyK
+kyK
+kyK
+kyK
 tiQ
 ccu
 eCO
@@ -68019,11 +68011,11 @@ cpy
 cpy
 tiQ
 tiQ
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+kyK
+kyK
 wyv
 cBi
 xxW
@@ -68225,11 +68217,11 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
+kyK
+kyK
 wyv
 cCC
 qYk
@@ -68431,12 +68423,12 @@ cpy
 cpy
 cpy
 tiQ
-asI
-asI
-asI
-asI
-tiQ
-ccN
+kyK
+kyK
+kyK
+kyK
+kyK
+wyv
 ixf
 xxW
 wyv
@@ -68638,11 +68630,11 @@ cpy
 cpy
 tiQ
 tiQ
-asI
-asI
-asI
-tiQ
-ibT
+kyK
+kyK
+kyK
+kyK
+wyv
 ixf
 xxW
 wyv
@@ -68845,9 +68837,9 @@ cpy
 cpy
 tiQ
 tiQ
-asI
-asI
-tiQ
+kyK
+kyK
+kyK
 wyv
 gll
 xxW
@@ -69052,8 +69044,8 @@ cpy
 cpy
 tiQ
 tiQ
-asI
-tiQ
+kyK
+kyK
 wyv
 xxW
 xxW
@@ -69259,7 +69251,7 @@ cpy
 tiQ
 tiQ
 tiQ
-tiQ
+kyK
 wyv
 xxW
 xxW
@@ -69465,7 +69457,7 @@ cpy
 cpy
 tiQ
 tiQ
-tiQ
+kyK
 wyv
 xxW
 xxW
@@ -69878,7 +69870,7 @@ cpy
 cpy
 cpy
 tiQ
-wyv
+asI
 xxW
 xxW
 wyv
@@ -70084,7 +70076,7 @@ cpy
 cpy
 cpy
 tiQ
-wyv
+ccN
 xxW
 xxW
 wyv
