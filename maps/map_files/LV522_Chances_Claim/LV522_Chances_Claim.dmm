@@ -709,12 +709,8 @@
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/kitchen)
 "asI" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/corsat{
-	dir = 1;
-	icon_state = "brown"
-	},
-/area/lv522/atmos/north_command_centre)
+/turf/open/floor/corsat,
+/area/lv522/oob)
 "asZ" = (
 /obj/structure/bed/chair,
 /obj/effect/decal/cleanable/dirt,
@@ -2244,11 +2240,13 @@
 /turf/open/gm/river,
 /area/lv522/oob)
 "bsz" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/corsat{
-	icon_state = "plate"
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 9
 	},
-/area/lv522/atmos/north_command_centre)
+/turf/open/floor/corsat{
+	icon_state = "squares"
+	},
+/area/lv522/atmos/east_reactor/south)
 "bsG" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/c_block/bridge)
@@ -5001,13 +4999,13 @@
 	},
 /area/lv522/indoors/a_block/medical/glass)
 "cNB" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 5
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 8
 	},
 /turf/open/floor/corsat{
 	icon_state = "squares"
 	},
-/area/lv522/atmos/north_command_centre)
+/area/lv522/atmos/east_reactor/south)
 "cNO" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/recharger,
@@ -5019,10 +5017,9 @@
 	dir = 4
 	},
 /turf/open/floor/corsat{
-	dir = 4;
-	icon_state = "brown"
+	icon_state = "marked"
 	},
-/area/lv522/atmos/north_command_centre)
+/area/lv522/atmos/reactor_garage)
 "cNU" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -5031,13 +5028,11 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/hallway/damage)
 "cNV" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/prison{
+	icon_state = "floor_plate"
 	},
-/turf/open/floor/corsat{
-	icon_state = "plate"
-	},
-/area/lv522/atmos/north_command_centre)
+/area/lv522/outdoors/colony_streets/north_street)
 "cOA" = (
 /obj/structure/closet/crate,
 /obj/item/storage/xeno_tag_case,
@@ -6678,9 +6673,6 @@
 	},
 /area/lv522/atmos/north_command_centre)
 "dDS" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 6
-	},
 /turf/open/floor/corsat{
 	icon_state = "browncorner"
 	},
@@ -6721,12 +6713,10 @@
 /area/lv522/indoors/a_block/admin)
 "dEL" = (
 /obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
+	dir = 9
 	},
-/turf/open/floor/corsat{
-	icon_state = "brown"
-	},
-/area/lv522/atmos/north_command_centre)
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/lv522/outdoors/colony_streets/north_street)
 "dEP" = (
 /obj/structure/closet/crate/trashcart,
 /obj/item/trash/chips,
@@ -6776,14 +6766,6 @@
 	},
 /turf/open/auto_turf/shale/layer1,
 /area/lv522/outdoors/colony_streets/central_streets)
-"dFR" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 9
-	},
-/turf/open/floor/corsat{
-	icon_state = "brown"
-	},
-/area/lv522/atmos/north_command_centre)
 "dFT" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat{
@@ -6956,23 +6938,6 @@
 	icon_state = "cyan2"
 	},
 /area/lv522/indoors/a_block/medical)
-"dJJ" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 1
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/lv522/atmos/north_command_centre)
-"dJN" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 9
-	},
-/turf/open/floor/corsat{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/lv522/atmos/north_command_centre)
 "dKd" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -14825,13 +14790,6 @@
 /turf/open/asphalt/cement,
 /area/lv522/outdoors/colony_streets/east_central_street)
 "hye" = (
-/obj/structure/blocker/forcefield/vehicles,
-/obj/structure/machinery/door/poddoor/almayer{
-	dir = 4;
-	id = "E_B_Door";
-	name = "\improper Emergency Blast Door";
-	unacidable = 1
-	},
 /turf/open/floor/corsat{
 	icon_state = "marked"
 	},
@@ -20809,13 +20767,6 @@
 	icon_state = "plate"
 	},
 /area/lv522/atmos/filt)
-"kgQ" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison{
-	icon_state = "floor_plate"
-	},
-/area/lv522/outdoors/colony_streets/north_street)
 "khf" = (
 /obj/structure/prop/server_equipment,
 /turf/open/floor/prison{
@@ -23430,7 +23381,9 @@
 	},
 /area/lv522/indoors/a_block/dorms)
 "lnK" = (
-/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/pipes/standard/manifold/hidden/green{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison{
 	dir = 8;
@@ -23855,14 +23808,6 @@
 	},
 /turf/open/auto_turf/sand_white/layer0,
 /area/lv522/outdoors/colony_streets/north_west_street)
-"lyu" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 9
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/lv522/atmos/east_reactor/south)
 "lyD" = (
 /turf/open/asphalt/cement{
 	icon_state = "cement15"
@@ -25800,15 +25745,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/fitness/glass)
-"moZ" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/prison{
-	dir = 8;
-	icon_state = "cell_stripe"
-	},
-/area/lv522/atmos/reactor_garage)
 "mpr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison{
@@ -26821,7 +26757,7 @@
 /area/lv522/atmos/cargo_intake)
 "mLO" = (
 /obj/structure/pipes/standard/simple/hidden/green{
-	dir = 9
+	dir = 4
 	},
 /turf/open/floor/prison,
 /area/lv522/outdoors/colony_streets/north_street)
@@ -27175,18 +27111,6 @@
 	icon_state = "darkpurple2"
 	},
 /area/lv522/indoors/a_block/dorms)
-"mQw" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	dir = 4;
-	id = "Reactor_garage_1"
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	icon_state = "marked"
-	},
-/area/lv522/atmos/reactor_garage)
 "mQy" = (
 /obj/structure/surface/table/almayer,
 /obj/item/folder/black_random{
@@ -27242,27 +27166,9 @@
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /turf/open/floor/wood,
 /area/lv522/indoors/a_block/executive)
-"mSc" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	dir = 8;
-	icon_state = "brown"
-	},
-/area/lv522/atmos/reactor_garage)
 "mSe" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/bridges/garden_bridge)
-"mSl" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	dir = 9;
-	icon_state = "brown"
-	},
-/area/lv522/atmos/reactor_garage)
 "mSZ" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
@@ -27281,14 +27187,6 @@
 	icon_state = "floor_plate"
 	},
 /area/lv522/outdoors/colony_streets/north_east_street)
-"mTd" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/open/floor/corsat{
-	icon_state = "squares"
-	},
-/area/lv522/atmos/reactor_garage)
 "mTx" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -27301,9 +27199,7 @@
 	},
 /area/lv522/indoors/a_block/medical)
 "mTE" = (
-/obj/structure/pipes/standard/manifold/hidden/green{
-	dir = 4
-	},
+/obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/corsat{
 	dir = 5;
 	icon_state = "brown"
@@ -34098,9 +33994,6 @@
 	icon_state = "floor_plate"
 	},
 /area/lv522/atmos/way_in_command_centre)
-"pGl" = (
-/turf/closed/wall/strata_outpost/reinforced/hull,
-/area/lv522/indoors/a_block/kitchen)
 "pGN" = (
 /obj/structure/prop/almayer/computers/sensor_computer3,
 /obj/structure/machinery/door_control/brbutton/alt{
@@ -66682,12 +66575,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -66888,12 +66781,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -67094,12 +66987,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -67300,12 +67193,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -67506,12 +67399,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -67712,12 +67605,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 saC
 saC
@@ -67918,12 +67811,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
+asI
 tiQ
 ccu
 eCO
@@ -68124,12 +68017,12 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+tiQ
+asI
+asI
+asI
+asI
 tiQ
 wyv
 cBi
@@ -68331,11 +68224,11 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
 tiQ
 wyv
 cCC
@@ -68537,11 +68430,11 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+asI
+asI
+asI
+asI
 tiQ
 ccN
 ixf
@@ -68743,11 +68636,11 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+tiQ
+asI
+asI
+asI
 tiQ
 ibT
 ixf
@@ -68950,10 +68843,10 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
-cpy
+tiQ
+tiQ
+asI
+asI
 tiQ
 wyv
 gll
@@ -69157,9 +69050,9 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
+tiQ
+tiQ
+asI
 tiQ
 wyv
 xxW
@@ -69363,9 +69256,9 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
-cpy
+tiQ
+tiQ
+tiQ
 tiQ
 wyv
 xxW
@@ -69570,8 +69463,8 @@ cpy
 cpy
 cpy
 cpy
-cpy
-cpy
+tiQ
+tiQ
 tiQ
 wyv
 xxW
@@ -69777,7 +69670,7 @@ cpy
 cpy
 cpy
 cpy
-cpy
+tiQ
 tiQ
 wyv
 xxW
@@ -69995,7 +69888,7 @@ saC
 saC
 saC
 saC
-dJJ
+dpj
 cJh
 dSt
 dXq
@@ -70201,7 +70094,7 @@ saC
 saC
 saC
 saC
-pRf
+xce
 dMb
 qPq
 wBR
@@ -70407,7 +70300,7 @@ saC
 saC
 saC
 dDS
-dJN
+kjU
 kjU
 tso
 wBR
@@ -70612,7 +70505,7 @@ saC
 saC
 saC
 saC
-dEL
+qPq
 wyv
 wyv
 wyv
@@ -70818,7 +70711,7 @@ saC
 saC
 saC
 xce
-dEL
+qPq
 wyv
 xxW
 xxW
@@ -71015,16 +70908,16 @@ cpy
 cpy
 cpy
 kkr
-bsz
-asI
-cJh
-cNB
+wyv
+uHn
+xce
+xce
 saC
 saC
 saC
 saC
 xce
-dEL
+qPq
 wyv
 xxW
 xxW
@@ -71224,13 +71117,13 @@ kkr
 wyv
 atz
 kjU
-cNQ
+kjU
 cPU
 saC
 saC
 saC
 xce
-dEL
+qPq
 wyv
 xxW
 xxW
@@ -71430,13 +71323,13 @@ tiQ
 tiQ
 bco
 wyv
-xho
+wyv
 uHn
 saC
 saC
 wyv
 xce
-dEL
+qPq
 wyv
 xxW
 xxW
@@ -71470,7 +71363,7 @@ kuN
 iAv
 mqc
 mzX
-mQw
+mzX
 mzX
 iAv
 iAv
@@ -71636,13 +71529,13 @@ tiQ
 cdj
 cCL
 gll
-xho
+wyv
 uHn
 saC
 saC
 uFG
 wyv
-dEL
+qPq
 wyv
 xxW
 xxW
@@ -71676,7 +71569,7 @@ qqJ
 iAv
 lPY
 kOF
-moZ
+kOF
 kOF
 qqJ
 oxt
@@ -71842,13 +71735,13 @@ tiQ
 cdP
 cCL
 xxW
-xho
+wyv
 uHn
 saC
 uFG
 uFG
 wyv
-dEL
+qPq
 wyv
 xxW
 gll
@@ -71882,7 +71775,7 @@ qqJ
 iAv
 mql
 mAW
-mSc
+ljA
 ljA
 ljA
 nuo
@@ -72048,13 +71941,13 @@ tiQ
 kyK
 xxW
 xxW
-xho
+wyv
 uHn
 wyv
 uFG
 dio
 wyv
-dEL
+qPq
 wyv
 xxW
 saC
@@ -72088,7 +71981,7 @@ qqJ
 nCa
 kuN
 kPO
-mSl
+mAW
 njn
 nuo
 owC
@@ -72254,13 +72147,13 @@ tiQ
 kyK
 xxW
 xxW
-cNV
-asI
-cJh
-bsz
-bsz
-cJh
-dFR
+wyv
+uHn
+xce
+wyv
+wyv
+xce
+qPq
 wyv
 xxW
 saC
@@ -72294,7 +72187,7 @@ qqJ
 nCa
 qqJ
 kPO
-mTd
+oVO
 oVO
 nuG
 oVO
@@ -72303,7 +72196,7 @@ pAw
 iAv
 iAv
 tjg
-rqE
+cNQ
 uzD
 tjg
 iAv
@@ -72889,7 +72782,7 @@ jwx
 qce
 eXO
 fpH
-viI
+vZP
 vZP
 wBR
 bag
@@ -74996,7 +74889,7 @@ bNy
 sMY
 xmN
 lUU
-kgQ
+fIr
 mLO
 fIr
 sjy
@@ -75202,8 +75095,8 @@ wTn
 wfK
 xnk
 vpk
-urY
-mOE
+cNV
+dEL
 fIr
 sjy
 sjy
@@ -77012,14 +76905,14 @@ tXp
 tXp
 tXp
 tXp
-kXY
+bsz
 yiu
 yiu
 fqU
 tXp
 tXp
 tXp
-tXp
+cNB
 tXp
 tXp
 cJy
@@ -77218,14 +77111,14 @@ yiu
 yiu
 yiu
 yiu
+yiu
+yiu
+yiu
+yiu
+yiu
+yiu
+yiu
 nNf
-yiu
-yiu
-yiu
-yiu
-yiu
-yiu
-yiu
 yiu
 yiu
 yiu
@@ -77424,14 +77317,14 @@ yiu
 saC
 saC
 yiu
-nNf
+yiu
 yiu
 yiu
 saC
 yiu
 yiu
 yiu
-yiu
+nNf
 yiu
 yiu
 yiu
@@ -77622,7 +77515,7 @@ xwZ
 cGY
 cDo
 xwZ
-tiQ
+aea
 saC
 saC
 saC
@@ -77630,14 +77523,14 @@ saC
 saC
 saC
 saC
+yiu
+yiu
+yiu
+saC
+saC
+yiu
+yiu
 nNf
-yiu
-yiu
-saC
-saC
-yiu
-yiu
-yiu
 saC
 saC
 saC
@@ -77828,7 +77721,7 @@ xwZ
 cIm
 xwZ
 xwZ
-tiQ
+aea
 saC
 saC
 saC
@@ -77836,14 +77729,14 @@ saC
 saC
 saC
 saC
+yiu
+yiu
+yiu
+yiu
+saC
+saC
+yiu
 nNf
-yiu
-yiu
-yiu
-saC
-saC
-yiu
-yiu
 saC
 saC
 saC
@@ -78042,14 +77935,14 @@ saC
 saC
 saC
 yiu
-nNf
+yiu
 yiu
 yiu
 yiu
 saC
 saC
 oWS
-yiu
+nNf
 yiu
 saC
 saC
@@ -78248,14 +78141,14 @@ saC
 saC
 saC
 yiu
-nNf
+yiu
 yiu
 yiu
 yiu
 saC
 oWS
 yiu
-yiu
+nNf
 yiu
 yiu
 oWS
@@ -78319,7 +78212,7 @@ pNs
 pli
 lxL
 tVN
-pGl
+kqb
 hAi
 fpl
 qcA
@@ -78454,14 +78347,14 @@ saC
 saC
 yiu
 yiu
-nNf
 yiu
 yiu
 yiu
 yiu
 yiu
-uZV
-tXp
+yiu
+yiu
+fqU
 tXp
 tXp
 tXp
@@ -78660,13 +78553,13 @@ tiQ
 saC
 saC
 yiu
-fqU
-tXp
-tXp
-tXp
-tXp
-tXp
-lyu
+yiu
+yiu
+yiu
+yiu
+yiu
+yiu
+yiu
 yiu
 yiu
 yiu
@@ -79818,7 +79711,7 @@ jmG
 jmG
 dVD
 fWG
-uwT
+fWG
 uwT
 ixP
 tKe
@@ -80024,7 +79917,7 @@ kua
 jmG
 fEY
 fWG
-uwT
+fWG
 uwT
 ixP
 fBR
@@ -80230,7 +80123,7 @@ oHW
 jmG
 fEY
 fWG
-uwT
+fWG
 uwT
 fWG
 wVo
@@ -80436,7 +80329,7 @@ jmG
 jmG
 gIh
 uwT
-uwT
+fWG
 uwT
 fWG
 rCQ
