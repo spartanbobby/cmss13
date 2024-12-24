@@ -204,7 +204,6 @@
 /atom/movable/screen/plane_master/open_space/Initialize()
 	. = ..()
 	var/matrix/M = matrix()
-	M.Scale(0.96)
 	transform = M
 	add_filter("multizblur", 1, gauss_blur_filter(0.5))
 
