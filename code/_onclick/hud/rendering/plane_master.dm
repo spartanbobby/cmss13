@@ -203,8 +203,6 @@
 
 /atom/movable/screen/plane_master/open_space/Initialize()
 	. = ..()
-	var/matrix/M = matrix()
-	transform = M
 	add_filter("multizblur", 1, gauss_blur_filter(0.5))
 
 /atom/movable/screen/plane_master/openspace_backdrop
